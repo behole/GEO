@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "export_timestamp": "2025-08-14T17:48:36.371507+00:00",
+    "agent_version": "1.0.0",
+    "baseline_date": "2025-08-14T17:48:36.370747",
+    "test_run": true,
+    "total_queries": 5,
+    "test_timestamp": "2025-08-14T17:48:36.370778+00:00"
+  },
+  "scores": {
+    "overall_score": 0.0,
+    "discovery_score": 0.0,
+    "context_score": 0.0,
+    "competitive_score": 0.0,
+    "data_quality_score": 75.25
+  },
+  "score_breakdowns": {
+    "discovery": {
+      "component_scores": {
+        "citation_rate": 0.0,
+        "position_quality": 0,
+        "context_quality": 0
+      },
+      "raw_metrics": {
+        "total_queries": 4,
+        "your_brand_citations": 0,
+        "citation_rate": 0.0,
+        "avg_position": null,
+        "positive_contexts": 0,
+        "total_contexts": 0
+      },
+      "weight_distribution": {
+        "citation_rate": 0.5,
+        "position_quality": 0.3,
+        "context_quality": 0.2
+      },
+      "total_score": 0.0,
+      "confidence": 0.08
+    },
+    "context": {
+      "component_scores": {
+        "sentiment_ratio": 0.0,
+        "specificity_score": 0.0,
+        "detail_richness": 0.0
+      },
+      "raw_metrics": {},
+      "weight_distribution": {
+        "sentiment_ratio": 0.6,
+        "specificity_score": 0.25,
+        "detail_richness": 0.15
+      },
+      "total_score": 0.0,
+      "confidence": 0.0
+    },
+    "competitive": {
+      "component_scores": {
+        "first_position_rate": 0,
+        "market_share": 0.0,
+        "unique_visibility": 0.0
+      },
+      "raw_metrics": {
+        "total_query_opportunities": 4,
+        "your_brand_in_results": 0,
+        "first_position_count": 0,
+        "total_your_mentions": 0,
+        "total_competitor_mentions": 9,
+        "unique_queries": 0
+      },
+      "weight_distribution": {
+        "first_position_rate": 0.5,
+        "market_share": 0.3,
+        "unique_visibility": 0.2
+      },
+      "total_score": 0.0,
+      "confidence": 0.0
+    }
+  },
+  "insights": {
+    "overall_assessment": "Critical - Minimal presence, urgent action required",
+    "priority_areas": [
+      "Discovery - Increase brand visibility in AI responses",
+      "Context Quality - Improve sentiment and specificity of mentions",
+      "Competitive Position - Strengthen position vs competitors"
+    ],
+    "strengths": [],
+    "weaknesses": [
+      "Low brand discovery rate",
+      "Poor mention context quality",
+      "Weak competitive positioning"
+    ],
+    "recommendations": [
+      "Increase content marketing focused on target queries",
+      "Develop thought leadership content in mineral sunscreen space",
+      "Optimize website content for AI training data inclusion",
+      "Create detailed product specification content",
+      "Develop comprehensive benefit-focused messaging",
+      "Build authority through expert testimonials and reviews",
+      "Analyze top competitor content strategies",
+      "Develop unique positioning vs major brands",
+      "Create comparative content highlighting advantages"
+    ],
+    "data_confidence": {
+      "average_confidence": 0.02666666666666667,
+      "confidence_level": "Low",
+      "data_quality_score": 75.25,
+      "recommendation": "Increase query volume for higher confidence"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+competitor,total_mentions,queries_mentioned,engines_count,engines_list,average_position,positive_mentions,negative_mentions,neutral_mentions,sentiment_ratio
+cerave,1,1,1,openai,3.0,0,0,1,0.0
+blue lizard,1,1,1,openai,2.0,0,0,1,0.0
+eltamd,1,1,1,openai,1.0,1,0,0,1.0
+neutrogena,1,1,1,anthropic,1.0,0,0,1,0.0
+la roche posay,1,1,1,anthropic,3.0,1,0,0,1.0
+badger,1,1,1,google,2.0,0,1,0,0.0
+stream2sea,1,1,1,google,3.0,1,0,0,1.0
+drunk elephant,1,1,1,openai,3.0,0,0,1,0.0
+supergoop,1,1,1,openai,2.0,0,0,1,0.0

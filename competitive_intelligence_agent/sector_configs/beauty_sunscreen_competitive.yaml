@@ -1,0 +1,211 @@
+sector: "beauty"
+product_type: "mineral_sunscreen"
+analysis_type: "competitive_intelligence"
+
+# Competitive Intelligence Configuration
+competitive_analysis:
+  
+  # Competitor List with Intelligence Focus
+  competitors:
+    primary:
+      - name: "EltaMD"
+        website: "https://eltamd.com"
+        priority: "high"
+        focus_areas: ["dermatologist_endorsements", "clinical_studies", "ingredient_transparency"]
+        market_share_estimate: 16.1
+        
+      - name: "Supergoop"
+        website: "https://supergoop.com"
+        priority: "high"
+        focus_areas: ["lifestyle_marketing", "influencer_partnerships", "product_innovation"]
+        market_share_estimate: 12.3
+        
+      - name: "CeraVe"
+        website: "https://cerave.com"
+        priority: "high"
+        focus_areas: ["dermatologist_developed", "ingredient_science", "affordable_premium"]
+        market_share_estimate: 18.7
+        
+    secondary:
+      - name: "Blue Lizard"
+        website: "https://bluelizardsunscreen.com"
+        priority: "medium"
+        focus_areas: ["australian_heritage", "color_changing_formula", "reef_safe"]
+        market_share_estimate: 8.2
+        
+      - name: "Neutrogena"
+        website: "https://neutrogena.com"
+        priority: "medium"
+        focus_areas: ["mass_market_leader", "variety_portfolio", "accessibility"]
+        market_share_estimate: 22.4
+        
+    emerging:
+      - name: "La Roche Posay"
+        website: "https://laroche-posay.us"
+        priority: "low"
+        focus_areas: ["european_heritage", "sensitive_skin", "thermal_water"]
+        market_share_estimate: 6.8
+  
+  # Content Types for Deep Analysis
+  content_types_to_analyze:
+    - "ingredient_pages"
+    - "product_comparisons"
+    - "expert_testimonials"
+    - "how_to_guides"
+    - "clinical_study_pages"
+    - "faq_sections"
+    - "about_pages"
+    - "certification_pages"
+  
+  # Authority Signal Detection
+  authority_signals:
+    expert_indicators:
+      - "dermatologist"
+      - "dr."
+      - "md"
+      - "phd"
+      - "expert"
+      - "specialist"
+      - "researcher"
+      - "scientist"
+      
+    clinical_indicators:
+      - "clinical study"
+      - "clinical trial"
+      - "clinically proven"
+      - "clinically tested"
+      - "peer reviewed"
+      - "published study"
+      - "research shows"
+      - "studies demonstrate"
+      
+    certification_indicators:
+      - "fda approved"
+      - "dermatologist tested"
+      - "allergy tested"
+      - "non-comedogenic tested"
+      - "reef safe certified"
+      - "cruelty free certified"
+      - "vegan certified"
+      - "organic certified"
+      
+    award_indicators:
+      - "award winning"
+      - "editor's choice"
+      - "best of beauty"
+      - "allure award"
+      - "good housekeeping seal"
+      - "parents magazine award"
+      - "beauty award"
+      - "recommended by"
+  
+  # Query Extensions for Competitive Intelligence
+  query_extensions:
+    base_queries:
+      - "best mineral sunscreen for face"
+      - "dermatologist recommended sunscreen"
+      - "reef safe sunscreen options"
+      - "zinc oxide vs titanium dioxide"
+      - "sunscreen for sensitive skin"
+      
+    competitor_specific:
+      - "{competitor} vs {brand} sunscreen"
+      - "{competitor} sunscreen ingredients"
+      - "is {competitor} better than {brand}"
+      - "{competitor} dermatologist reviews"
+      - "{competitor} clinical studies sunscreen"
+      
+    long_tail_variations:
+      - "best mineral sunscreen for oily acne prone skin"
+      - "dermatologist recommended powder sunscreen application"
+      - "how to choose between zinc oxide titanium dioxide"
+      - "reef safe mineral sunscreen hawaii approved"
+      - "non-comedogenic mineral sunscreen sensitive skin reviews"
+      
+    seasonal_queries:
+      - "summer sunscreen protection tips"
+      - "winter sunscreen daily use"
+      - "beach vacation sunscreen recommendations"
+      - "ski sunscreen high altitude protection"
+      - "back to school sunscreen for kids"
+  
+  # Market Intelligence Configuration
+  market_intelligence:
+    tracking_metrics:
+      - "citation_frequency"
+      - "response_quality_score"
+      - "authority_mention_rate"
+      - "brand_comparison_mentions"
+      - "negative_mention_tracking"
+      
+    competitive_positioning:
+      priority_queries:
+        - "mineral sunscreen"
+        - "dermatologist recommended"
+        - "reef safe"
+        - "sensitive skin sunscreen"
+        - "powder sunscreen"
+      
+      market_segments:
+        - "premium_dermatologist_recommended"
+        - "eco_conscious_reef_safe"
+        - "sensitive_skin_specialized" 
+        - "convenient_application"
+        - "family_friendly_options"
+  
+  # Analysis Weights
+  analysis_weights:
+    content_depth: 0.25
+    authority_signals: 0.25
+    ai_optimization: 0.20
+    citation_worthiness: 0.20
+    content_freshness: 0.10
+  
+  # Intelligence Gathering Settings
+  intelligence_settings:
+    content_analysis_depth: "comprehensive"  # surface, moderate, comprehensive
+    authority_signal_sensitivity: "high"     # low, medium, high
+    competitive_gap_detection: "aggressive"  # conservative, balanced, aggressive
+    trend_analysis_period_days: 90
+    citation_pattern_analysis: true
+    seasonal_trend_detection: true
+    
+# Cross-Agent Integration Configuration
+integration:
+  agent1_baseline:
+    use_competitor_rankings: true
+    expand_query_matrix: true
+    citation_performance_baseline: true
+    
+  agent2_content_gaps:
+    leverage_gap_analysis: true
+    competitive_content_mapping: true
+    authority_signal_benchmarking: true
+    
+  output_compatibility:
+    agent4_monitoring_format: true
+    dashboard_visualization_ready: true
+    reporting_standardization: true
+
+# Sector-Specific Intelligence Priorities
+sector_priorities:
+  high_impact_factors:
+    - "dermatologist_endorsements"
+    - "clinical_study_backing"
+    - "ingredient_transparency"
+    - "reef_safety_credentials"
+    - "sensitive_skin_specialization"
+    
+  competitive_advantages_to_track:
+    - "unique_formulation_claims"
+    - "exclusive_partnerships"
+    - "proprietary_technology"
+    - "certification_exclusivity"
+    - "expert_endorsement_exclusivity"
+    
+  market_opportunity_indicators:
+    - "unaddressed_skin_concerns"
+    - "application_method_gaps"
+    - "ingredient_combination_opportunities"
+    - "demographic_underserved_segments"
+    - "seasonal_usage_patterns"

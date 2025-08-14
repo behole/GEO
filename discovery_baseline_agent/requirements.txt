@@ -1,0 +1,10 @@
+aiohttp==3.9.1
+openai==1.12.0
+anthropic==0.18.1
+google-generativeai==0.3.2
+python-dotenv==1.0.0
+pydantic==2.6.1
+asyncio-throttle==1.0.2
+tenacity==8.2.3
+pandas==2.1.4
+httpx==0.26.0

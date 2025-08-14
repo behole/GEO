@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "export_timestamp": "2025-08-14T17:48:36.370870+00:00",
+    "agent_version": "1.0.0",
+    "baseline_date": "2025-08-14T17:48:36.370747",
+    "test_run": true,
+    "total_queries": 5,
+    "test_timestamp": "2025-08-14T17:48:36.370778+00:00"
+  },
+  "summary": {
+    "overall_score": 0.0,
+    "discovery_score": 0.0,
+    "context_score": 0.0,
+    "competitive_score": 0.0,
+    "data_quality_score": 75.25,
+    "total_queries": 5,
+    "successful_responses": 4,
+    "your_brand_mentions": 0,
+    "total_citations": 9
+  },
+  "detailed_scores": {
+    "discovery_score": {
+      "component_scores": {
+        "citation_rate": 0.0,
+        "position_quality": 0,
+        "context_quality": 0
+      },
+      "raw_metrics": {
+        "total_queries": 4,
+        "your_brand_citations": 0,
+        "citation_rate": 0.0,
+        "avg_position": null,
+        "positive_contexts": 0,
+        "total_contexts": 0
+      },
+      "weight_distribution": {
+        "citation_rate": 0.5,
+        "position_quality": 0.3,
+        "context_quality": 0.2
+      },
+      "total_score": 0.0,
+      "confidence": 0.08
+    },
+    "context_score": {
+      "component_scores": {
+        "sentiment_ratio": 0.0,
+        "specificity_score": 0.0,
+        "detail_richness": 0.0
+      },
+      "raw_metrics": {},
+      "weight_distribution": {
+        "sentiment_ratio": 0.6,
+        "specificity_score": 0.25,
+        "detail_richness": 0.15
+      },
+      "total_score": 0.0,
+      "confidence": 0.0
+    },
+    "competitive_score": {
+      "component_scores": {
+        "first_position_rate": 0,
+        "market_share": 0.0,
+        "unique_visibility": 0.0
+      },
+      "raw_metrics": {
+        "total_query_opportunities": 4,
+        "your_brand_in_results": 0,
+        "first_position_count": 0,
+        "total_your_mentions": 0,
+        "total_competitor_mentions": 9,
+        "unique_queries": 0
+      },
+      "weight_distribution": {
+        "first_position_rate": 0.5,
+        "market_share": 0.3,
+        "unique_visibility": 0.2
+      },
+      "total_score": 0.0,
+      "confidence": 0.0
+    },
+    "overall_score": 0.0,
+    "calculation_timestamp": "2025-08-14T17:48:36.370747",
+    "data_quality_score": 75.25
+  },
+  "insights": {
+    "overall_assessment": "Critical - Minimal presence, urgent action required",
+    "priority_areas": [
+      "Discovery - Increase brand visibility in AI responses",
+      "Context Quality - Improve sentiment and specificity of mentions",
+      "Competitive Position - Strengthen position vs competitors"
+    ],
+    "strengths": [],
+    "weaknesses": [
+      "Low brand discovery rate",
+      "Poor mention context quality",
+      "Weak competitive positioning"
+    ],
+    "recommendations": [
+      "Increase content marketing focused on target queries",
+      "Develop thought leadership content in mineral sunscreen space",
+      "Optimize website content for AI training data inclusion",
+      "Create detailed product specification content",
+      "Develop comprehensive benefit-focused messaging",
+      "Build authority through expert testimonials and reviews",
+      "Analyze top competitor content strategies",
+      "Develop unique positioning vs major brands",
+      "Create comparative content highlighting advantages"
+    ],
+    "data_confidence": {
+      "average_confidence": 0.02666666666666667,
+      "confidence_level": "Low",
+      "data_quality_score": 75.25,
+      "recommendation": "Increase query volume for higher confidence"
+    }
+  },
+  "raw_analyses": [
+    {
+      "query": "best mineral sunscreen 2024",
+      "ai_engine": "openai",
+      "model": "gpt-4",
+      "timestamp": "2025-08-14T17:48:36.369899+00:00",
+      "response_text": "For the best mineral sunscreens in 2024, I recommend EltaMD UV Clear which contains zinc oxide and provides excellent protection. Blue Lizard Australian Sunscreen is another top choice with titanium dioxide. For a budget option, consider CeraVe Mineral Sunscreen which offers broad spectrum protection.",
+      "citations": [
+        {
+          "brand": "eltamd",
+          "product": "mineral sunscreen",
+          "context": "For the best mineral sunscreens in 2024, I recommend EltaMD UV Clear which contains zinc oxide and provides excellent protection",
+          "position": 1,
+          "sentiment": "positive",
+          "mention_type": "direct",
+          "confidence": 1.0
+        },
+        {
+          "brand": "blue lizard",
+          "product": "australian sunscreen",
+          "context": "Blue Lizard Australian Sunscreen is another top choice with titanium dioxide",
+          "position": 2,
+          "sentiment": "neutral",
+          "mention_type": "indirect",
+          "confidence": 1.0
+        },
+        {
+          "brand": "cerave",
+          "product": "mineral sunscreen",
+          "context": "For a budget option, consider CeraVe Mineral Sunscreen which offers broad spectrum protection",
+          "position": 3,
+          "sentiment": "neutral",
+          "mention_type": "indirect",
+          "confidence": 0.8
+        }
+      ],
+      "competitors_mentioned": [
+        "cerave",
+        "blue lizard",
+        "eltamd"
+      ],
+      "total_brands_mentioned": 3,
+      "your_brand_mentioned": false,
+      "mention_context": null,
+      "response_quality": 0.9000000000000001,
+      "response_length": 302,
+      "contains_recommendations": true,
+      "contains_specific_products": false
+    },
+    {
+      "query": "mineral sunscreen for sensitive skin",
+      "ai_engine": "anthropic",
+      "model": "claude-3-5-sonnet-20241022",
+      "timestamp": "2025-08-14T17:48:36.369908+00:00",
+      "response_text": "For sensitive skin, I highly recommend Neutrogena Sensitive Skin Mineral Sunscreen with zinc oxide. It's gentle and non-irritating. Another excellent option is La Roche Posay Anthelios Mineral Sunscreen, which is dermatologist-tested and suitable for even the most sensitive skin types.",
+      "citations": [
+        {
+          "brand": "neutrogena",
+          "product": "mineral sunscreen",
+          "context": "For sensitive skin, I highly recommend Neutrogena Sensitive Skin Mineral Sunscreen with zinc oxide",
+          "position": 1,
+          "sentiment": "neutral",
+          "mention_type": "direct",
+          "confidence": 1.0
+        },
+        {
+          "brand": "la roche posay",
+          "product": "mineral sunscreen",
+          "context": "Another excellent option is La Roche Posay Anthelios Mineral Sunscreen, which is dermatologist-tested and suitable for even the most sensitive skin types",
+          "position": 3,
+          "sentiment": "positive",
+          "mention_type": "indirect",
+          "confidence": 0.8
+        }
+      ],
+      "competitors_mentioned": [
+        "neutrogena",
+        "la roche posay"
+      ],
+      "total_brands_mentioned": 2,
+      "your_brand_mentioned": false,
+      "mention_context": null,
+      "response_quality": 0.6,
+      "response_length": 286,
+      "contains_recommendations": true,
+      "contains_specific_products": false
+    },
+    {
+      "query": "best reef safe sunscreen",
+      "ai_engine": "google",
+      "model": "gemini-1.5-pro",
+      "timestamp": "2025-08-14T17:48:36.369910+00:00",
+      "response_text": "The best reef-safe sunscreens use mineral filters like zinc oxide and titanium dioxide. Top recommendations include Badger Classic Unscented Sunscreen, which is completely reef-safe and biodegradable. Stream2Sea Sunscreen is another excellent choice, specifically formulated to be safe for marine life.",
+      "citations": [
+        {
+          "brand": "badger",
+          "product": "unscented sunscreen",
+          "context": "Top recommendations include Badger Classic Unscented Sunscreen, which is completely reef-safe and biodegradable",
+          "position": 2,
+          "sentiment": "negative",
+          "mention_type": "direct",
+          "confidence": 1.0
+        },
+        {
+          "brand": "stream2sea",
+          "product": "stream2sea sunscreen",
+          "context": "Stream2Sea Sunscreen is another excellent choice, specifically formulated to be safe for marine life",
+          "position": 3,
+          "sentiment": "positive",
+          "mention_type": "indirect",
+          "confidence": 0.8
+        }
+      ],
+      "competitors_mentioned": [
+        "badger",
+        "stream2sea"
+      ],
+      "total_brands_mentioned": 2,
+      "your_brand_mentioned": false,
+      "mention_context": null,
+      "response_quality": 0.7,
+      "response_length": 302,
+      "contains_recommendations": true,
+      "contains_specific_products": false
+    },
+    {
+      "query": "mineral vs chemical sunscreen",
+      "ai_engine": "openai",
+      "model": "gpt-3.5-turbo",
+      "timestamp": "2025-08-14T17:48:36.369911+00:00",
+      "response_text": "Mineral sunscreens use zinc oxide or titanium dioxide to physically block UV rays, while chemical sunscreens absorb UV radiation. Mineral options like Supergoop! Zincscreen and Drunk Elephant D-Bronzi provide immediate protection and are generally better for sensitive skin.",
+      "citations": [
+        {
+          "brand": "supergoop",
+          "product": null,
+          "context": "Mineral options like Supergoop",
+          "position": 2,
+          "sentiment": "neutral",
+          "mention_type": "indirect",
+          "confidence": 0.5
+        },
+        {
+          "brand": "drunk elephant",
+          "product": null,
+          "context": "Zincscreen and Drunk Elephant D-Bronzi provide immediate protection and are generally better for sensitive skin",
+          "position": 3,
+          "sentiment": "neutral",
+          "mention_type": "indirect",
+          "confidence": 0.5
+        }
+      ],
+      "competitors_mentioned": [
+        "drunk elephant",
+        "supergoop"
+      ],
+      "total_brands_mentioned": 2,
+      "your_brand_mentioned": false,
+      "mention_context": null,
+      "response_quality": 0.7,
+      "response_length": 274,
+      "contains_recommendations": false,
+      "contains_specific_products": true
+    },
+    {
+      "query": "failed query test",
+      "ai_engine": "anthropic",
+      "model": "claude-3-5-sonnet-20241022",
+      "timestamp": "2025-08-14T17:48:36.369912+00:00",
+      "response_text": "",
+      "citations": [],
+      "competitors_mentioned": [],
+      "total_brands_mentioned": 0,
+      "your_brand_mentioned": false,
+      "mention_context": null,
+      "response_quality": 0.0,
+      "response_length": 0,
+      "contains_recommendations": false,
+      "contains_specific_products": false
+    }
+  ],
+  "performance_metrics": {
+    "engine_performance": {
+      "openai": {
+        "total": 2,
+        "successful": 2,
+        "citations": 5,
+        "success_rate": 1.0,
+        "avg_citations": 2.5
+      },
+      "anthropic": {
+        "total": 2,
+        "successful": 1,
+        "citations": 2,
+        "success_rate": 0.5,
+        "avg_citations": 2.0
+      },
+      "google": {
+        "total": 1,
+        "successful": 1,
+        "citations": 2,
+        "success_rate": 1.0,
+        "avg_citations": 2.0
+      }
+    },
+    "competitor_analysis": {
+      "unique_competitors": 9,
+      "top_competitors": [
+        {
+          "brand": "cerave",
+          "mentions": 1
+        },
+        {
+          "brand": "blue lizard",
+          "mentions": 1
+        },
+        {
+          "brand": "eltamd",
+          "mentions": 1
+        },
+        {
+          "brand": "neutrogena",
+          "mentions": 1
+        },
+        {
+          "brand": "la roche posay",
+          "mentions": 1
+        },
+        {
+          "brand": "badger",
+          "mentions": 1
+        },
+        {
+          "brand": "stream2sea",
+          "mentions": 1
+        },
+        {
+          "brand": "drunk elephant",
+          "mentions": 1
+        },
+        {
+          "brand": "supergoop",
+          "mentions": 1
+        }
+      ],
+      "competitor_frequency": {
+        "cerave": 1,
+        "blue lizard": 1,
+        "eltamd": 1,
+        "neutrogena": 1,
+        "la roche posay": 1,
+        "badger": 1,
+        "stream2sea": 1,
+        "drunk elephant": 1,
+        "supergoop": 1
+      }
+    },
+    "response_quality": {
+      "avg_length": 291.0,
+      "avg_quality": 0.725,
+      "responses_with_recommendations": 3,
+      "responses_with_products": 1
+    }
+  }
+}

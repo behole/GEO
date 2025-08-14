@@ -1,0 +1,34 @@
+{
+  "export_info": {
+    "timestamp": "2025-08-14T15:33:07.256574",
+    "agent_version": "1.0.0",
+    "brand": "Brush on Block",
+    "analysis_timestamp": "2025-08-14T15:31:49.666716"
+  },
+  "files_created": {
+    "complete_analysis": "test_run/content_analysis_20250814_153307/content_analysis_complete.json",
+    "brand_analysis": "test_run/content_analysis_20250814_153307/brand_content_analysis.json",
+    "competitive_analysis": "test_run/content_analysis_20250814_153307/competitive_gap_analysis.json",
+    "recommendations": "test_run/content_analysis_20250814_153307/comprehensive_recommendations.json",
+    "summary_report": "test_run/content_analysis_20250814_153307/EXECUTIVE_SUMMARY.md"
+  },
+  "file_descriptions": {
+    "complete_analysis": "Complete analysis results in JSON format",
+    "brand_analysis": "Brand-specific content analysis",
+    "competitive_analysis": "Competitive gap analysis and benchmarking",
+    "recommendations": "Comprehensive recommendations and action plan",
+    "page_scores": "Detailed page-by-page scoring (CSV)",
+    "content_gaps": "Identified content gaps with priorities (CSV)",
+    "competitive_benchmarking": "Competitor comparison data (CSV)",
+    "action_plan_recommendations": "Prioritized recommendations by timeline (CSV)",
+    "summary_report": "Executive summary in Markdown format",
+    "manifest": "This file - describes all exported files"
+  },
+  "usage_instructions": {
+    "executive_review": "Start with EXECUTIVE_SUMMARY.md for high-level overview",
+    "detailed_analysis": "Review complete_analysis.json for full technical details",
+    "action_planning": "Use action_plan_recommendations.csv to prioritize work",
+    "competitive_insights": "Review competitive_benchmarking.csv for market positioning",
+    "page_optimization": "Use page_scores_detailed.csv to prioritize page improvements"
+  }
+}

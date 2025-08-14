@@ -1,0 +1,607 @@
+{
+  "agent_info": {
+    "name": "Content Analysis Agent (Agent 2)",
+    "version": "1.0.0",
+    "analysis_timestamp": "2025-08-14T15:31:49.666716",
+    "brand": "Brush on Block",
+    "website": "https://brushonblock.com"
+  },
+  "brand_content_analysis": {
+    "domain": "brushonblock.com",
+    "pages_analyzed": 20,
+    "pages_failed": 0,
+    "overall_score": 33.117388417395496,
+    "content_structure_score": 76.00599931526867,
+    "citation_worthiness_score": 8.69253862323381,
+    "authority_signals_score": 32.39023738580217,
+    "ai_consumption_score": 54.647064556094406,
+    "content_gaps": [
+      "Missing product pages content",
+      "Missing ingredient guides content",
+      "Missing application tutorials content",
+      "Missing comparison content content",
+      "Missing faq sections content",
+      "No content found for 'mineral sunscreen'",
+      "No content found for 'zinc oxide'",
+      "No content found for 'titanium dioxide'"
+    ],
+    "priority_recommendations": [
+      "CRITICAL: Overall content quality is poor - comprehensive content audit recommended",
+      "Priority: Improve Citation Worthiness (current score: 8.7/100)",
+      "Priority: Improve Authority Signals (current score: 32.4/100)",
+      "Content Gap: Missing product pages content",
+      "Content Gap: Missing ingredient guides content",
+      "Content Gap: Missing application tutorials content",
+      "Immediate attention: 19 pages scoring below 40/100"
+    ],
+    "site_level_issues": [
+      "Insufficient external authority links across content"
+    ],
+    "detailed_page_scores": [
+      {
+        "url": "https://brushonblock.com/products/quick-stick-spf-40-mineral-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 30.8962696352215,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 74.60815387628331,
+        "citation_worthiness": 2.063983488132095,
+        "authority_signals": 28.651186790505676,
+        "ai_consumption": 59.97997936016512
+      },
+      {
+        "url": "https://brushonblock.com/products/translucent-mineral-powder-sunscreen-refill-spf-50",
+        "page_type": "product_page",
+        "overall_score": 33.867850528660554,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 75.14586909332135,
+        "citation_worthiness": 15.080603224128964,
+        "authority_signals": 29.49609984399376,
+        "ai_consumption": 54.1201248049922
+      },
+      {
+        "url": "https://brushonblock.com/products/touch-of-tan-mineral-powder-sunscreen-refill-spf-30",
+        "page_type": "product_page",
+        "overall_score": 38.58614567538333,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 77.41873356541868,
+        "citation_worthiness": 32.22081753055204,
+        "authority_signals": 28.51706700379267,
+        "ai_consumption": 54.72844500632111
+      },
+      {
+        "url": "https://brushonblock.com/products/sheer-genius-mineral-sunscreen-moisture-spf-50",
+        "page_type": "product_page",
+        "overall_score": 34.99177055144313,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Improve readability - content may be too complex",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 73.63245437405732,
+        "citation_worthiness": 19.093851132686083,
+        "authority_signals": 29.42718446601942,
+        "ai_consumption": 59.24757281553398
+      },
+      {
+        "url": "https://brushonblock.com/products/bounce-butter-spf-30-mineral-sunscreen-moisturizing-mousse-for-the-body",
+        "page_type": "product_page",
+        "overall_score": 29.01318428647798,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Improve readability - content may be too complex",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information"
+        ],
+        "content_structure": 70.18850738089887,
+        "citation_worthiness": 1.3054830287206267,
+        "authority_signals": 28.566579634464752,
+        "ai_consumption": 54.26370757180157
+      },
+      {
+        "url": "https://brushonblock.com/products/sheer-genius-universal-tint-spf-50-mineral-sunscreen-moisture",
+        "page_type": "product_page",
+        "overall_score": 30.453161291310394,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Improve readability - content may be too complex",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information"
+        ],
+        "content_structure": 73.20860476120117,
+        "citation_worthiness": 2.0202020202020203,
+        "authority_signals": 29.02020202020202,
+        "ai_consumption": 58.41919191919192
+      },
+      {
+        "url": "https://brushonblock.com/products/brush-on-block-translucent-mineral-powder-sunscreen-spf-50",
+        "page_type": "product_page",
+        "overall_score": 31.50095612061218,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 74.27632666204767,
+        "citation_worthiness": 2.789886660854403,
+        "authority_signals": 29.0924149956408,
+        "ai_consumption": 64.15919790758501
+      },
+      {
+        "url": "https://brushonblock.com/products/bob-kids-spf-50-spray-on-lotion-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 30.54223330177783,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 72.31293320711131,
+        "citation_worthiness": 2.24,
+        "authority_signals": 28.92,
+        "ai_consumption": 61.2
+      },
+      {
+        "url": "https://brushonblock.com/products/sol-spf-50-spray-on-lotion-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 30.4154445838683,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 72.51973499181996,
+        "citation_worthiness": 1.8575851393188851,
+        "authority_signals": 28.857585139318886,
+        "ai_consumption": 60.49597523219814
+      },
+      {
+        "url": "https://brushonblock.com/products/bob-kids-sun-balm-spf-40-broad-spectrum-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 32.5020323536113,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 81.94497151970836,
+        "citation_worthiness": 1.4736842105263157,
+        "authority_signals": 28.684210526315788,
+        "ai_consumption": 59.10526315789474
+      },
+      {
+        "url": "https://brushonblock.com/pages/about-brush-on-block-mineral-powder-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 28.019752465553886,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Improve readability - content may be too complex",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information"
+        ],
+        "content_structure": 66.72098517085752,
+        "citation_worthiness": 7.4074074074074066,
+        "authority_signals": 31.938271604938272,
+        "ai_consumption": 31.0
+      },
+      {
+        "url": "https://brushonblock.com/blogs/news/introducing-quick-stick-spf-40-mineral-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 34.843292059819476,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Link to more authoritative external sources",
+          "Implement structured data markup (JSON-LD, Schema.org)"
+        ],
+        "content_structure": 85.8196508323151,
+        "citation_worthiness": 1.680672268907563,
+        "authority_signals": 40.4405762304922,
+        "ai_consumption": 48.80096038415366
+      },
+      {
+        "url": "https://brushonblock.com/blogs/news/what-you-need-to-know-about-mineral-sunscreen-1",
+        "page_type": "product_page",
+        "overall_score": 35.0834141208645,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Link to more authoritative external sources",
+          "Implement structured data markup (JSON-LD, Schema.org)"
+        ],
+        "content_structure": 79.78883333233259,
+        "citation_worthiness": 7.07395498392283,
+        "authority_signals": 45.430868167202576,
+        "ai_consumption": 42.81543408360129
+      },
+      {
+        "url": "https://brushonblock.com/blogs/news/introducing-sheer-genius-mineral-sunscreen-moisture-spf-50",
+        "page_type": "product_page",
+        "overall_score": 35.494701675377755,
+        "recommendations": [
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Link to more authoritative external sources",
+          "Implement structured data markup (JSON-LD, Schema.org)"
+        ],
+        "content_structure": 87.0800459770115,
+        "citation_worthiness": 1.7159199237368923,
+        "authority_signals": 40.525262154432795,
+        "ai_consumption": 51.906577693040994
+      },
+      {
+        "url": "https://brushonblock.com/products/full-face-kit-spf-30",
+        "page_type": "product_page",
+        "overall_score": 34.40712324692916,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 74.3759763432426,
+        "citation_worthiness": 17.0439414114514,
+        "authority_signals": 29.130492676431423,
+        "ai_consumption": 57.26045272969374
+      },
+      {
+        "url": "https://brushonblock.com/blogs/news/what-exactly-is-mineral-sunscreen-and-why-should-you-use-it",
+        "page_type": "product_page",
+        "overall_score": 37.86987931034483,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Link to more authoritative external sources",
+          "Implement structured data markup (JSON-LD, Schema.org)"
+        ],
+        "content_structure": 84.92227586206897,
+        "citation_worthiness": 9.655172413793103,
+        "authority_signals": 44.51724137931035,
+        "ai_consumption": 53.220689655172414
+      },
+      {
+        "url": "https://brushonblock.com/products/vacation-hydration-spf-kit",
+        "page_type": "product_page",
+        "overall_score": 32.70870861116062,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Improve readability - content may be too complex",
+          "Add more specific facts, statistics, and numerical data",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 71.00761846461751,
+        "citation_worthiness": 14.731585518102372,
+        "authority_signals": 29.496878901373282,
+        "ai_consumption": 53.745318352059925
+      },
+      {
+        "url": "https://brushonblock.com/products/spf-essentials-kit",
+        "page_type": "product_page",
+        "overall_score": 30.128801738867356,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 73.19045101053825,
+        "citation_worthiness": 2.002503128911139,
+        "authority_signals": 28.00125156445557,
+        "ai_consumption": 57.30312891113893
+      },
+      {
+        "url": "https://brushonblock.com/blogs/news/learn-about-the-drug-facts-on-your-sunscreen",
+        "page_type": "product_page",
+        "overall_score": 40.300714433620605,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Link to more authoritative external sources",
+          "Implement structured data markup (JSON-LD, Schema.org)"
+        ],
+        "content_structure": 78.76810385275132,
+        "citation_worthiness": 29.382226627023456,
+        "authority_signals": 40.58572844400396,
+        "ai_consumption": 51.45986124876115
+      },
+      {
+        "url": "https://brushonblock.com/products/bob-kids-sunscreen-essentials-kit",
+        "page_type": "product_page",
+        "overall_score": 30.72233235700523,
+        "recommendations": [
+          "Optimize paragraph length (aim for 50-150 words per paragraph)",
+          "Add more specific facts, statistics, and numerical data",
+          "Include more external authority links and source citations",
+          "Add author credentials and expertise information",
+          "Link to more authoritative external sources"
+        ],
+        "content_structure": 73.18975602776996,
+        "citation_worthiness": 3.01129234629862,
+        "authority_signals": 28.50564617314931,
+        "ai_consumption": 59.709410288582184
+      }
+    ],
+    "analysis_timestamp": "2025-08-14T15:31:49.666716"
+  },
+  "competitive_gap_analysis": {
+    "brand_vs_competitors": {
+      "brand_name": "Brush on Block",
+      "brand_score": 33.117388417395496,
+      "competitors_analyzed": 2,
+      "competitor_scores": {
+        "EltaMD": 29.612796062155596,
+        "Supergoop": 38.52614219101311
+      }
+    },
+    "identified_gaps": [
+      {
+        "type": "keyword_gap",
+        "description": "Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+        "priority": "medium",
+        "estimated_effort": "low",
+        "business_impact": "medium",
+        "competitor_examples": [
+          "EltaMD: 18 mentions",
+          "Supergoop: 63 mentions"
+        ]
+      },
+      {
+        "type": "keyword_gap",
+        "description": "Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)",
+        "priority": "medium",
+        "estimated_effort": "low",
+        "business_impact": "medium",
+        "competitor_examples": [
+          "EltaMD: 16 mentions",
+          "Supergoop: 2 mentions"
+        ]
+      }
+    ],
+    "competitive_advantages": [],
+    "priority_recommendations": [
+      "Study Supergoop's content strategy - highest scoring competitor",
+      "QUICK WIN: Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+      "QUICK WIN: Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)"
+    ],
+    "content_opportunity_matrix": {
+      "high_impact_low_effort": [],
+      "high_impact_high_effort": [],
+      "low_impact_low_effort": [],
+      "competitive_benchmarks": {
+        "EltaMD": {
+          "overall_score": 29.612796062155596,
+          "content_types": 1,
+          "unique_features": [
+            "Interactive quizzes and assessments",
+            "Detailed ingredient analysis",
+            "Comprehensive application guidance",
+            "Skin type specific recommendations"
+          ],
+          "authority_score": 30.1599512702536
+        },
+        "Supergoop": {
+          "overall_score": 38.52614219101311,
+          "content_types": 1,
+          "unique_features": [],
+          "authority_score": 36.367686662382674
+        }
+      },
+      "content_type_gaps": {},
+      "keyword_opportunities": {},
+      "medium_impact_low_effort": [
+        {
+          "description": "Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+          "gap_type": "keyword_gap",
+          "priority": "medium"
+        },
+        {
+          "description": "Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)",
+          "gap_type": "keyword_gap",
+          "priority": "medium"
+        }
+      ]
+    },
+    "competitor_insights": {
+      "EltaMD": {
+        "content_types_found": {
+          "product_page": 19
+        },
+        "unique_features": [
+          "Interactive quizzes and assessments",
+          "Detailed ingredient analysis",
+          "Comprehensive application guidance",
+          "Skin type specific recommendations"
+        ],
+        "authority_metrics": {
+          "avg_authority_score": 30.1599512702536,
+          "pages_with_external_links": 0,
+          "avg_expertise_indicators": 1.05,
+          "pages_with_author_info": 0,
+          "avg_word_count": 735.7
+        },
+        "keyword_coverage_top10": {
+          "zinc oxide": 80,
+          "titanium dioxide": 18,
+          "non-comedogenic": 16,
+          "mineral sunscreen": 12,
+          "sensitive skin": 12,
+          "water resistant": 12,
+          "broad spectrum": 2
+        }
+      },
+      "Supergoop": {
+        "content_types_found": {
+          "product_page": 12
+        },
+        "unique_features": [],
+        "authority_metrics": {
+          "avg_authority_score": 36.367686662382674,
+          "pages_with_external_links": 1,
+          "avg_expertise_indicators": 1.2,
+          "pages_with_author_info": 1,
+          "avg_word_count": 262.65
+        },
+        "keyword_coverage_top10": {
+          "titanium dioxide": 63,
+          "zinc oxide": 32,
+          "broad spectrum": 7,
+          "mineral sunscreen": 6,
+          "sensitive skin": 2,
+          "non-comedogenic": 2
+        }
+      }
+    },
+    "analysis_timestamp": "2025-08-14T15:33:07.229727"
+  },
+  "comprehensive_recommendations": {
+    "executive_summary": "CRITICAL PRIORITY: Brand content quality (33.1/100) requires immediate comprehensive overhaul.\n        \n        Key Findings:\n        - 2 competitive content gaps identified\n        - 8 content types need development\n        - 0 competitive advantages to leverage\n        \n        Immediate focus should be on high-impact, low-effort improvements while building\n        long-term content strategy to address fundamental gaps and competitive positioning.",
+    "action_plan": {
+      "immediate_actions_0_30_days": [
+        "CRITICAL: Conduct comprehensive content audit - overall quality is poor",
+        "Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+        "Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)"
+      ],
+      "short_term_goals_1_3_months": [
+        "CRITICAL: Overall content quality is poor - comprehensive content audit recommended",
+        "Priority: Improve Citation Worthiness (current score: 8.7/100)",
+        "Priority: Improve Authority Signals (current score: 32.4/100)"
+      ],
+      "long_term_strategy_3_12_months": [
+        "Missing product pages content",
+        "Missing ingredient guides content"
+      ],
+      "quick_wins": [
+        "Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+        "Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)"
+      ],
+      "content_creation_priorities": [],
+      "technical_improvements": [
+        "Add author information and credentials to content",
+        "Increase external authority links to scientific sources",
+        "Insufficient external authority links across content"
+      ],
+      "competitive_positioning": [
+        "Benchmark against Supergoop (score: 38.5)"
+      ]
+    },
+    "roi_estimates": {
+      "high_roi_opportunities": [],
+      "investment_required": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "expected_impact": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "success_metrics": {
+      "current_baseline": {
+        "overall_score": 33.117388417395496,
+        "content_structure": 76.00599931526867,
+        "citation_worthiness": 8.69253862323381,
+        "authority_signals": 32.39023738580217,
+        "ai_consumption": 54.647064556094406
+      },
+      "30_day_targets": {
+        "overall_score_improvement": 48.117388417395496,
+        "priority_gaps_addressed": 3,
+        "new_content_pieces": 5
+      },
+      "90_day_targets": {
+        "overall_score": 63.117388417395496,
+        "competitive_gap_closure": "50%",
+        "authority_score_improvement": 20
+      },
+      "annual_goals": {
+        "overall_score": 75,
+        "market_position": "Top 3 in content quality",
+        "content_gaps_eliminated": "80%"
+      },
+      "kpi_tracking": [
+        "Monthly content quality score",
+        "Competitive gap closure rate",
+        "New high-quality content publication",
+        "Authority link acquisition",
+        "Structured data implementation progress"
+      ]
+    }
+  },
+  "agent1_integration": {
+    "agent1_available": false,
+    "baseline_data": null,
+    "cross_agent_insights": [],
+    "integrated_recommendations": []
+  },
+  "summary": {
+    "overall_content_health": "POOR - Comprehensive content overhaul required",
+    "competitive_position": "LAGGING - Below average but recoverable",
+    "priority_focus_areas": [
+      "CRITICAL: Conduct comprehensive content audit - overall quality is poor",
+      "Underutilized keyword: 'titanium dioxide' (brand: 12, competitors avg: 40.5)",
+      "Underutilized keyword: 'non-comedogenic' (brand: 2, competitors avg: 9.0)"
+    ],
+    "expected_outcomes": [
+      "Improved AI engine visibility and citation rates",
+      "Enhanced content authority and trustworthiness",
+      "Competitive content gap closure",
+      "Better user engagement and conversion"
+    ],
+    "investment_summary": {
+      "high_roi_opportunities": [],
+      "investment_required": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "expected_impact": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    "timeline_overview": {
+      "immediate": "0-30 days: Quick wins and critical fixes",
+      "short_term": "1-3 months: Content creation and optimization",
+      "long_term": "3-12 months: Strategic positioning and market leadership"
+    }
+  }
+}

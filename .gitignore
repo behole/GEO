@@ -1,0 +1,89 @@
+# GEO Audit System - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# Generated reports and outputs
+report_outputs/
+dashboard_exports/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Results directories (keep structure, ignore data)
+*/results/*/
+intelligence_results/*/
+monitoring_results/*/
+
+# Temporary files
+.DS_Store
+.tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Node modules (if any)
+node_modules/
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py

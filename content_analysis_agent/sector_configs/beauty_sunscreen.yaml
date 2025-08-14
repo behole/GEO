@@ -1,0 +1,131 @@
+sector: "beauty"
+product_type: "mineral_sunscreen"
+sub_category: "powder_sunscreen"
+
+# Brand Information
+brand:
+  name: "Brush on Block"
+  website: "https://brushonblock.com"
+  variations: 
+    - "Brush on Block"
+    - "Brush On Block" 
+    - "BrushOnBlock"
+    - "BOB"
+    - "brush on block"
+    - "brushonblock"
+
+# Competitor Analysis
+competitors:
+  primary:
+    - name: "EltaMD"
+      website: "https://eltamd.com"
+      priority: "high"
+    - name: "Supergoop"
+      website: "https://supergoop.com"
+      priority: "high"
+    - name: "CeraVe"
+      website: "https://cerave.com"
+      priority: "medium"
+  secondary:
+    - name: "Blue Lizard"
+      website: "https://bluelizard.net"
+      priority: "medium"
+    - name: "Neutrogena"
+      website: "https://neutrogena.com"
+      priority: "low"
+
+# Content Analysis Focus Areas
+content_types:
+  product_pages:
+    weight: 0.30
+    required_elements:
+      - "ingredient_list"
+      - "spf_rating"
+      - "application_instructions"
+      - "skin_type_guidance"
+  ingredient_guides:
+    weight: 0.25
+    required_elements:
+      - "zinc_oxide_explanation"
+      - "titanium_dioxide_info"
+      - "safety_information"
+      - "scientific_backing"
+  application_tutorials:
+    weight: 0.20
+    required_elements:
+      - "step_by_step_instructions"
+      - "visual_aids"
+      - "timing_guidance"
+      - "reapplication_advice"
+  comparison_content:
+    weight: 0.15
+    required_elements:
+      - "mineral_vs_chemical"
+      - "brand_comparisons"
+      - "ingredient_comparisons"
+      - "effectiveness_data"
+  faq_sections:
+    weight: 0.10
+    required_elements:
+      - "common_concerns"
+      - "usage_questions"
+      - "ingredient_safety"
+      - "compatibility_info"
+
+# GEO Optimization Criteria
+geo_best_practices:
+  content_structure:
+    optimal_paragraph_length: [50, 150]  # words
+    optimal_sentence_length: [15, 25]    # words
+    heading_hierarchy_depth: [2, 4]      # H1 to H4
+    list_item_optimal: [3, 7]            # items per list
+  
+  citation_worthiness:
+    fact_density_score: 0.3              # facts per 100 words
+    source_citation_rate: 0.2            # citations per claim
+    expert_quote_frequency: 0.1          # expert quotes per section
+    data_visualization_ratio: 0.15       # charts/graphs per page
+  
+  authority_signals:
+    expert_credentials: true             # author credentials displayed
+    publication_date: true               # recent publication dates
+    update_frequency: "monthly"          # content freshness
+    scientific_references: true         # peer-reviewed sources
+
+# Scoring Weights
+scoring_weights:
+  content_structure: 0.25
+  citation_worthiness: 0.25  
+  authority_signals: 0.20
+  competitor_gap_coverage: 0.20
+  ai_consumption_optimization: 0.10
+
+# Sector-Specific Keywords
+keywords:
+  primary:
+    - "mineral sunscreen"
+    - "zinc oxide"
+    - "titanium dioxide"
+    - "powder sunscreen"
+    - "reef safe sunscreen"
+  secondary:
+    - "broad spectrum"
+    - "sensitive skin"
+    - "non-comedogenic"
+    - "water resistant"
+    - "chemical free"
+  long_tail:
+    - "best mineral sunscreen for face"
+    - "powder sunscreen application tips"
+    - "zinc oxide vs titanium dioxide"
+    - "reef safe mineral sunscreen"
+    - "sensitive skin sunscreen powder"
+
+# Content Quality Benchmarks
+quality_benchmarks:
+  min_word_count: 300
+  max_word_count: 2000
+  optimal_reading_level: [8, 12]  # grade level
+  min_images_per_page: 2
+  optimal_internal_links: [3, 8]
+  min_external_authority_links: 1

@@ -1,0 +1,6 @@
+query,ai_engine,model,timestamp,response_length,response_quality,total_citations,your_brand_mentioned,competitors_mentioned,total_brands_mentioned,contains_recommendations,contains_specific_products,mention_context,top_competitors
+best mineral sunscreen 2024,openai,gpt-4,2025-08-14T17:48:36.369899+00:00,302,0.9000000000000001,3,False,3,3,True,False,,"cerave, blue lizard, eltamd"
+mineral sunscreen for sensitive skin,anthropic,claude-3-5-sonnet-20241022,2025-08-14T17:48:36.369908+00:00,286,0.6,2,False,2,2,True,False,,"neutrogena, la roche posay"
+best reef safe sunscreen,google,gemini-1.5-pro,2025-08-14T17:48:36.369910+00:00,302,0.7,2,False,2,2,True,False,,"badger, stream2sea"
+mineral vs chemical sunscreen,openai,gpt-3.5-turbo,2025-08-14T17:48:36.369911+00:00,274,0.7,2,False,2,2,False,True,,"drunk elephant, supergoop"
+failed query test,anthropic,claude-3-5-sonnet-20241022,2025-08-14T17:48:36.369912+00:00,0,0.0,0,False,0,0,False,False,,

@@ -1,0 +1,289 @@
+sector: "beauty"
+product_type: "mineral_sunscreen"
+monitoring_type: "geo_performance_tracking"
+
+# Monitoring & Alerting Configuration
+monitoring_config:
+  
+  # Key Query Monitoring
+  key_queries_subset: 20  # Most important queries for daily tracking
+  competitor_focus: 5     # Top competitors to monitor closely
+  alert_sensitivity: "medium"  # high/medium/low
+  
+  # Performance Targets (from specification)
+  performance_targets:
+    discovery_score_target: 60      # Current: 12.9
+    context_score_target: 75        # Current: 57.5
+    competitive_score_target: 45    # Current: 19.4
+    timeline_weeks: 12
+    
+    # Milestone targets
+    milestones:
+      discovery_milestones: [25, 40, 55, 70]
+      context_milestones: [65, 70, 80, 85]
+      competitive_milestones: [30, 40, 50, 60]
+  
+  # Business Metrics Tracking
+  business_metrics:
+    track_conversions: true
+    roi_attribution: true
+    brand_mention_value: 50  # estimated value per mention
+    traffic_attribution: true
+    
+    # Conversion funnel tracking
+    conversion_stages:
+      - "ai_citation"
+      - "website_visit"
+      - "product_view"
+      - "add_to_cart"
+      - "purchase"
+    
+    # ROI calculation parameters
+    roi_parameters:
+      average_order_value: 25.99
+      citation_to_visit_rate: 0.08
+      visit_to_conversion_rate: 0.03
+  
+  # Notification Channels
+  notification_channels:
+    slack_webhook: null  # Set via environment variable
+    email_alerts: 
+      - "team@brushonblock.com"
+    dashboard_url: null  # Set via environment variable
+    sms_alerts: []
+    
+    # Alert routing by priority
+    alert_routing:
+      critical: ["email", "slack", "sms"]
+      high: ["email", "slack"]
+      medium: ["slack"]
+      low: ["dashboard"]
+  
+  # Competitor Monitoring Configuration
+  competitors:
+    primary:
+      - name: "EltaMD"
+        priority: "high"
+        monitoring_frequency: "daily"
+        focus_areas: ["content_strategy", "authority_signals", "dermatologist_partnerships"]
+        baseline_score: 67.55
+        
+      - name: "Supergoop"
+        priority: "high"
+        monitoring_frequency: "daily"
+        focus_areas: ["influencer_partnerships", "lifestyle_marketing", "product_innovation"]
+        baseline_score: 67.55
+        
+      - name: "CeraVe"
+        priority: "high"
+        monitoring_frequency: "daily"
+        focus_areas: ["ingredient_science", "dermatologist_developed", "affordable_premium"]
+        baseline_score: 67.55
+        
+    secondary:
+      - name: "Blue Lizard"
+        priority: "medium"
+        monitoring_frequency: "weekly"
+        focus_areas: ["color_changing_formula", "reef_safe", "australian_heritage"]
+        baseline_score: 67.55
+        
+      - name: "Neutrogena"
+        priority: "medium"
+        monitoring_frequency: "weekly"
+        focus_areas: ["mass_market_leader", "variety_portfolio", "accessibility"]
+        baseline_score: 67.55
+  
+  # Query Matrix Monitoring
+  query_monitoring:
+    priority_queries:
+      high_impact:
+        - "mineral sunscreen"
+        - "dermatologist recommended sunscreen"
+        - "reef safe sunscreen"
+        - "zinc oxide sunscreen"
+        - "powder sunscreen application"
+        
+      brand_specific:
+        - "brush on block sunscreen"
+        - "powder mineral sunscreen"
+        - "brush on sunscreen"
+        
+      competitive:
+        - "eltamd vs alternatives"
+        - "supergoop vs mineral sunscreen"
+        - "cerave sunscreen vs powder"
+        
+      opportunity:
+        - "best sunscreen for oily skin"
+        - "non-comedogenic sunscreen"
+        - "sensitive skin sunscreen"
+    
+    # Query expansion from Agent 3
+    expanded_matrix_size: 70
+    baseline_queries: 5
+    
+  # Alert Configuration
+  alert_configuration:
+    
+    # Performance Alert Thresholds
+    performance_alerts:
+      discovery_score:
+        improvement_threshold: 10    # Points improvement
+        decline_threshold: 15        # Points decline
+        milestone_alerts: true
+        
+      context_score:
+        improvement_threshold: 15
+        decline_threshold: 25
+        milestone_alerts: true
+        
+      competitive_score:
+        improvement_threshold: 12
+        decline_threshold: 20
+        milestone_alerts: true
+    
+    # Competitive Movement Alerts
+    competitive_alerts:
+      market_share_change:
+        watch_threshold: 5           # % change to watch
+        alert_threshold: 10          # % change to alert
+        urgent_threshold: 20         # % change for urgent alert
+        
+      ranking_changes:
+        significant_change: 2        # Ranking position change
+        citation_frequency_change: 0.1  # Citation frequency change
+        
+      new_competitor_detection:
+        citation_threshold: 25       # Citations to consider new threat
+        market_share_threshold: 5    # Market share to trigger alert
+    
+    # Opportunity Detection Alerts
+    opportunity_alerts:
+      content_gap_opportunities:
+        opportunity_score_threshold: 75
+        new_gap_detection: true
+        
+      trending_queries:
+        growth_threshold: 30         # % growth to trigger alert
+        timeframe_days: 14           # Days to measure growth
+        
+      optimization_ready:
+        potential_threshold: 80      # Optimization potential score
+        roi_threshold: 200          # Expected ROI %
+  
+  # Monitoring Schedule
+  monitoring_schedule:
+    real_time:
+      citation_tracking: "every_6_hours"
+      competitive_alerts: "every_12_hours"
+      
+    daily:
+      score_updates: "06:00"
+      content_performance: "09:00"
+      daily_summary_report: "18:00"
+      
+    weekly:
+      trend_analysis: "sunday_12:00"
+      competitive_deep_dive: "wednesday_14:00"
+      weekly_progress_report: "friday_17:00"
+      
+    monthly:
+      full_baseline_refresh: "1st_09:00"
+      strategy_effectiveness_review: "15th_14:00"
+      monthly_strategic_report: "last_friday_16:00"
+
+# Dashboard Configuration
+dashboard_config:
+  
+  # Widget Configuration
+  widgets:
+    performance_overview:
+      current_scores: true
+      trend_arrows: true
+      goal_progress: true
+      milestone_tracking: true
+      
+    competitive_landscape:
+      market_position: true
+      share_trends: true
+      threat_level: true
+      ranking_changes: true
+      
+    optimization_pipeline:
+      active_optimizations: true
+      pending_opportunities: true
+      implementation_timeline: true
+      roi_tracking: true
+      
+    business_impact:
+      traffic_attribution: true
+      conversion_tracking: true
+      revenue_impact: true
+      brand_mention_value: true
+  
+  # Refresh Rates
+  refresh_rates:
+    real_time_widgets: "5_minutes"
+    daily_widgets: "1_hour"
+    weekly_widgets: "6_hours"
+    monthly_widgets: "24_hours"
+
+# Data Retention and Analysis
+data_management:
+  retention_policy:
+    raw_monitoring_data: "365_days"
+    processed_metrics: "730_days"
+    alert_history: "365_days"
+    dashboard_snapshots: "90_days"
+    
+  analysis_windows:
+    trend_analysis: "30_days"
+    competitive_analysis: "90_days"
+    roi_analysis: "180_days"
+    historical_comparison: "365_days"
+    
+  data_export:
+    formats: ["json", "csv", "excel"]
+    automated_backups: "weekly"
+    historical_exports: "monthly"
+
+# Integration Configuration
+integration:
+  agent_integration:
+    agent1_baseline:
+      query_performance_tracking: true
+      competitor_ranking_updates: true
+      discovery_score_monitoring: true
+      
+    agent2_content:
+      optimization_tracking: true
+      content_performance_monitoring: true
+      gap_closure_progress: true
+      
+    agent3_competitive:
+      market_position_monitoring: true
+      competitive_intelligence_updates: true
+      opportunity_status_tracking: true
+      
+  feedback_loops:
+    performance_insights_to_agent2: true
+    competitive_intelligence_to_agent3: true
+    trend_analysis_to_agent1: true
+    roi_validation_system_wide: true
+    
+  external_integrations:
+    google_analytics: false        # Set to true when available
+    social_media_monitoring: false # Set to true when available
+    brand_monitoring_tools: false  # Set to true when available
+
+# Success Metrics for Monitoring System
+success_metrics:
+  monitoring_effectiveness:
+    alert_accuracy_target: 90      # % of alerts leading to actionable insights
+    performance_detection_hours: 24 # Hours to detect significant changes
+    trend_prediction_accuracy: 80   # % accuracy in 30-day forecasting
+    
+  business_impact:
+    roi_measurement_accuracy: 85    # % accuracy in ROI attribution
+    optimization_velocity_days: 14  # Days from opportunity to implementation
+    competitive_response_hours: 48  # Hours to react to competitive threats
