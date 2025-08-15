@@ -16,11 +16,11 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, Optional, List
 
-from config import get_config, reload_config
-from content_scraper import ContentScraper
-from content_scorer import ContentScorer
-from competitor_analyzer import CompetitorAnalyzer
-from export_manager import ExportManager
+from .config import get_config, reload_config
+from .content_scraper import ContentScraper
+from .content_scorer import ContentScorer
+from .competitor_analyzer import CompetitorAnalyzer
+from .export_manager import ExportManager
 
 # Configure logging
 logging.basicConfig(
@@ -553,6 +553,21 @@ async def main():
     except Exception as e:
         logger.error(f"Analysis failed: {str(e)}")
         sys.exit(1)
+
+# Entry point for orchestration system
+async def run_content_analysis(config_path: Optional[str] = None, max_pages: int = 50) -> Dict[str, Any]:
+    """
+    Main function called by system orchestrator
+    Returns: Content analysis results
+    """
+    agent = ContentAnalysisAgent(config_path)
+    results = await agent.run_full_analysis(max_pages)
+    
+    # Export results
+    export_manager = ExportManager("./results")
+    await export_manager.export_content_analysis(results, "both")
+    
+    return results
 
 if __name__ == "__main__":
     asyncio.run(main())

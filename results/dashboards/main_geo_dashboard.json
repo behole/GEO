@@ -1,0 +1,395 @@
+{
+  "dashboard_id": "main_geo_dashboard",
+  "title": "GEO Performance Dashboard",
+  "description": "Comprehensive view of Brush on Block's GEO optimization performance",
+  "widgets": [
+    {
+      "widget_id": "current_scores",
+      "widget_type": "metric",
+      "title": "Current GEO Scores",
+      "data": {
+        "discovery_score": {
+          "current": 16.4,
+          "target": 60,
+          "trend": "stable"
+        },
+        "context_score": {
+          "current": 63.1,
+          "target": 75,
+          "trend": "stable"
+        },
+        "competitive_score": {
+          "current": 21.5,
+          "target": 45,
+          "trend": "stable"
+        }
+      },
+      "refresh_rate": "hourly",
+      "size": "large",
+      "position": {
+        "row": 1,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "progress_to_target",
+      "widget_type": "progress",
+      "title": "Progress to Targets",
+      "data": {
+        "discovery": {
+          "progress": 7.430997876857745,
+          "current": 16.4,
+          "target": 60
+        },
+        "context": {
+          "progress": 32.00000000000001,
+          "current": 63.1,
+          "target": 75
+        },
+        "competitive": {
+          "progress": 8.203125000000005,
+          "current": 21.5,
+          "target": 45
+        },
+        "overall": {
+          "progress": 12.416851441241667,
+          "current": 33.666666666666664,
+          "target": 60.0
+        }
+      },
+      "refresh_rate": "hourly",
+      "size": "medium",
+      "position": {
+        "row": 1,
+        "col": 2
+      }
+    },
+    {
+      "widget_id": "performance_trends",
+      "widget_type": "chart",
+      "title": "30-Day Performance Trends",
+      "data": {
+        "labels": [
+          "2025-08-14",
+          "2025-08-14"
+        ],
+        "datasets": [
+          {
+            "label": "Discovery Score",
+            "data": [
+              16.4,
+              16.4
+            ],
+            "color": "#2196F3"
+          },
+          {
+            "label": "Context Score",
+            "data": [
+              63.1,
+              63.1
+            ],
+            "color": "#4CAF50"
+          },
+          {
+            "label": "Competitive Score",
+            "data": [
+              21.5,
+              21.5
+            ],
+            "color": "#FF9800"
+          }
+        ]
+      },
+      "refresh_rate": "daily",
+      "size": "large",
+      "position": {
+        "row": 2,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "market_position",
+      "widget_type": "table",
+      "title": "Market Position & Competitors",
+      "data": {
+        "brand_position": {
+          "overall_score": 33.666666666666664,
+          "market_rank": 3,
+          "competitive_strength": "Strong"
+        },
+        "top_competitors": [
+          {
+            "name": "primary",
+            "threat_level": "low",
+            "market_share": 17.503950937200727,
+            "score": 79.54045221763688
+          },
+          {
+            "name": "secondary",
+            "threat_level": "low",
+            "market_share": 26.377232867715566,
+            "score": 68.28431949450069
+          }
+        ]
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 1,
+        "col": 3
+      }
+    },
+    {
+      "widget_id": "threat_assessment",
+      "widget_type": "metric",
+      "title": "Competitive Threat Assessment",
+      "data": {
+        "threat_levels": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 2
+        },
+        "immediate_threats": []
+      },
+      "refresh_rate": "hourly",
+      "size": "small",
+      "position": {
+        "row": 2,
+        "col": 2
+      }
+    },
+    {
+      "widget_id": "query_performance",
+      "widget_type": "table",
+      "title": "Top Query Performance",
+      "data": {
+        "query_performance": [
+          {
+            "query": "zinc oxide sunscreen",
+            "ranking": 9,
+            "citation_freq": 0.7176095446130205,
+            "market_share": 16.443765829094758
+          },
+          {
+            "query": "mineral sunscreen",
+            "ranking": 8,
+            "citation_freq": 0.6639235526036854,
+            "market_share": 7.326797245364755
+          },
+          {
+            "query": "powder sunscreen",
+            "ranking": 1,
+            "citation_freq": 0.6391349964425405,
+            "market_share": 20.03410975281094
+          },
+          {
+            "query": "reef safe sunscreen",
+            "ranking": 9,
+            "citation_freq": 0.31400059860373075,
+            "market_share": 13.209417405188757
+          },
+          {
+            "query": "dermatologist sunscreen",
+            "ranking": 9,
+            "citation_freq": 0.2689124741154908,
+            "market_share": 15.503515152857476
+          }
+        ]
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 3,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "optimization_pipeline",
+      "widget_type": "table",
+      "title": "Optimization Pipeline",
+      "data": {
+        "active_optimizations": [],
+        "pending_opportunities": [],
+        "completed_optimizations": []
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 3,
+        "col": 2
+      }
+    },
+    {
+      "widget_id": "implementation_timeline",
+      "widget_type": "chart",
+      "title": "Implementation Timeline",
+      "data": {
+        "timeline_items": [
+          {
+            "task": "Authority building program",
+            "start_date": "2025-08-15",
+            "end_date": "2025-11-15",
+            "status": "in_progress",
+            "progress": 25
+          },
+          {
+            "task": "Content gap closure",
+            "start_date": "2025-08-20",
+            "end_date": "2025-10-20",
+            "status": "planned",
+            "progress": 0
+          },
+          {
+            "task": "Competitive response strategy",
+            "start_date": "2025-08-25",
+            "end_date": "2025-09-25",
+            "status": "planned",
+            "progress": 0
+          }
+        ]
+      },
+      "refresh_rate": "daily",
+      "size": "large",
+      "position": {
+        "row": 4,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "roi_tracking",
+      "widget_type": "metric",
+      "title": "Business Impact & ROI",
+      "data": {
+        "current_metrics": {
+          "estimated_monthly_traffic": 520.7162332756936,
+          "estimated_conversion_value": 781.0743499135405,
+          "brand_mention_value": 250,
+          "competitive_advantage_score": 21.5
+        },
+        "roi_trends": {
+          "monthly_roi": [
+            150,
+            180,
+            220,
+            280,
+            350
+          ],
+          "months": [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug"
+          ]
+        },
+        "conversion_funnel": {
+          "stages": [
+            {
+              "name": "AI Citations",
+              "count": 1000,
+              "rate": 100
+            },
+            {
+              "name": "Website Visits",
+              "count": 80,
+              "rate": 8.0
+            },
+            {
+              "name": "Product Views",
+              "count": 24,
+              "rate": 3.0
+            },
+            {
+              "name": "Add to Cart",
+              "count": 12,
+              "rate": 1.5
+            },
+            {
+              "name": "Purchase",
+              "count": 3,
+              "rate": 0.4
+            }
+          ]
+        }
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 4,
+        "col": 2
+      }
+    },
+    {
+      "widget_id": "traffic_attribution",
+      "widget_type": "chart",
+      "title": "AI-Driven Traffic Attribution",
+      "data": {
+        "traffic_sources": [
+          {
+            "source": "AI Citations",
+            "visits": 312
+          },
+          {
+            "source": "Organic Search",
+            "visits": 156
+          },
+          {
+            "source": "Direct",
+            "visits": 52
+          }
+        ],
+        "monthly_trend": [
+          364,
+          416,
+          468,
+          520
+        ]
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 5,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "alert_summary",
+      "widget_type": "metric",
+      "title": "Alert Status",
+      "data": {
+        "total_active_alerts": 0,
+        "critical_alerts": 0,
+        "high_alerts": 0,
+        "medium_alerts": 0,
+        "low_alerts": 0,
+        "alerts_last_24h": 0,
+        "most_recent_alert": null,
+        "alert_types_active": []
+      },
+      "refresh_rate": "real_time",
+      "size": "medium",
+      "position": {
+        "row": 5,
+        "col": 2
+      }
+    },
+    {
+      "widget_id": "recent_alerts",
+      "widget_type": "table",
+      "title": "Recent Alerts",
+      "data": {
+        "active_alerts": []
+      },
+      "refresh_rate": "real_time",
+      "size": "large",
+      "position": {
+        "row": 6,
+        "col": 1
+      }
+    }
+  ],
+  "last_updated": "2025-08-14T20:27:17.993757",
+  "auto_refresh": true,
+  "refresh_interval_seconds": 300
+}

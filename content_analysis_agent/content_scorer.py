@@ -8,8 +8,8 @@ import textstat
 import nltk
 from collections import Counter
 
-from content_scraper import PageContent, SiteAnalysis
-from config import get_config
+from .content_scraper import PageContent, SiteAnalysis
+from .config import get_config
 
 # Download required NLTK data
 try:

@@ -15,12 +15,12 @@ from typing import Dict, List, Any, Optional
 from datetime import datetime
 import argparse
 
-from config import Config
-from api_clients import AIClientFactory, ConcurrentQueryManager
-from query_matrix import QueryMatrix
-from response_analyzer import ResponseAnalyzer, BatchAnalyzer
-from scoring_engine import BaselineScoreCalculator
-from export_manager import ExportManager
+from .config import Config
+from .api_clients import AIClientFactory, ConcurrentQueryManager
+from .query_matrix import QueryMatrix
+from .response_analyzer import ResponseAnalyzer, BatchAnalyzer
+from .scoring_engine import BaselineScoreCalculator
+from .export_manager import ExportManager
 
 # Configure logging
 logging.basicConfig(

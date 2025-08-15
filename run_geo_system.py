@@ -26,9 +26,9 @@ logger = logging.getLogger(__name__)
 async def run_agent_1():
     """Run Agent 1 - Discovery Baseline Agent"""
     try:
-        from discovery_baseline_agent.discovery_baseline_agent import run_discovery_baseline_analysis
+        from discovery_baseline_agent.main import run_discovery_baseline
         logger.info("🔍 Running Agent 1 - Discovery Baseline Agent")
-        result = await run_discovery_baseline_analysis()
+        result = await run_discovery_baseline()
         logger.info("✅ Agent 1 completed successfully")
         return result
     except Exception as e:
@@ -38,7 +38,7 @@ async def run_agent_1():
 async def run_agent_2():
     """Run Agent 2 - Content Analysis Agent"""
     try:
-        from content_analysis_agent.content_analysis_agent import run_content_analysis
+        from content_analysis_agent.main import run_content_analysis
         logger.info("📝 Running Agent 2 - Content Analysis Agent")
         result = await run_content_analysis()
         logger.info("✅ Agent 2 completed successfully")
@@ -50,9 +50,9 @@ async def run_agent_2():
 async def run_agent_3():
     """Run Agent 3 - Competitive Intelligence Agent"""
     try:
-        from competitive_intelligence_agent.competitive_intelligence_agent import run_competitive_intelligence_analysis
+        from competitive_intelligence_agent.competitive_intelligence_agent import run_competitive_intelligence
         logger.info("🏆 Running Agent 3 - Competitive Intelligence Agent")
-        result = await run_competitive_intelligence_analysis()
+        result = await run_competitive_intelligence()
         logger.info("✅ Agent 3 completed successfully")
         return result
     except Exception as e:

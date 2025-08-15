@@ -3,7 +3,7 @@ from dataclasses import dataclass, asdict
 import statistics
 from datetime import datetime
 
-from response_analyzer import ResponseAnalysis, Citation
+from .response_analyzer import ResponseAnalysis, Citation
 
 @dataclass
 class ScoreBreakdown:

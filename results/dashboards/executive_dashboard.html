@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive GEO Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .dashboard-header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .widget {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .widget h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2196F3;
+        }
+        .trend-up { color: #4CAF50; }
+        .trend-down { color: #f44336; }
+        .trend-stable { color: #FF9800; }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            transition: width 0.3s ease;
+        }
+        .alert-critical { border-left: 5px solid #f44336; }
+        .alert-high { border-left: 5px solid #ff9800; }
+        .alert-medium { border-left: 5px solid #ffeb3b; }
+        .alert-low { border-left: 5px solid #4caf50; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .refresh-info {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <h1>Executive GEO Dashboard</h1>
+        <p>High-level overview for executive stakeholders</p>
+        <p class="refresh-info">Last updated: 2025-08-14T20:27:17.995725</p>
+    </div>
+    
+    <div class="dashboard-grid">
+        
+            <div class="widget">
+                <h3>Key Performance Indicators</h3>
+                <pre>{
+  "overall_geo_score": 33.666666666666664,
+  "market_position": 3,
+  "competitive_threats": 0,
+  "improvement_opportunities": 1,
+  "monthly_progress": "+3.7 points"
+}</pre>
+                <div class="refresh-info">Refresh: daily</div>
+            </div>
+            
+
+            <div class="widget">
+                <h3>Business Impact Summary</h3>
+                <pre>{
+  "estimated_monthly_traffic": 468.6224042720141,
+  "estimated_conversion_value": 702.9336064080211,
+  "brand_mention_value": 250,
+  "competitive_advantage_score": 21.5
+}</pre>
+                <div class="refresh-info">Refresh: daily</div>
+            </div>
+            
+    </div>
+    
+    <script>
+        // Auto-refresh functionality
+        if (true) {
+            setTimeout(() => {
+                location.reload();
+            }, 3600000);
+        }
+    </script>
+</body>
+</html>

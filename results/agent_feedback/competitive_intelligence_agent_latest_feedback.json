@@ -1,0 +1,18 @@
+{
+  "agent_name": "Competitive Intelligence Agent",
+  "timestamp": "2025-08-14T20:27:17.996125",
+  "feedback_type": "trend_update",
+  "priority": "medium",
+  "data": {
+    "current_competitive_score": 21.5,
+    "trend_direction": "stable",
+    "change_percentage": 0.0,
+    "progress_to_target": 8.203125000000005,
+    "high_threat_competitors": 0,
+    "immediate_threats": [],
+    "competitive_opportunities": 0,
+    "market_position_trend": "stable"
+  },
+  "recommendations": [],
+  "expected_impact": "20-30% improvement in competitive positioning through strategic response"
+}

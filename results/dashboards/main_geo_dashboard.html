@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Performance Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .dashboard-header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .widget {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .widget h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2196F3;
+        }
+        .trend-up { color: #4CAF50; }
+        .trend-down { color: #f44336; }
+        .trend-stable { color: #FF9800; }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            transition: width 0.3s ease;
+        }
+        .alert-critical { border-left: 5px solid #f44336; }
+        .alert-high { border-left: 5px solid #ff9800; }
+        .alert-medium { border-left: 5px solid #ffeb3b; }
+        .alert-low { border-left: 5px solid #4caf50; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .refresh-info {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <h1>GEO Performance Dashboard</h1>
+        <p>Comprehensive view of Brush on Block's GEO optimization performance</p>
+        <p class="refresh-info">Last updated: 2025-08-14T20:27:17.993757</p>
+    </div>
+    
+    <div class="dashboard-grid">
+        
+            <div class="widget">
+                <h3>Current GEO Scores</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+                    <div>
+                        <h4>Discovery</h4>
+                        <div class="metric-value trend-stable">16.4</div>
+                        <div>Target: 60</div>
+                    </div>
+                    <div>
+                        <h4>Context</h4>
+                        <div class="metric-value trend-stable">63.1</div>
+                        <div>Target: 75</div>
+                    </div>
+                    <div>
+                        <h4>Competitive</h4>
+                        <div class="metric-value trend-stable">21.5</div>
+                        <div>Target: 45</div>
+                    </div>
+                </div>
+                <div class="refresh-info">Refresh: hourly</div>
+            </div>
+            
+
+        <div class="widget">
+            <h3>Progress to Targets</h3>
+            
+                <div style="margin-bottom: 15px;">
+                    <h4>Discovery</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 7.4%"></div>
+                    </div>
+                    <div style="font-size: 0.9em;">
+                        16.4 / 60.0 (7.4%)
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 15px;">
+                    <h4>Context</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 32.0%"></div>
+                    </div>
+                    <div style="font-size: 0.9em;">
+                        63.1 / 75.0 (32.0%)
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 15px;">
+                    <h4>Competitive</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 8.2%"></div>
+                    </div>
+                    <div style="font-size: 0.9em;">
+                        21.5 / 45.0 (8.2%)
+                    </div>
+                </div>
+            
+                <div style="margin-bottom: 15px;">
+                    <h4>Overall</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 12.4%"></div>
+                    </div>
+                    <div style="font-size: 0.9em;">
+                        33.7 / 60.0 (12.4%)
+                    </div>
+                </div>
+            
+            <div class="refresh-info">Refresh: hourly</div>
+        </div>
+        
+
+        <div class="widget">
+            <h3>30-Day Performance Trends</h3>
+            <p>Chart visualization would be rendered here with Chart.js or similar library</p>
+            <pre>{
+  "labels": [
+    "2025-08-14",
+    "2025-08-14"
+  ],
+  "datasets": [
+    {
+      "label": "Discovery Score",
+      "data": [
+        16.4,
+        16.4
+      ],
+      "color": "#2196F3"
+    },
+    {
+      "label": "Context Score",
+      "data": [
+        63.1,
+        63.1
+      ],
+      "color": "#4CAF50"
+    },
+    {
+      "label": "Competitive Score",
+      "data": [
+        21.5,
+        21.5
+      ],
+      "color": "#FF9800"
+    }
+  ]
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+        <div class="widget">
+            <h3>Market Position & Competitors</h3>
+            <pre>{
+  "brand_position": {
+    "overall_score": 33.666666666666664,
+    "market_rank": 3,
+    "competitive_strength": "Strong"
+  },
+  "top_competitors": [
+    {
+      "name": "primary",
+      "threat_level": "low",
+      "market_share": 17.503950937200727,
+      "score": 79.54045221763688
+    },
+    {
+      "name": "secondary",
+      "threat_level": "low",
+      "market_share": 26.377232867715566,
+      "score": 68.28431949450069
+    }
+  ]
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+            <div class="widget">
+                <h3>Competitive Threat Assessment</h3>
+                <pre>{
+  "threat_levels": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 2
+  },
+  "immediate_threats": []
+}</pre>
+                <div class="refresh-info">Refresh: hourly</div>
+            </div>
+            
+
+        <div class="widget">
+            <h3>Top Query Performance</h3>
+            <pre>{
+  "query_performance": [
+    {
+      "query": "zinc oxide sunscreen",
+      "ranking": 9,
+      "citation_freq": 0.7176095446130205,
+      "market_share": 16.443765829094758
+    },
+    {
+      "query": "mineral sunscreen",
+      "ranking": 8,
+      "citation_freq": 0.6639235526036854,
+      "market_share": 7.326797245364755
+    },
+    {
+      "query": "powder sunscreen",
+      "ranking": 1,
+      "citation_freq": 0.6391349964425405,
+      "market_share": 20.03410975281094
+    },
+    {
+      "query": "reef safe sunscreen",
+      "ranking": 9,
+      "citation_freq": 0.31400059860373075,
+      "market_share": 13.209417405188757
+    },
+    {
+      "query": "dermatologist sunscreen",
+      "ranking": 9,
+      "citation_freq": 0.2689124741154908,
+      "market_share": 15.503515152857476
+    }
+  ]
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+        <div class="widget">
+            <h3>Optimization Pipeline</h3>
+            <pre>{
+  "active_optimizations": [],
+  "pending_opportunities": [],
+  "completed_optimizations": []
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+        <div class="widget">
+            <h3>Implementation Timeline</h3>
+            <p>Chart visualization would be rendered here with Chart.js or similar library</p>
+            <pre>{
+  "timeline_items": [
+    {
+      "task": "Authority building program",
+      "start_date": "2025-08-15",
+      "end_date": "2025-11-15",
+      "status": "in_progress",
+      "progress": 25
+    },
+    {
+      "task": "Content gap closure",
+      "start_date": "2025-08-20",
+      "end_date": "2025-10-20",
+      "status": "planned",
+      "progress": 0
+    },
+    {
+      "task": "Competitive response strategy",
+      "start_date": "2025-08-25",
+      "end_date": "2025-09-25",
+      "status": "planned",
+      "progress": 0
+    }
+  ]
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+            <div class="widget">
+                <h3>Business Impact & ROI</h3>
+                <pre>{
+  "current_metrics": {
+    "estimated_monthly_traffic": 520.7162332756936,
+    "estimated_conversion_value": 781.0743499135405,
+    "brand_mention_value": 250,
+    "competitive_advantage_score": 21.5
+  },
+  "roi_trends": {
+    "monthly_roi": [
+      150,
+      180,
+      220,
+      280,
+      350
+    ],
+    "months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ]
+  },
+  "conversion_funnel": {
+    "stages": [
+      {
+        "name": "AI Citations",
+        "count": 1000,
+        "rate": 100
+      },
+      {
+        "name": "Website Visits",
+        "count": 80,
+        "rate": 8.0
+      },
+      {
+        "name": "Product Views",
+        "count": 24,
+        "rate": 3.0
+      },
+      {
+        "name": "Add to Cart",
+        "count": 12,
+        "rate": 1.5
+      },
+      {
+        "name": "Purchase",
+        "count": 3,
+        "rate": 0.4
+      }
+    ]
+  }
+}</pre>
+                <div class="refresh-info">Refresh: daily</div>
+            </div>
+            
+
+        <div class="widget">
+            <h3>AI-Driven Traffic Attribution</h3>
+            <p>Chart visualization would be rendered here with Chart.js or similar library</p>
+            <pre>{
+  "traffic_sources": [
+    {
+      "source": "AI Citations",
+      "visits": 312
+    },
+    {
+      "source": "Organic Search",
+      "visits": 156
+    },
+    {
+      "source": "Direct",
+      "visits": 52
+    }
+  ],
+  "monthly_trend": [
+    364,
+    416,
+    468,
+    520
+  ]
+}</pre>
+            <div class="refresh-info">Refresh: daily</div>
+        </div>
+        
+
+            <div class="widget">
+                <h3>Alert Status</h3>
+                <pre>{
+  "total_active_alerts": 0,
+  "critical_alerts": 0,
+  "high_alerts": 0,
+  "medium_alerts": 0,
+  "low_alerts": 0,
+  "alerts_last_24h": 0,
+  "most_recent_alert": null,
+  "alert_types_active": []
+}</pre>
+                <div class="refresh-info">Refresh: real_time</div>
+            </div>
+            
+
+        <div class="widget">
+            <h3>Recent Alerts</h3>
+            <pre>{
+  "active_alerts": []
+}</pre>
+            <div class="refresh-info">Refresh: real_time</div>
+        </div>
+        
+    </div>
+    
+    <script>
+        // Auto-refresh functionality
+        if (true) {
+            setTimeout(() => {
+                location.reload();
+            }, 300000);
+        }
+    </script>
+</body>
+</html>

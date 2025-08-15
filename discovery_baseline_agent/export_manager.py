@@ -6,8 +6,8 @@ from datetime import datetime, timezone
 import pandas as pd
 from dataclasses import asdict
 
-from response_analyzer import ResponseAnalysis, Citation
-from scoring_engine import BaselineScores, ScoreBreakdown
+from .response_analyzer import ResponseAnalysis, Citation
+from .scoring_engine import BaselineScores, ScoreBreakdown
 
 class JSONExporter:
     """Handles JSON export functionality"""

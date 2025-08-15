@@ -1,0 +1,45 @@
+{
+  "dashboard_id": "executive_dashboard",
+  "title": "Executive GEO Dashboard",
+  "description": "High-level overview for executive stakeholders",
+  "widgets": [
+    {
+      "widget_id": "executive_kpis",
+      "widget_type": "metric",
+      "title": "Key Performance Indicators",
+      "data": {
+        "overall_geo_score": 33.666666666666664,
+        "market_position": 3,
+        "competitive_threats": 0,
+        "improvement_opportunities": 1,
+        "monthly_progress": "+3.7 points"
+      },
+      "refresh_rate": "daily",
+      "size": "large",
+      "position": {
+        "row": 1,
+        "col": 1
+      }
+    },
+    {
+      "widget_id": "roi_summary",
+      "widget_type": "metric",
+      "title": "Business Impact Summary",
+      "data": {
+        "estimated_monthly_traffic": 468.6224042720141,
+        "estimated_conversion_value": 702.9336064080211,
+        "brand_mention_value": 250,
+        "competitive_advantage_score": 21.5
+      },
+      "refresh_rate": "daily",
+      "size": "medium",
+      "position": {
+        "row": 1,
+        "col": 2
+      }
+    }
+  ],
+  "last_updated": "2025-08-14T20:27:17.995725",
+  "auto_refresh": true,
+  "refresh_interval_seconds": 3600
+}

@@ -6,9 +6,9 @@ from datetime import datetime
 import statistics
 from collections import Counter, defaultdict
 
-from content_scraper import ContentScraper, SiteAnalysis, PageContent
-from content_scorer import ContentScorer, SiteScore
-from config import get_config, CompetitorConfig
+from .content_scraper import ContentScraper, SiteAnalysis, PageContent
+from .content_scorer import ContentScorer, SiteScore
+from .config import get_config, CompetitorConfig
 
 logger = logging.getLogger(__name__)
 

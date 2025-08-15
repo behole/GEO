@@ -13,7 +13,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 import trafilatura
 from markdownify import markdownify as md
 
-from config import get_config
+from .config import get_config
 
 logger = logging.getLogger(__name__)
 

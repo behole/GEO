@@ -11,7 +11,7 @@ import google.generativeai as genai
 from tenacity import retry, stop_after_attempt, wait_exponential
 import httpx
 
-from config import Config
+from .config import Config
 
 logger = logging.getLogger(__name__)
 
