@@ -124,7 +124,9 @@ class MonitoringAlertingAgent:
             return monitoring_report
             
         except Exception as e:
+            import traceback
             logger.error(f"Error in monitoring analysis: {str(e)}")
+            logger.error(f"Traceback: {traceback.format_exc()}")
             raise
     
     async def start_continuous_monitoring(self, interval_hours: int = None) -> Dict[str, Any]:

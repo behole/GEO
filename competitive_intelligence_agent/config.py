@@ -67,10 +67,6 @@ class CompetitiveIntelligenceConfig:
         self.ENABLE_DETAILED_REPORTING = os.getenv("ENABLE_DETAILED_REPORTING", "true").lower() == "true"
         self.SAVE_RAW_ANALYSIS_DATA = os.getenv("SAVE_RAW_ANALYSIS_DATA", "true").lower() == "true"
         
-        # Integration paths
-        self.AGENT1_RESULTS_PATH = os.getenv("AGENT1_RESULTS_PATH", "../discovery_baseline_agent/results/latest/")
-        self.AGENT2_RESULTS_PATH = os.getenv("AGENT2_RESULTS_PATH", "../content_analysis_agent/results/latest/")
-        
         # Load sector configuration
         if sector_config_path:
             self.sector_config = self._load_sector_config(sector_config_path)
@@ -78,6 +74,11 @@ class CompetitiveIntelligenceConfig:
             # Default to beauty sunscreen competitive config
             default_path = os.path.join(os.path.dirname(__file__), "sector_configs", "beauty_sunscreen_competitive.yaml")
             self.sector_config = self._load_sector_config(default_path)
+        
+        # Integration paths
+        agent_paths = self.sector_config.get("agent_paths", {})
+        self.AGENT1_RESULTS_PATH = agent_paths.get("agent1_results", os.getenv("AGENT1_RESULTS_PATH", "../discovery_baseline_agent/results/latest/"))
+        self.AGENT2_RESULTS_PATH = agent_paths.get("agent2_results", os.getenv("AGENT2_RESULTS_PATH", "../content_analysis_agent/results/latest/"))
     
     def _load_sector_config(self, config_path: str) -> Dict[str, Any]:
         """Load sector-specific competitive intelligence configuration"""

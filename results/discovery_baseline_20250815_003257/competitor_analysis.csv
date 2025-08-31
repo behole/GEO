@@ -1,0 +1,18 @@
+competitor,total_mentions,queries_mentioned,engines_count,engines_list,average_position,positive_mentions,negative_mentions,neutral_mentions,sentiment_ratio
+eltamd,143,143,3,"google, openai, anthropic",11.13,67,6,123,0.47
+cerave,86,86,3,"google, openai, anthropic",11.91,22,11,74,0.26
+supergoop,85,85,3,"google, openai, anthropic",18.06,5,1,114,0.06
+blue lizard,77,77,3,"anthropic, openai, google",15.37,21,2,71,0.27
+neutrogena,59,59,3,"google, openai, anthropic",15.59,15,5,78,0.25
+badger,51,51,3,"anthropic, openai, google",17.06,1,50,12,0.02
+thinkbaby,38,38,3,"anthropic, openai, google",16.07,21,1,18,0.55
+coola,32,32,3,"google, openai, anthropic",19.43,3,1,40,0.09
+thinksport,26,26,3,"anthropic, openai, google",16.53,4,2,24,0.15
+sun bum,13,13,3,"google, openai, anthropic",20.08,1,1,11,0.08
+aveeno,10,10,2,"openai, google",13.1,1,0,9,0.1
+drunk elephant,9,9,3,"google, openai, anthropic",18.36,0,1,10,0.0
+all good,8,8,2,"openai, google",21.75,2,0,6,0.25
+bare republic,3,3,1,openai,15.33,1,0,2,0.33
+stream2sea,2,2,2,"openai, google",21.0,0,0,3,0.0
+alba botanica,1,1,1,openai,7.0,0,0,1,0.0
+coppertone,1,1,1,google,22.0,0,0,1,0.0

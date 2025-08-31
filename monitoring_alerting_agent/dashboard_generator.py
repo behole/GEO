@@ -450,15 +450,25 @@ class DashboardGenerator:
         agent3_results = self.config.load_agent3_results()
         if agent3_results:
             tactical_recs = agent3_results.get("actionable_recommendations", {}).get("high_priority", [])
-            pipeline_data["active_optimizations"] = [
-                {
-                    "type": "competitive",
-                    "description": rec.get("recommendation", "Competitive optimization"),
-                    "priority": rec.get("priority", "high"),
-                    "timeline": rec.get("timeline", "short_term")
-                }
-                for rec in tactical_recs[:3]
-            ]
+            optimizations = []
+            for rec in tactical_recs[:3]:
+                # Handle both string and dict formats
+                if isinstance(rec, str):
+                    # Extract info from string representation
+                    optimizations.append({
+                        "type": "competitive",
+                        "description": rec[:100] + "..." if len(rec) > 100 else rec,
+                        "priority": "high",
+                        "timeline": "medium_term"
+                    })
+                elif isinstance(rec, dict):
+                    optimizations.append({
+                        "type": "competitive", 
+                        "description": rec.get("recommendation", "Competitive optimization"),
+                        "priority": rec.get("priority", "high"),
+                        "timeline": rec.get("timeline", "short_term")
+                    })
+            pipeline_data["active_optimizations"] = optimizations
         
         return pipeline_data
     

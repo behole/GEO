@@ -77,9 +77,9 @@ class MonitoringAlertingConfig:
         self.SAVE_RAW_MONITORING_DATA = os.getenv("SAVE_RAW_MONITORING_DATA", "true").lower() == "true"
         
         # Integration paths
-        self.AGENT1_RESULTS_PATH = os.getenv("AGENT1_RESULTS_PATH", "../discovery_baseline_agent/results/latest/")
-        self.AGENT2_RESULTS_PATH = os.getenv("AGENT2_RESULTS_PATH", "../content_analysis_agent/results/latest/")
-        self.AGENT3_RESULTS_PATH = os.getenv("AGENT3_RESULTS_PATH", "../competitive_intelligence_agent/results/latest/")
+        self.AGENT1_RESULTS_PATH = os.getenv("AGENT1_RESULTS_PATH", "./results/")
+        self.AGENT2_RESULTS_PATH = os.getenv("AGENT2_RESULTS_PATH", "./results/")
+        self.AGENT3_RESULTS_PATH = os.getenv("AGENT3_RESULTS_PATH", "./results/")
         
         # Alert thresholds from specification
         self.ALERT_THRESHOLDS = {
@@ -221,16 +221,23 @@ class MonitoringAlertingConfig:
         agent1_path = Path(self.AGENT1_RESULTS_PATH)
         
         try:
-            # Look for latest query results
+            # Look for discovery baseline results (try both naming patterns)
+            for results_file in agent1_path.glob("**/complete_results.json"):
+                with open(results_file, 'r') as f:
+                    return json.load(f)
+            
             for results_file in agent1_path.glob("**/geo_analysis_complete.json"):
                 with open(results_file, 'r') as f:
                     return json.load(f)
                     
-            # Look for any JSON results file
-            json_files = list(agent1_path.glob("**/*.json"))
-            if json_files:
-                with open(json_files[0], 'r') as f:
-                    return json.load(f)
+            # Look for any JSON results file in discovery directories
+            for discovery_dir in agent1_path.glob("discovery_baseline_*"):
+                json_files = list(discovery_dir.glob("*.json"))
+                if json_files:
+                    # Sort by modification time to get the latest
+                    json_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                    with open(json_files[0], 'r') as f:
+                        return json.load(f)
                     
         except Exception as e:
             print(f"Warning: Could not load Agent 1 results: {str(e)}")
@@ -247,11 +254,14 @@ class MonitoringAlertingConfig:
                 with open(results_file, 'r') as f:
                     return json.load(f)
                     
-            # Look for any JSON results file
-            json_files = list(agent2_path.glob("**/*.json"))
-            if json_files:
-                with open(json_files[0], 'r') as f:
-                    return json.load(f)
+            # Look for any JSON results file in content analysis directories
+            for content_dir in agent2_path.glob("content_analysis_*"):
+                json_files = list(content_dir.glob("*.json"))
+                if json_files:
+                    # Sort by modification time to get the latest
+                    json_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                    with open(json_files[0], 'r') as f:
+                        return json.load(f)
                     
         except Exception as e:
             print(f"Warning: Could not load Agent 2 results: {str(e)}")
@@ -268,11 +278,14 @@ class MonitoringAlertingConfig:
                 with open(results_file, 'r') as f:
                     return json.load(f)
                     
-            # Look for any JSON results file
-            json_files = list(agent3_path.glob("**/*.json"))
-            if json_files:
-                with open(json_files[0], 'r') as f:
-                    return json.load(f)
+            # Look for any JSON results file in competitive intelligence directories
+            for competitive_dir in agent3_path.glob("competitive_intelligence_*"):
+                json_files = list(competitive_dir.glob("*.json"))
+                if json_files:
+                    # Sort by modification time to get the latest
+                    json_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                    with open(json_files[0], 'r') as f:
+                        return json.load(f)
                     
         except Exception as e:
             print(f"Warning: Could not load Agent 3 results: {str(e)}")
@@ -288,6 +301,15 @@ class MonitoringAlertingConfig:
             for setup_file in agent3_path.glob("**/agent4_monitoring_setup.json"):
                 with open(setup_file, 'r') as f:
                     return json.load(f)
+            
+            # Look in competitive intelligence directories specifically
+            for competitive_dir in agent3_path.glob("competitive_intelligence_*"):
+                setup_files = list(competitive_dir.glob("agent4_monitoring_setup.json"))
+                if setup_files:
+                    # Sort by modification time to get the latest
+                    setup_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+                    with open(setup_files[0], 'r') as f:
+                        return json.load(f)
                     
         except Exception as e:
             print(f"Warning: Could not load Agent 3 monitoring setup: {str(e)}")

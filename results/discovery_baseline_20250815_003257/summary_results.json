@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "export_timestamp": "2025-08-15T00:40:44.880195+00:00",
+    "agent_version": "1.0.0",
+    "baseline_date": "2025-08-15T00:40:44.863614",
+    "run_id": "20250815_003257",
+    "execution_timestamp": "2025-08-15T00:40:44.863715",
+    "total_queries": 50,
+    "engines_used": 4,
+    "engine_list": [
+      "openai",
+      "openai",
+      "anthropic",
+      "google"
+    ],
+    "timing": {
+      "query_execution": 467.2583911418915,
+      "response_analysis": 0.10257101058959961,
+      "score_calculation": 0.002501964569091797,
+      "total_duration": 467.44551610946655
+    },
+    "configuration": {
+      "max_concurrent_requests": 5,
+      "request_timeout": 30,
+      "retry_attempts": 3
+    }
+  },
+  "scores": {
+    "overall_score": 31.50497891069136,
+    "discovery_score": 9.013157894736842,
+    "context_score": 50.52631578947368,
+    "competitive_score": 40.862020905923345,
+    "data_quality_score": 96.74000000000001
+  },
+  "score_breakdowns": {
+    "discovery": {
+      "component_scores": {
+        "citation_rate": 7.5,
+        "position_quality": 0,
+        "context_quality": 26.31578947368421
+      },
+      "raw_metrics": {
+        "total_queries": 200,
+        "your_brand_citations": 15,
+        "citation_rate": 0.075,
+        "avg_position": 18.18888888888889,
+        "positive_contexts": 5,
+        "total_contexts": 19
+      },
+      "weight_distribution": {
+        "citation_rate": 0.5,
+        "position_quality": 0.3,
+        "context_quality": 0.2
+      },
+      "total_score": 9.013157894736842,
+      "confidence": 1.0
+    },
+    "context": {
+      "component_scores": {
+        "sentiment_ratio": 63.1578947368421,
+        "specificity_score": 0.0,
+        "detail_richness": 84.21052631578947
+      },
+      "raw_metrics": {
+        "total_mentions": 19,
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "neutral_mentions": 14,
+        "product_specific_mentions": 0,
+        "detailed_mentions": 16
+      },
+      "weight_distribution": {
+        "sentiment_ratio": 0.6,
+        "specificity_score": 0.25,
+        "detail_richness": 0.15
+      },
+      "total_score": 50.52631578947368,
+      "confidence": 0.95
+    },
+    "competitive": {
+      "component_scores": {
+        "first_position_rate": 80.0,
+        "market_share": 2.2067363530778166,
+        "unique_visibility": 1.0
+      },
+      "raw_metrics": {
+        "total_query_opportunities": 195,
+        "your_brand_in_results": 15,
+        "first_position_count": 12,
+        "total_your_mentions": 19,
+        "total_competitor_mentions": 842,
+        "unique_queries": 2
+      },
+      "weight_distribution": {
+        "first_position_rate": 0.5,
+        "market_share": 0.3,
+        "unique_visibility": 0.2
+      },
+      "total_score": 40.862020905923345,
+      "confidence": 1.0
+    }
+  },
+  "insights": {
+    "overall_assessment": "Poor - Limited visibility, major improvements needed",
+    "priority_areas": [
+      "Discovery - Increase brand visibility in AI responses"
+    ],
+    "strengths": [],
+    "weaknesses": [
+      "Low brand discovery rate"
+    ],
+    "recommendations": [
+      "Increase content marketing focused on target queries",
+      "Develop thought leadership content in mineral sunscreen space",
+      "Optimize website content for AI training data inclusion",
+      "Create detailed product specification content",
+      "Develop comprehensive benefit-focused messaging",
+      "Build authority through expert testimonials and reviews"
+    ],
+    "data_confidence": {
+      "average_confidence": 0.9833333333333333,
+      "confidence_level": "High",
+      "data_quality_score": 96.74000000000001,
+      "recommendation": "Sufficient data for reliable insights"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+query,ai_engine,model,timestamp,response_length,response_quality,total_citations,your_brand_mentioned,competitors_mentioned,total_brands_mentioned,contains_recommendations,contains_specific_products,mention_context,top_competitors
+best mineral sunscreen 2024,openai,gpt-4,2025-08-15T00:33:08.973703,2352,0.9000000000000001,4,False,4,4,True,True,,"coola, eltamd, supergoop"
+best mineral sunscreen 2024,openai,gpt-3.5-turbo,2025-08-15T00:33:02.596126,2500,0.8,3,False,3,3,True,True,,"coola, eltamd, badger"
+best mineral sunscreen 2024,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:09.696759,2467,0.9000000000000001,6,False,4,4,True,True,,"cerave, supergoop, neutrogena"
+best mineral sunscreen 2024,google,gemini-1.5-pro,2025-08-15T00:33:15.467652,4508,0.9000000000000001,8,False,7,7,True,True,,"supergoop, badger, thinksport"
+top rated zinc oxide sunscreen,openai,gpt-4,2025-08-15T00:33:16.434088,2171,0.9000000000000001,13,False,5,5,False,True,,"badger, blue lizard, eltamd"
+top rated zinc oxide sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:33:07.953071,2368,0.9000000000000001,5,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+top rated zinc oxide sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:20.176612,2552,0.9000000000000001,9,False,4,4,True,False,,"cerave, supergoop, neutrogena"
+top rated zinc oxide sunscreen,google,gemini-1.5-pro,2025-08-15T00:33:24.017955,3736,0.9000000000000001,7,False,7,7,True,True,,"supergoop, badger, all good"
+mineral powder sunscreen recommendations,openai,gpt-4,2025-08-15T00:33:30.980874,3205,0.9000000000000001,4,False,1,1,True,True,,supergoop
+mineral powder sunscreen recommendations,openai,gpt-3.5-turbo,2025-08-15T00:33:19.513166,2089,0.6000000000000001,1,True,0,1,True,False,**Brush On Block Mineral Sunscreen Powder SPF 30**: This mineral powder sunscreen offers broad-spectrum SPF 30 protection and contains the active ingredient zinc oxide,
+mineral powder sunscreen recommendations,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:24.630636,1474,0.5,0,False,0,0,True,False,,
+mineral powder sunscreen recommendations,google,gemini-1.5-pro,2025-08-15T00:33:35.997767,4130,0.7,2,True,1,2,True,False,"* **Brand:** Brush On Block
+* **Product:** Mineral Powder Sunscreen SPF 30
+* **Ingredients:** Titanium Dioxide (22",supergoop
+best reef safe sunscreen,openai,gpt-4,2025-08-15T00:33:36.590232,2702,0.9000000000000001,9,False,4,4,True,True,,"stream2sea, blue lizard, badger"
+best reef safe sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:33:28.316276,1805,0.8,4,False,4,4,True,False,,"thinksport, all good, badger"
+best reef safe sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:35.314471,1996,0.9000000000000001,4,False,4,4,True,False,,"coola, supergoop, sun bum"
+best reef safe sunscreen,google,gemini-1.5-pro,2025-08-15T00:33:43.882484,3825,0.9000000000000001,7,False,7,7,True,True,,"stream2sea, supergoop, badger"
+dermatologist recommended mineral sunscreen,openai,gpt-4,2025-08-15T00:33:45.446185,2755,0.9000000000000001,7,False,3,3,True,True,,"blue lizard, eltamd, neutrogena"
+dermatologist recommended mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:33:39.271648,2082,0.8,3,False,3,3,True,True,,"eltamd, cerave, aveeno"
+dermatologist recommended mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:48.597603,2666,0.9000000000000001,8,False,5,5,True,True,,"supergoop, blue lizard, eltamd"
+dermatologist recommended mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:33:52.964049,4173,0.9000000000000001,6,False,6,6,True,True,,"supergoop, badger, blue lizard"
+best mineral sunscreen for face,openai,gpt-4,2025-08-15T00:33:53.616859,2142,0.9000000000000001,8,False,4,4,True,True,,"coola, eltamd, neutrogena"
+best mineral sunscreen for face,openai,gpt-3.5-turbo,2025-08-15T00:33:49.616982,2644,0.7,2,False,2,2,True,True,,"coola, eltamd"
+best mineral sunscreen for face,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:33:58.223113,2542,0.9000000000000001,5,False,3,3,True,True,,"cerave, supergoop, eltamd"
+best mineral sunscreen for face,google,gemini-1.5-pro,2025-08-15T00:34:05.399499,4571,0.9000000000000001,5,False,3,3,True,True,,"cerave, supergoop, eltamd"
+high SPF mineral sunscreen,openai,gpt-4,2025-08-15T00:34:06.002126,2769,0.9000000000000001,5,False,3,3,True,True,,"blue lizard, eltamd, neutrogena"
+high SPF mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:33:56.587749,1999,0.8,3,False,3,3,True,True,,"coola, eltamd, cerave"
+high SPF mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:02.010598,1480,0.8,3,False,3,3,True,False,,"eltamd, cerave, neutrogena"
+high SPF mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:34:10.703393,3695,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, badger"
+mineral sunscreen for sensitive skin,openai,gpt-4,2025-08-15T00:34:12.968470,2513,0.9000000000000001,8,False,4,4,True,True,,"coola, eltamd, neutrogena"
+mineral sunscreen for sensitive skin,openai,gpt-3.5-turbo,2025-08-15T00:34:06.586915,2227,0.8,3,False,3,3,True,True,,"blue lizard, eltamd, cerave"
+mineral sunscreen for sensitive skin,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:16.344166,2458,0.8,3,False,3,3,True,False,,"eltamd, cerave, neutrogena"
+mineral sunscreen for sensitive skin,google,gemini-1.5-pro,2025-08-15T00:34:22.180737,4342,0.9000000000000001,6,False,6,6,True,True,,"supergoop, badger, blue lizard"
+best chemical free sunscreen,openai,gpt-4,2025-08-15T00:34:24.721785,2942,0.9000000000000001,14,False,5,5,True,True,,"badger, coola, blue lizard"
+best chemical free sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:34:14.602375,1887,0.9000000000000001,5,False,5,5,True,True,,"badger, coola, blue lizard"
+best chemical free sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:23.211144,2020,0.9000000000000001,4,False,4,4,True,False,,"blue lizard, eltamd, cerave"
+best chemical free sunscreen,google,gemini-1.5-pro,2025-08-15T00:34:29.283188,3575,0.9000000000000001,6,False,6,6,True,True,,"badger, all good, thinksport"
+organic mineral sunscreen brands,openai,gpt-4,2025-08-15T00:34:29.246326,2361,0.8,8,False,3,3,True,True,,"coola, badger, thinksport"
+organic mineral sunscreen brands,openai,gpt-3.5-turbo,2025-08-15T00:34:26.483062,2207,0.8,3,False,3,3,True,False,,"coola, badger, alba botanica"
+organic mineral sunscreen brands,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:33.861633,1751,0.6000000000000001,1,False,1,1,True,False,,badger
+organic mineral sunscreen brands,google,gemini-1.5-pro,2025-08-15T00:34:41.026637,4209,0.9000000000000001,8,False,6,6,True,True,,"badger, all good, blue lizard"
+luxury mineral sunscreen products,openai,gpt-4,2025-08-15T00:34:39.714112,2561,0.9000000000000001,6,False,3,3,True,True,,"coola, eltamd, drunk elephant"
+luxury mineral sunscreen products,openai,gpt-3.5-turbo,2025-08-15T00:34:32.637012,2016,0.5,0,False,0,0,True,True,,
+luxury mineral sunscreen products,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:42.343229,2792,0.5,0,False,0,0,True,False,,
+luxury mineral sunscreen products,google,gemini-1.5-pro,2025-08-15T00:34:47.779687,4028,0.8,3,False,3,3,True,True,,"eltamd, supergoop, thinksport"
+affordable mineral sunscreen options,openai,gpt-4,2025-08-15T00:34:46.653918,2341,0.9000000000000001,8,False,3,3,False,True,,"blue lizard, cerave, neutrogena"
+affordable mineral sunscreen options,openai,gpt-3.5-turbo,2025-08-15T00:34:43.714897,2268,0.8,3,False,3,3,True,True,,"cerave, neutrogena, aveeno"
+affordable mineral sunscreen options,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:49.042417,1587,0.8,3,False,3,3,True,False,,"blue lizard, cerave, neutrogena"
+affordable mineral sunscreen options,google,gemini-1.5-pro,2025-08-15T00:34:56.591345,3726,0.9000000000000001,7,False,6,6,True,True,,"blue lizard, sun bum, coppertone"
+travel size mineral sunscreen,openai,gpt-4,2025-08-15T00:35:05.213184,2298,0.9000000000000001,9,False,5,5,True,True,,"supergoop, coola, blue lizard"
+travel size mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:34:50.242141,2464,0.8,3,False,3,3,True,True,,"coola, eltamd, bare republic"
+travel size mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:34:56.270558,1465,0.9000000000000001,4,False,4,4,True,False,,"coola, cerave, supergoop"
+travel size mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:35:04.576408,3779,0.9000000000000001,8,False,7,7,True,True,,"supergoop, badger, all good"
+waterproof mineral sunscreen,openai,gpt-4,2025-08-15T00:35:05.195726,2306,0.9000000000000001,8,False,4,4,True,True,,"coola, eltamd, neutrogena"
+waterproof mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:35:01.031076,2303,0.9000000000000001,5,False,5,5,True,True,,"badger, coola, blue lizard"
+waterproof mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:07.592197,2239,0.9000000000000001,8,False,4,4,True,False,,"blue lizard, eltamd, cerave"
+waterproof mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:35:15.018095,3629,0.9000000000000001,7,False,6,6,True,True,,"badger, all good, thinksport"
+tinted mineral sunscreen powder,openai,gpt-4,2025-08-15T00:35:19.835900,2586,0.5,0,False,0,0,True,False,,
+tinted mineral sunscreen powder,openai,gpt-3.5-turbo,2025-08-15T00:35:08.772269,2119,0.6000000000000001,1,False,1,1,True,False,,supergoop
+tinted mineral sunscreen powder,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:15.127726,1908,0.6000000000000001,1,True,0,1,True,True,"Brush On Block Mineral Sunscreen Powder SPF 30
+- Features: Reef-safe, broad-spectrum protection
+- Active ingredients: Titanium Dioxide and Zinc Oxide
+- Available in 2 shades
+- Benefits: Refillable cartridge system, economic
+- Best for: All skin types
+- Price range: Affordable ($32)
+
+Key Benefits of Mineral Powder Sunscreens:
+- Easy reapplication throughout the day
+- Won't disturb makeup
+- Good for oily skin (absorbs excess oil)
+- Travel-friendly
+- Non-irritating for sensitive skin
+
+Tips for Use:
+1",
+tinted mineral sunscreen powder,google,gemini-1.5-pro,2025-08-15T00:35:22.289447,3581,0.7,2,True,1,2,True,True,* **Brush On Block Mineral Powder Sunscreen SPF 30:** Another excellent option using mineral filters,supergoop
+mineral sunscreen that doesn't leave white cast,openai,gpt-4,2025-08-15T00:35:26.977501,2559,0.8,4,False,3,3,True,True,,"drunk elephant, eltamd, supergoop"
+mineral sunscreen that doesn't leave white cast,openai,gpt-3.5-turbo,2025-08-15T00:35:18.912302,2369,0.8,3,False,3,3,True,False,,"coola, eltamd, drunk elephant"
+mineral sunscreen that doesn't leave white cast,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:25.459315,1976,0.7,2,False,2,2,True,False,,"eltamd, supergoop"
+mineral sunscreen that doesn't leave white cast,google,gemini-1.5-pro,2025-08-15T00:35:34.164894,4037,0.9000000000000001,5,False,5,5,True,True,,"supergoop, blue lizard, sun bum"
+sunscreen for acne prone skin mineral,openai,gpt-4,2025-08-15T00:35:32.279561,2091,0.8,9,False,4,4,True,True,,"coola, eltamd, supergoop"
+sunscreen for acne prone skin mineral,openai,gpt-3.5-turbo,2025-08-15T00:35:25.424878,2208,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+sunscreen for acne prone skin mineral,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:36.842095,2216,0.9000000000000001,6,False,3,3,True,False,,"eltamd, cerave, neutrogena"
+sunscreen for acne prone skin mineral,google,gemini-1.5-pro,2025-08-15T00:35:40.516204,3760,0.9000000000000001,6,False,6,6,True,True,,"badger, thinksport, blue lizard"
+mineral sunscreen for dark skin tones,openai,gpt-4,2025-08-15T00:35:44.520492,2668,0.9000000000000001,5,False,3,3,True,True,,"eltamd, supergoop, bare republic"
+mineral sunscreen for dark skin tones,openai,gpt-3.5-turbo,2025-08-15T00:35:38.181129,2364,0.8,3,False,3,3,True,True,,"cerave, supergoop, eltamd"
+mineral sunscreen for dark skin tones,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:44.589069,2064,0.6000000000000001,1,False,1,1,True,False,,supergoop
+mineral sunscreen for dark skin tones,google,gemini-1.5-pro,2025-08-15T00:35:50.870058,3604,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, supergoop"
+non greasy mineral sunscreen,openai,gpt-4,2025-08-15T00:35:49.842361,1906,0.9000000000000001,8,False,4,4,True,True,,"coola, eltamd, neutrogena"
+non greasy mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:35:44.865432,2533,0.9000000000000001,4,False,3,3,True,True,,"cerave, supergoop, eltamd"
+non greasy mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:52.402616,1519,0.8,3,False,3,3,True,False,,"cerave, supergoop, eltamd"
+non greasy mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:35:57.029633,3366,0.9000000000000001,5,False,5,5,True,True,,"supergoop, blue lizard, thinkbaby"
+mineral sunscreen for kids sensitive skin,openai,gpt-4,2025-08-15T00:35:56.090058,1867,0.9000000000000001,5,False,5,5,False,True,,"badger, aveeno, blue lizard"
+mineral sunscreen for kids sensitive skin,openai,gpt-3.5-turbo,2025-08-15T00:35:52.951111,2166,0.9000000000000001,5,False,5,5,True,True,,"badger, blue lizard, thinkbaby"
+mineral sunscreen for kids sensitive skin,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:35:59.666440,1725,0.9000000000000001,6,False,6,6,True,False,,"badger, thinksport, blue lizard"
+mineral sunscreen for kids sensitive skin,google,gemini-1.5-pro,2025-08-15T00:36:06.986832,3871,0.9000000000000001,8,False,6,6,True,True,,"badger, thinksport, blue lizard"
+sunscreen that won't clog pores mineral,openai,gpt-4,2025-08-15T00:36:21.886214,3126,0.9000000000000001,8,False,4,4,False,True,,"cerave, supergoop, neutrogena"
+sunscreen that won't clog pores mineral,openai,gpt-3.5-turbo,2025-08-15T00:36:02.539506,2672,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+sunscreen that won't clog pores mineral,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:04.587978,1647,0.7,2,False,2,2,True,False,,"eltamd, cerave"
+sunscreen that won't clog pores mineral,google,gemini-1.5-pro,2025-08-15T00:36:13.388905,3567,0.9000000000000001,5,False,5,5,True,True,,"blue lizard, sun bum, thinkbaby"
+mineral sunscreen for rosacea,openai,gpt-4,2025-08-15T00:36:18.742983,2393,0.9000000000000001,6,False,3,3,True,True,,"drunk elephant, eltamd, neutrogena"
+mineral sunscreen for rosacea,openai,gpt-3.5-turbo,2025-08-15T00:36:09.395743,2568,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+mineral sunscreen for rosacea,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:20.768416,2795,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+mineral sunscreen for rosacea,google,gemini-1.5-pro,2025-08-15T00:36:23.698505,3965,0.9000000000000001,5,False,5,5,True,True,,"badger, blue lizard, thinkbaby"
+hypoallergenic mineral sunscreen,openai,gpt-4,2025-08-15T00:36:26.804445,2071,0.9000000000000001,5,False,3,3,True,True,,"blue lizard, eltamd, neutrogena"
+hypoallergenic mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:36:22.605828,2477,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+hypoallergenic mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:30.592760,2052,0.7,2,False,2,2,True,False,,"eltamd, cerave"
+hypoallergenic mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:36:37.764777,4013,0.9000000000000001,6,False,5,5,True,True,,"badger, blue lizard, thinkbaby"
+fragrance free mineral sunscreen,openai,gpt-4,2025-08-15T00:36:37.366583,1907,0.9000000000000001,8,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+fragrance free mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:36:28.041600,1930,0.8,3,False,3,3,True,True,,"blue lizard, eltamd, cerave"
+fragrance free mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:36.124844,1862,0.9000000000000001,4,False,4,4,True,False,,"blue lizard, eltamd, cerave"
+fragrance free mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:36:42.829904,3756,0.9000000000000001,6,False,6,6,True,True,,"badger, thinksport, blue lizard"
+mineral sunscreen for eczema,openai,gpt-4,2025-08-15T00:36:45.649111,2623,0.9000000000000001,6,False,3,3,True,True,,"blue lizard, eltamd, neutrogena"
+mineral sunscreen for eczema,openai,gpt-3.5-turbo,2025-08-15T00:36:41.040358,2678,0.8,3,False,3,3,True,True,,"blue lizard, eltamd, cerave"
+mineral sunscreen for eczema,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:48.520456,2406,0.7,2,False,2,2,True,True,,"cerave, neutrogena"
+mineral sunscreen for eczema,google,gemini-1.5-pro,2025-08-15T00:36:51.734375,3925,0.9000000000000001,5,False,5,5,True,True,,"badger, blue lizard, thinkbaby"
+pregnancy safe mineral sunscreen,openai,gpt-4,2025-08-15T00:36:57.006156,2497,0.9000000000000001,5,False,5,5,True,True,,"supergoop, badger, blue lizard"
+pregnancy safe mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:36:46.117566,2324,0.9000000000000001,5,False,5,5,True,True,,"badger, coola, blue lizard"
+pregnancy safe mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:36:58.589410,2561,0.9000000000000001,11,False,6,6,True,True,,"supergoop, badger, thinkbaby"
+pregnancy safe mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:36:59.504312,3753,0.9000000000000001,6,False,6,6,True,True,,"badger, blue lizard, sun bum"
+mineral sunscreen for oily skin,openai,gpt-4,2025-08-15T00:37:08.484586,2123,0.9000000000000001,4,False,2,2,True,True,,"eltamd, supergoop"
+mineral sunscreen for oily skin,openai,gpt-3.5-turbo,2025-08-15T00:36:55.605733,2218,0.8,3,False,3,3,True,True,,"coola, eltamd, bare republic"
+mineral sunscreen for oily skin,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:05.721189,1917,0.9000000000000001,5,False,3,3,True,False,,"cerave, supergoop, eltamd"
+mineral sunscreen for oily skin,google,gemini-1.5-pro,2025-08-15T00:37:11.247273,3787,0.9000000000000001,4,True,3,4,True,True,"* **Brush On Block Mineral Powder Sunscreen SPF 30:** Another excellent powder option, this sunscreen is easy to apply and provides broad-spectrum protection","cerave, supergoop, eltamd"
+how to apply powder sunscreen correctly,openai,gpt-4,2025-08-15T00:37:10.243782,1840,0.4,1,False,1,1,True,True,,eltamd
+how to apply powder sunscreen correctly,openai,gpt-3.5-turbo,2025-08-15T00:37:03.053715,1582,0.6000000000000001,1,False,1,1,True,True,,supergoop
+how to apply powder sunscreen correctly,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:12.169758,1693,0.6000000000000001,1,False,1,1,True,True,,supergoop
+how to apply powder sunscreen correctly,google,gemini-1.5-pro,2025-08-15T00:37:21.896914,4164,0.8,3,True,1,2,True,True,"* **Brush On Block Mineral Powder Sunscreen SPF 30:** Another excellent mineral option, this sunscreen is translucent and works well on all skin types",supergoop
+powder sunscreen over makeup tutorial,openai,gpt-4,2025-08-15T00:37:24.613272,2766,0.7,2,False,1,1,True,True,,supergoop
+powder sunscreen over makeup tutorial,openai,gpt-3.5-turbo,2025-08-15T00:37:13.499195,1944,0.6000000000000001,1,False,1,1,True,True,,supergoop
+powder sunscreen over makeup tutorial,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:21.189632,1849,0.6000000000000001,1,False,1,1,True,False,,supergoop
+powder sunscreen over makeup tutorial,google,gemini-1.5-pro,2025-08-15T00:37:28.958571,4434,0.7,2,True,1,2,True,False,"* **Brush On Block Mineral Powder Sunscreen SPF 30:** This translucent powder contains only four ingredients: titanium dioxide, zinc oxide, iron oxides, and mica",supergoop
+reapplying powder sunscreen during day,openai,gpt-4,2025-08-15T00:37:27.220920,2204,0.9000000000000001,4,True,1,2,True,True,"**Brush On Block Mineral Sunscreen Powder, Broad Spectrum SPF 30** 
+   This powder sunscreen is a mineral-based formula, meaning it uses active ingredients like titanium dioxide and zinc oxide to physically block the sun's rays",supergoop
+reapplying powder sunscreen during day,openai,gpt-3.5-turbo,2025-08-15T00:37:24.476355,1730,0.4,1,False,1,1,True,True,,supergoop
+reapplying powder sunscreen during day,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:30.803696,1617,0.6000000000000001,1,False,1,1,True,True,,supergoop
+reapplying powder sunscreen during day,google,gemini-1.5-pro,2025-08-15T00:37:40.125430,3928,0.7,2,True,1,2,True,True,* **Brush On Block Translucent Mineral Powder Sunscreen SPF 30:**  A translucent option good for all skin tones,supergoop
+setting powder with SPF vs sunscreen,openai,gpt-4,2025-08-15T00:37:44.808571,2969,0.9000000000000001,6,False,3,3,True,True,,"eltamd, supergoop, neutrogena"
+setting powder with SPF vs sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:37:30.291813,1918,0.7,2,False,2,2,True,True,,"cerave, supergoop"
+setting powder with SPF vs sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:36.469497,1433,0.6000000000000001,2,False,2,2,True,False,,"eltamd, supergoop"
+setting powder with SPF vs sunscreen,google,gemini-1.5-pro,2025-08-15T00:37:45.241201,3558,0.9000000000000001,4,False,3,3,True,False,,"cerave, supergoop, eltamd"
+mineral sunscreen application tips,openai,gpt-4,2025-08-15T00:37:47.848246,2655,0.9000000000000001,7,False,3,3,True,True,,"blue lizard, eltamd, neutrogena"
+mineral sunscreen application tips,openai,gpt-3.5-turbo,2025-08-15T00:37:42.279249,2272,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+mineral sunscreen application tips,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:53.920730,2608,0.9000000000000001,7,False,7,7,True,False,,"supergoop, coola, blue lizard"
+mineral sunscreen application tips,google,gemini-1.5-pro,2025-08-15T00:37:55.688413,3500,0.9000000000000001,6,False,6,6,True,True,,"supergoop, all good, thinksport"
+how much powder sunscreen to use,openai,gpt-4,2025-08-15T00:37:57.123267,2069,0.9000000000000001,6,True,1,2,True,False,Brush On Block Protective Lip Oil SPF 32: This product is specifically for your lips,supergoop
+how much powder sunscreen to use,openai,gpt-3.5-turbo,2025-08-15T00:37:47.802519,1676,0.6000000000000001,1,False,1,1,True,False,,supergoop
+how much powder sunscreen to use,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:37:56.091117,1415,0.6000000000000001,1,False,1,1,True,True,,supergoop
+how much powder sunscreen to use,google,gemini-1.5-pro,2025-08-15T00:38:02.655464,3592,0.8,3,True,2,3,True,True,"* **Brush On Block Mineral Powder Sunscreen SPF 30:** Another excellent mineral option, this sunscreen is fragrance-free and hypoallergenic, reducing the risk of irritation","coola, supergoop"
+powder sunscreen for touch ups,openai,gpt-4,2025-08-15T00:38:07.657742,2668,0.8,3,False,1,1,True,True,,supergoop
+powder sunscreen for touch ups,openai,gpt-3.5-turbo,2025-08-15T00:38:00.087990,2109,0.6000000000000001,1,False,1,1,True,True,,supergoop
+powder sunscreen for touch ups,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:05.319163,1787,0.6000000000000001,1,False,1,1,True,False,,supergoop
+powder sunscreen for touch ups,google,gemini-1.5-pro,2025-08-15T00:38:10.636968,3607,0.7,2,True,1,2,True,True,"* **Brush On Block Mineral Powder Sunscreen SPF 30:** Another popular brush-on option, this one is slightly more affordable than Colorescience",supergoop
+layering mineral sunscreen with skincare,openai,gpt-4,2025-08-15T00:38:15.283275,2302,0.9000000000000001,8,False,3,3,True,True,,"eltamd, supergoop, neutrogena"
+layering mineral sunscreen with skincare,openai,gpt-3.5-turbo,2025-08-15T00:38:07.576571,1500,0.7,2,False,2,2,True,False,,"eltamd, cerave"
+layering mineral sunscreen with skincare,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:18.057487,2408,0.9000000000000001,5,False,4,4,True,True,,"cerave, supergoop, neutrogena"
+layering mineral sunscreen with skincare,google,gemini-1.5-pro,2025-08-15T00:38:23.748236,4331,0.9000000000000001,6,False,5,5,True,True,,"supergoop, badger, blue lizard"
+mineral sunscreen under foundation,openai,gpt-4,2025-08-15T00:38:31.536140,2739,0.9000000000000001,12,False,3,3,True,True,,"cerave, supergoop, eltamd"
+mineral sunscreen under foundation,openai,gpt-3.5-turbo,2025-08-15T00:38:14.222961,2516,0.8,3,False,3,3,True,True,,"coola, eltamd, drunk elephant"
+mineral sunscreen under foundation,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:22.827933,1481,0.7,2,False,2,2,True,False,,"cerave, supergoop"
+mineral sunscreen under foundation,google,gemini-1.5-pro,2025-08-15T00:38:30.102256,3821,0.8,3,False,3,3,True,False,,"cerave, supergoop, eltamd"
+best way to blend powder sunscreen,openai,gpt-4,2025-08-15T00:38:34.190701,2395,0.9000000000000001,4,False,1,1,True,True,,supergoop
+best way to blend powder sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:38:26.101248,2319,0.5,2,True,1,2,True,False,**Brush On Block Mineral Sunscreen Powder SPF 30**: This mineral sunscreen powder offers SPF 30 protection and is water-resistant,supergoop
+best way to blend powder sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:31.534795,1380,0.4,0,False,0,0,True,False,,
+best way to blend powder sunscreen,google,gemini-1.5-pro,2025-08-15T00:38:38.380651,3050,0.7,2,True,1,2,True,True,"**Recommended products:** *Brush On Block Mineral Powder Sunscreen SPF 30*, *Thinkbaby Safe Sunscreen SPF 50+*",thinkbaby
+zinc oxide vs titanium dioxide sunscreen,openai,gpt-4,2025-08-15T00:38:44.638817,1836,0.9000000000000001,4,False,1,1,True,False,,eltamd
+zinc oxide vs titanium dioxide sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:38:34.661249,2194,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+zinc oxide vs titanium dioxide sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:44.636608,2256,0.9000000000000001,6,False,3,3,True,False,,"eltamd, cerave, neutrogena"
+zinc oxide vs titanium dioxide sunscreen,google,gemini-1.5-pro,2025-08-15T00:38:50.474650,4163,0.9000000000000001,6,False,6,6,True,True,,"supergoop, badger, blue lizard"
+nano vs non nano mineral sunscreen,openai,gpt-4,2025-08-15T00:38:47.301740,2440,0.9000000000000001,4,False,3,3,True,True,,"eltamd, badger, thinksport"
+nano vs non nano mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:38:41.454449,2150,0.6,3,False,3,3,True,False,,"eltamd, badger, thinkbaby"
+nano vs non nano mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:38:52.257020,2024,0.9000000000000001,6,False,6,6,True,False,,"supergoop, badger, blue lizard"
+nano vs non nano mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:39:00.611615,4174,0.9000000000000001,4,False,4,4,True,True,,"eltamd, supergoop, badger"
+mineral sunscreen ingredients to avoid,openai,gpt-4,2025-08-15T00:38:58.307837,2668,0.9000000000000001,4,False,4,4,True,True,,"coola, eltamd, neutrogena"
+mineral sunscreen ingredients to avoid,openai,gpt-3.5-turbo,2025-08-15T00:38:51.291798,2467,0.7,3,False,3,3,True,False,,"coola, eltamd, badger"
+mineral sunscreen ingredients to avoid,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:03.688951,2769,0.9000000000000001,7,False,7,7,True,False,,"drunk elephant, supergoop, badger"
+mineral sunscreen ingredients to avoid,google,gemini-1.5-pro,2025-08-15T00:39:03.489955,3208,0.9000000000000001,4,False,4,4,True,False,,"eltamd, cerave, badger"
+how does zinc oxide sunscreen work,openai,gpt-4,2025-08-15T00:39:06.338588,2555,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+how does zinc oxide sunscreen work,openai,gpt-3.5-turbo,2025-08-15T00:39:01.946629,2041,0.7,3,False,3,3,True,False,,"blue lizard, eltamd, cerave"
+how does zinc oxide sunscreen work,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:11.362611,2299,0.9000000000000001,5,False,5,5,True,False,,"badger, blue lizard, eltamd"
+how does zinc oxide sunscreen work,google,gemini-1.5-pro,2025-08-15T00:39:17.198923,3919,0.9000000000000001,5,False,5,5,True,True,,"badger, blue lizard, sun bum"
+titanium dioxide safety in sunscreen,openai,gpt-4,2025-08-15T00:39:19.967176,2446,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, neutrogena"
+titanium dioxide safety in sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:39:07.685746,2133,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+titanium dioxide safety in sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:16.584975,2076,0.7,2,False,2,2,True,False,,"eltamd, cerave"
+titanium dioxide safety in sunscreen,google,gemini-1.5-pro,2025-08-15T00:39:21.699764,3783,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, cerave, badger"
+mineral sunscreen chemical composition,openai,gpt-4,2025-08-15T00:39:31.228996,2810,0.9000000000000001,7,False,4,4,True,True,,"coola, eltamd, neutrogena"
+mineral sunscreen chemical composition,openai,gpt-3.5-turbo,2025-08-15T00:39:20.138499,2545,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, cerave"
+mineral sunscreen chemical composition,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:29.206311,2303,0.8,3,False,3,3,True,False,,"eltamd, cerave, badger"
+mineral sunscreen chemical composition,google,gemini-1.5-pro,2025-08-15T00:39:33.581622,3611,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, badger"
+SPF ratings mineral vs chemical,openai,gpt-4,2025-08-15T00:39:38.771111,3027,0.8,3,False,3,3,True,True,,"eltamd, neutrogena, aveeno"
+SPF ratings mineral vs chemical,openai,gpt-3.5-turbo,2025-08-15T00:39:25.354108,2668,0.8,3,False,3,3,True,True,,"eltamd, cerave, neutrogena"
+SPF ratings mineral vs chemical,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:33.781161,1638,0.9000000000000001,4,False,4,4,False,False,,"cerave, supergoop, neutrogena"
+SPF ratings mineral vs chemical,google,gemini-1.5-pro,2025-08-15T00:39:46.689161,4489,0.9000000000000001,6,False,6,6,True,True,,"supergoop, badger, coola"
+UV protection mineral sunscreen science,openai,gpt-4,2025-08-15T00:39:50.280213,3233,0.9000000000000001,11,False,4,4,True,True,,"coola, eltamd, neutrogena"
+UV protection mineral sunscreen science,openai,gpt-3.5-turbo,2025-08-15T00:39:38.245245,2136,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+UV protection mineral sunscreen science,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:43.825330,1991,0.9000000000000001,5,False,3,3,True,False,,"drunk elephant, eltamd, cerave"
+UV protection mineral sunscreen science,google,gemini-1.5-pro,2025-08-15T00:39:54.468819,4405,0.9000000000000001,7,False,7,7,True,True,,"drunk elephant, supergoop, badger"
+mineral vs chemical sunscreen pros cons,openai,gpt-4,2025-08-15T00:39:53.042248,2700,0.9000000000000001,4,False,3,3,True,True,,"eltamd, supergoop, neutrogena"
+mineral vs chemical sunscreen pros cons,openai,gpt-3.5-turbo,2025-08-15T00:39:48.247761,2712,0.6000000000000001,1,False,1,1,True,True,,eltamd
+mineral vs chemical sunscreen pros cons,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:39:58.158397,2307,0.9000000000000001,5,False,4,4,True,True,,"cerave, supergoop, neutrogena"
+mineral vs chemical sunscreen pros cons,google,gemini-1.5-pro,2025-08-15T00:40:04.098878,4250,0.9000000000000001,6,False,6,6,True,True,,"supergoop, thinksport, blue lizard"
+powder vs cream mineral sunscreen,openai,gpt-4,2025-08-15T00:40:06.869545,2893,0.8,3,False,1,1,False,True,,neutrogena
+powder vs cream mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:39:56.623764,2611,0.8,3,False,3,3,True,True,,"coola, eltamd, supergoop"
+powder vs cream mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:40:04.718047,1966,0.7,2,False,2,2,True,False,,"eltamd, cerave"
+powder vs cream mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:40:13.106183,4270,0.9000000000000001,4,True,3,4,True,True,"* **Brush On Block Mineral Sunscreen Powder SPF 30:**  A more affordable option, also available in tinted shades","blue lizard, eltamd, supergoop"
+drugstore vs luxury mineral sunscreen,openai,gpt-4,2025-08-15T00:40:18.953261,2245,0.9000000000000001,6,False,3,3,True,True,,"eltamd, cerave, neutrogena"
+drugstore vs luxury mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:40:08.432755,2128,0.8,3,False,3,3,True,True,,"eltamd, cerave, neutrogena"
+drugstore vs luxury mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:40:17.537271,2612,0.8,3,False,2,2,True,False,,"cerave, neutrogena"
+drugstore vs luxury mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:40:24.685820,4360,0.9000000000000001,6,False,6,6,True,True,,"drunk elephant, supergoop, sun bum"
+Korean vs American mineral sunscreen,openai,gpt-4,2025-08-15T00:40:31.853286,2722,0.9000000000000001,5,False,2,2,True,True,,"blue lizard, eltamd"
+Korean vs American mineral sunscreen,openai,gpt-3.5-turbo,2025-08-15T00:40:17.516715,2296,0.7,2,False,2,2,True,True,,"eltamd, cerave"
+Korean vs American mineral sunscreen,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:40:27.143731,1911,0.6000000000000001,1,False,1,1,True,True,,eltamd
+Korean vs American mineral sunscreen,google,gemini-1.5-pro,2025-08-15T00:40:34.924034,4434,0.8,3,False,3,3,True,True,,"eltamd, supergoop, thinksport"
+mineral sunscreen vs BB cream SPF,openai,gpt-4,2025-08-15T00:40:39.330737,2432,0.9000000000000001,8,False,2,2,True,True,,"eltamd, neutrogena"
+mineral sunscreen vs BB cream SPF,openai,gpt-3.5-turbo,2025-08-15T00:40:28.678123,2516,0.7,2,False,2,2,True,True,,"coola, eltamd"
+mineral sunscreen vs BB cream SPF,anthropic,claude-3-5-sonnet-20241022,2025-08-15T00:40:36.422027,1644,0.6000000000000001,1,False,1,1,True,True,,eltamd
+mineral sunscreen vs BB cream SPF,google,gemini-1.5-pro,2025-08-15T00:40:44.756713,4108,0.9000000000000001,4,False,4,4,True,True,,"blue lizard, eltamd, supergoop"

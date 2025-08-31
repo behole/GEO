@@ -1,0 +1,67 @@
+{
+  "brand_vs_competitors": {
+    "brand_name": "Brush on Block",
+    "brand_score": 34.98108077475283,
+    "competitors_analyzed": 1,
+    "competitor_scores": {
+      "EltaMD": 29.674863021591005
+    }
+  },
+  "identified_gaps": [],
+  "competitive_advantages": [
+    "Unique content type: blog post"
+  ],
+  "priority_recommendations": [
+    "Study EltaMD's content strategy - highest scoring competitor"
+  ],
+  "content_opportunity_matrix": {
+    "high_impact_low_effort": [],
+    "high_impact_high_effort": [],
+    "low_impact_low_effort": [],
+    "competitive_benchmarks": {
+      "EltaMD": {
+        "overall_score": 29.674863021591005,
+        "content_types": 1,
+        "unique_features": [
+          "Interactive quizzes and assessments",
+          "Detailed ingredient analysis",
+          "Comprehensive application guidance",
+          "Skin type specific recommendations"
+        ],
+        "authority_score": 30.064046783074982
+      }
+    },
+    "content_type_gaps": {},
+    "keyword_opportunities": {}
+  },
+  "competitor_insights": {
+    "EltaMD": {
+      "content_types_found": {
+        "product_page": 29
+      },
+      "unique_features": [
+        "Interactive quizzes and assessments",
+        "Detailed ingredient analysis",
+        "Comprehensive application guidance",
+        "Skin type specific recommendations"
+      ],
+      "authority_metrics": {
+        "avg_authority_score": 30.064046783074982,
+        "pages_with_external_links": 0,
+        "avg_expertise_indicators": 0.9032258064516129,
+        "pages_with_author_info": 0,
+        "avg_word_count": 697.6451612903226
+      },
+      "keyword_coverage_top10": {
+        "zinc oxide": 103,
+        "sensitive skin": 22,
+        "titanium dioxide": 20,
+        "non-comedogenic": 20,
+        "mineral sunscreen": 14,
+        "water resistant": 12,
+        "broad spectrum": 12
+      }
+    }
+  },
+  "analysis_timestamp": "2025-08-14T20:43:04.081951"
+}

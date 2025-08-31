@@ -71,12 +71,24 @@
       "data": {
         "labels": [
           "2025-08-14",
-          "2025-08-14"
+          "2025-08-14",
+          "2025-08-14",
+          "2025-08-14",
+          "2025-08-14",
+          "2025-08-14",
+          "2025-08-17",
+          "2025-08-17"
         ],
         "datasets": [
           {
             "label": "Discovery Score",
             "data": [
+              16.4,
+              16.4,
+              16.4,
+              16.4,
+              16.4,
+              16.4,
               16.4,
               16.4
             ],
@@ -86,6 +98,12 @@
             "label": "Context Score",
             "data": [
               63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
               63.1
             ],
             "color": "#4CAF50"
@@ -93,6 +111,12 @@
           {
             "label": "Competitive Score",
             "data": [
+              21.5,
+              21.5,
+              21.5,
+              21.5,
+              21.5,
+              21.5,
               21.5,
               21.5
             ],
@@ -114,21 +138,27 @@
       "data": {
         "brand_position": {
           "overall_score": 33.666666666666664,
-          "market_rank": 3,
-          "competitive_strength": "Strong"
+          "market_rank": 4,
+          "competitive_strength": "Moderate"
         },
         "top_competitors": [
           {
-            "name": "primary",
-            "threat_level": "low",
-            "market_share": 17.503950937200727,
-            "score": 79.54045221763688
+            "name": "CeraVe",
+            "threat_level": "medium",
+            "market_share": 12.9038601085193,
+            "score": 75.75698173291038
           },
           {
-            "name": "secondary",
-            "threat_level": "low",
-            "market_share": 26.377232867715566,
-            "score": 68.28431949450069
+            "name": "Supergoop",
+            "threat_level": "medium",
+            "market_share": 23.543336655927,
+            "score": 68.74087558665654
+          },
+          {
+            "name": "EltaMD",
+            "threat_level": "high",
+            "market_share": 13.873137714641025,
+            "score": 68.48698358894053
           }
         ]
       },
@@ -146,11 +176,13 @@
       "data": {
         "threat_levels": {
           "critical": 0,
-          "high": 0,
-          "medium": 0,
-          "low": 2
+          "high": 1,
+          "medium": 2,
+          "low": 0
         },
-        "immediate_threats": []
+        "immediate_threats": [
+          "EltaMD"
+        ]
       },
       "refresh_rate": "hourly",
       "size": "small",
@@ -166,34 +198,34 @@
       "data": {
         "query_performance": [
           {
+            "query": "dermatologist recommended sunscreen",
+            "ranking": 7,
+            "citation_freq": 0.7895679388285957,
+            "market_share": 6.463493764669346
+          },
+          {
+            "query": "powder sunscreen application",
+            "ranking": 7,
+            "citation_freq": 0.7172841725087218,
+            "market_share": 12.370166421617661
+          },
+          {
             "query": "zinc oxide sunscreen",
-            "ranking": 9,
-            "citation_freq": 0.7176095446130205,
-            "market_share": 16.443765829094758
-          },
-          {
-            "query": "mineral sunscreen",
-            "ranking": 8,
-            "citation_freq": 0.6639235526036854,
-            "market_share": 7.326797245364755
-          },
-          {
-            "query": "powder sunscreen",
-            "ranking": 1,
-            "citation_freq": 0.6391349964425405,
-            "market_share": 20.03410975281094
+            "ranking": 10,
+            "citation_freq": 0.32103947680220213,
+            "market_share": 14.046889189194744
           },
           {
             "query": "reef safe sunscreen",
-            "ranking": 9,
-            "citation_freq": 0.31400059860373075,
-            "market_share": 13.209417405188757
+            "ranking": 1,
+            "citation_freq": 0.22771370737941551,
+            "market_share": 7.217204694814978
           },
           {
-            "query": "dermatologist sunscreen",
-            "ranking": 9,
-            "citation_freq": 0.2689124741154908,
-            "market_share": 15.503515152857476
+            "query": "mineral sunscreen",
+            "ranking": 7,
+            "citation_freq": 0.22547246654058736,
+            "market_share": 5.384362213830379
           }
         ]
       },
@@ -209,7 +241,14 @@
       "widget_type": "table",
       "title": "Optimization Pipeline",
       "data": {
-        "active_optimizations": [],
+        "active_optimizations": [
+          {
+            "type": "competitive",
+            "description": "TacticalRecommendation(priority='high', category='authority_building', recommendation='Implement sys...",
+            "priority": "high",
+            "timeline": "medium_term"
+          }
+        ],
         "pending_opportunities": [],
         "completed_optimizations": []
       },
@@ -262,8 +301,8 @@
       "title": "Business Impact & ROI",
       "data": {
         "current_metrics": {
-          "estimated_monthly_traffic": 520.7162332756936,
-          "estimated_conversion_value": 781.0743499135405,
+          "estimated_monthly_traffic": 456.21555241190447,
+          "estimated_conversion_value": 684.3233286178566,
           "brand_mention_value": 250,
           "competitive_advantage_score": 21.5
         },
@@ -328,22 +367,22 @@
         "traffic_sources": [
           {
             "source": "AI Citations",
-            "visits": 312
+            "visits": 273
           },
           {
             "source": "Organic Search",
-            "visits": 156
+            "visits": 136
           },
           {
             "source": "Direct",
-            "visits": 52
+            "visits": 45
           }
         ],
         "monthly_trend": [
+          319,
           364,
-          416,
-          468,
-          520
+          410,
+          456
         ]
       },
       "refresh_rate": "daily",
@@ -389,7 +428,7 @@
       }
     }
   ],
-  "last_updated": "2025-08-14T20:27:17.993757",
+  "last_updated": "2025-08-17T20:31:44.249023",
   "auto_refresh": true,
   "refresh_interval_seconds": 300
 }
