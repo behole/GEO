@@ -38,7 +38,7 @@ logger = logging.getLogger(__name__)
 class DiscoveryBaselineAgent:
     """Main orchestration class for the Discovery Baseline Agent"""
     
-    def __init__(self, config_override: Optional[Dict[str, Any]] = None):
+    def __init__(self, config_override: Optional[Dict[str, Any]] = None, config_file: Optional[str] = None):
         """Initialize the agent with optional configuration override"""
         self.config = Config()
         
@@ -47,10 +47,16 @@ class DiscoveryBaselineAgent:
             for key, value in config_override.items():
                 setattr(self.config, key, value)
         
+        # Load brand configuration from file if provided
+        self.brand_config = self._load_brand_config(config_file)
+        
         # Initialize components
         self.clients = None
         self.query_manager = None
-        self.batch_analyzer = BatchAnalyzer()
+        self.batch_analyzer = BatchAnalyzer(
+            target_brand=self.brand_config.get('brand_name'),
+            industry=self.brand_config.get('industry', 'generic')
+        )
         self.score_calculator = BaselineScoreCalculator()
         self.export_manager = ExportManager(self.config.OUTPUT_DIR)
         self.cost_tracker = APICostTracker()
@@ -58,6 +64,33 @@ class DiscoveryBaselineAgent:
         # Runtime metrics
         self.start_time = None
         self.execution_metrics = {}
+    
+    def _load_brand_config(self, config_file: Optional[str]) -> Dict[str, Any]:
+        """Load brand configuration from YAML file"""
+        if not config_file:
+            return {'brand_name': None, 'industry': 'generic'}
+        
+        try:
+            import yaml
+            from pathlib import Path
+            
+            config_path = Path(config_file)
+            if not config_path.exists():
+                logger.warning(f"Configuration file not found: {config_file}")
+                return {'brand_name': None, 'industry': 'generic'}
+            
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f)
+            
+            brand_name = config.get('brand', {}).get('name')
+            sector = config.get('sector', 'generic')
+            
+            logger.info(f"Loaded brand configuration: {brand_name} in {sector} sector")
+            return {'brand_name': brand_name, 'industry': sector}
+            
+        except Exception as e:
+            logger.error(f"Failed to load brand configuration from {config_file}: {str(e)}")
+            return {'brand_name': None, 'industry': 'generic'}
     
     async def initialize(self) -> Dict[str, Any]:
         """Initialize API clients and validate configuration"""
@@ -428,14 +461,15 @@ async def main():
 async def run_discovery_baseline(
     query_categories: Optional[List[str]] = None,
     max_queries: Optional[int] = None,
-    output_dir: str = "./results"
+    output_dir: str = "./results",
+    config_file: Optional[str] = None
 ) -> Dict[str, Any]:
     """
     Main function called by Claude Code orchestrator
     Returns: Discovery baseline results + scores
     """
     config_override = {"OUTPUT_DIR": output_dir}
-    agent = DiscoveryBaselineAgent(config_override)
+    agent = DiscoveryBaselineAgent(config_override, config_file)
     
     return await agent.run_discovery_baseline(
         query_categories=query_categories,

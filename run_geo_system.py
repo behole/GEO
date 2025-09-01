@@ -35,7 +35,7 @@ async def run_agent_1(config_path: Optional[str] = None):
     try:
         from discovery_baseline_agent.main import run_discovery_baseline
         logger.info("🔍 Running Agent 1 - Discovery Baseline Agent")
-        result = await run_discovery_baseline()
+        result = await run_discovery_baseline(config_file=config_path)
         logger.info("✅ Agent 1 completed successfully")
         return result
     except Exception as e:

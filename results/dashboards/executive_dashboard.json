@@ -26,8 +26,8 @@
       "widget_type": "metric",
       "title": "Business Impact Summary",
       "data": {
-        "estimated_monthly_traffic": 444.9964499094858,
-        "estimated_conversion_value": 667.4946748642287,
+        "estimated_monthly_traffic": 438.44219951237676,
+        "estimated_conversion_value": 657.6632992685651,
         "brand_mention_value": 250,
         "competitive_advantage_score": 21.5
       },
@@ -39,7 +39,7 @@
       }
     }
   ],
-  "last_updated": "2025-08-17T20:31:44.252522",
+  "last_updated": "2025-08-31T21:11:39.361245",
   "auto_refresh": true,
   "refresh_interval_seconds": 3600
 }

@@ -77,12 +77,24 @@
           "2025-08-14",
           "2025-08-14",
           "2025-08-17",
-          "2025-08-17"
+          "2025-08-17",
+          "2025-08-17",
+          "2025-08-31",
+          "2025-08-31",
+          "2025-08-31",
+          "2025-08-31",
+          "2025-08-31"
         ],
         "datasets": [
           {
             "label": "Discovery Score",
             "data": [
+              16.4,
+              16.4,
+              16.4,
+              16.4,
+              16.4,
+              16.4,
               16.4,
               16.4,
               16.4,
@@ -104,6 +116,12 @@
               63.1,
               63.1,
               63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
+              63.1,
               63.1
             ],
             "color": "#4CAF50"
@@ -111,6 +129,12 @@
           {
             "label": "Competitive Score",
             "data": [
+              21.5,
+              21.5,
+              21.5,
+              21.5,
+              21.5,
+              21.5,
               21.5,
               21.5,
               21.5,
@@ -143,22 +167,22 @@
         },
         "top_competitors": [
           {
+            "name": "EltaMD",
+            "threat_level": "high",
+            "market_share": 16.22806093027591,
+            "score": 73.93754889406027
+          },
+          {
             "name": "CeraVe",
             "threat_level": "medium",
-            "market_share": 12.9038601085193,
-            "score": 75.75698173291038
+            "market_share": 29.547827578559506,
+            "score": 73.1293876992736
           },
           {
             "name": "Supergoop",
             "threat_level": "medium",
-            "market_share": 23.543336655927,
-            "score": 68.74087558665654
-          },
-          {
-            "name": "EltaMD",
-            "threat_level": "high",
-            "market_share": 13.873137714641025,
-            "score": 68.48698358894053
+            "market_share": 22.79358195009396,
+            "score": 63.320432773878935
           }
         ]
       },
@@ -198,34 +222,34 @@
       "data": {
         "query_performance": [
           {
-            "query": "dermatologist recommended sunscreen",
-            "ranking": 7,
-            "citation_freq": 0.7895679388285957,
-            "market_share": 6.463493764669346
+            "query": "mineral sunscreen",
+            "ranking": 9,
+            "citation_freq": 0.7533139766285779,
+            "market_share": 20.976063241088383
           },
           {
             "query": "powder sunscreen application",
-            "ranking": 7,
-            "citation_freq": 0.7172841725087218,
-            "market_share": 12.370166421617661
+            "ranking": 1,
+            "citation_freq": 0.5681687702462249,
+            "market_share": 5.334197101020639
+          },
+          {
+            "query": "dermatologist recommended sunscreen",
+            "ranking": 4,
+            "citation_freq": 0.4426504900138023,
+            "market_share": 9.097796705496599
           },
           {
             "query": "zinc oxide sunscreen",
-            "ranking": 10,
-            "citation_freq": 0.32103947680220213,
-            "market_share": 14.046889189194744
+            "ranking": 3,
+            "citation_freq": 0.1412820615573087,
+            "market_share": 20.59729654447114
           },
           {
             "query": "reef safe sunscreen",
-            "ranking": 1,
-            "citation_freq": 0.22771370737941551,
-            "market_share": 7.217204694814978
-          },
-          {
-            "query": "mineral sunscreen",
-            "ranking": 7,
-            "citation_freq": 0.22547246654058736,
-            "market_share": 5.384362213830379
+            "ranking": 2,
+            "citation_freq": 0.1009704388068356,
+            "market_share": 16.749859551710053
           }
         ]
       },
@@ -301,8 +325,8 @@
       "title": "Business Impact & ROI",
       "data": {
         "current_metrics": {
-          "estimated_monthly_traffic": 456.21555241190447,
-          "estimated_conversion_value": 684.3233286178566,
+          "estimated_monthly_traffic": 401.2771474505499,
+          "estimated_conversion_value": 601.9157211758248,
           "brand_mention_value": 250,
           "competitive_advantage_score": 21.5
         },
@@ -367,22 +391,22 @@
         "traffic_sources": [
           {
             "source": "AI Citations",
-            "visits": 273
+            "visits": 240
           },
           {
             "source": "Organic Search",
-            "visits": 136
+            "visits": 120
           },
           {
             "source": "Direct",
-            "visits": 45
+            "visits": 40
           }
         ],
         "monthly_trend": [
-          319,
-          364,
-          410,
-          456
+          280,
+          321,
+          361,
+          401
         ]
       },
       "refresh_rate": "daily",
@@ -428,7 +452,7 @@
       }
     }
   ],
-  "last_updated": "2025-08-17T20:31:44.249023",
+  "last_updated": "2025-08-31T21:11:39.357891",
   "auto_refresh": true,
   "refresh_interval_seconds": 300
 }

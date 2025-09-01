@@ -99,7 +99,7 @@ class BrandDatabase:
         return found_brands
     
     @classmethod
-    def extract_brands_dynamic(cls, text: str, target_brand: str = "Brush on Block", industry: str = "generic") -> Set[str]:
+    def extract_brands_dynamic(cls, text: str, target_brand: str = None, industry: str = "generic") -> Set[str]:
         """Extract brands dynamically using AI-powered detection"""
         # First try traditional method
         traditional_brands = cls.extract_brands(text)
@@ -271,11 +271,11 @@ class CitationExtractor:
 class ResponseAnalyzer:
     """Main response analyzer orchestrating all analysis components"""
     
-    def __init__(self, target_brand: str = "Brush on Block", industry: str = "beauty"):
+    def __init__(self, target_brand: str = None, industry: str = "generic"):
         self.citation_extractor = CitationExtractor()
         self.brand_database = BrandDatabase()
         self.sentiment_analyzer = SentimentAnalyzer()
-        self.target_brand = target_brand
+        self.target_brand = target_brand or "Unknown Brand"
         self.industry = industry
         # Initialize dynamic extractor for non-sunscreen industries
         if industry != "beauty":
@@ -395,7 +395,7 @@ class ResponseAnalyzer:
 class BatchAnalyzer:
     """Analyzer for processing batches of responses"""
     
-    def __init__(self, target_brand: str = "Brush on Block", industry: str = "beauty"):
+    def __init__(self, target_brand: str = None, industry: str = "generic"):
         self.analyzer = ResponseAnalyzer(target_brand, industry)
     
     def analyze_batch(self, response_batch: List[Dict[str, Any]]) -> List[ResponseAnalysis]:
