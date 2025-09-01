@@ -5,6 +5,8 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 import logging
 
+from .dynamic_brand_extractor import DynamicBrandExtractor
+
 logger = logging.getLogger(__name__)
 
 @dataclass
@@ -95,6 +97,40 @@ class BrandDatabase:
                 found_brands.add("your_brand")  # Normalize to single identifier
         
         return found_brands
+    
+    @classmethod
+    def extract_brands_dynamic(cls, text: str, target_brand: str = "Brush on Block", industry: str = "generic") -> Set[str]:
+        """Extract brands dynamically using AI-powered detection"""
+        # First try traditional method
+        traditional_brands = cls.extract_brands(text)
+        
+        # If we found brands or this is the sunscreen industry, use traditional method
+        if traditional_brands or industry == "beauty":
+            return traditional_brands
+        
+        # Otherwise use dynamic extraction
+        try:
+            extractor = DynamicBrandExtractor(target_brand, industry)
+            dynamic_brands = extractor.extract_brands_from_response(text)
+            
+            # Convert to set of brand names
+            brand_names = set()
+            for brand_name, mentions in dynamic_brands.items():
+                if mentions:  # Only include brands with valid mentions
+                    # Use confidence threshold
+                    avg_confidence = sum(m.confidence for m in mentions) / len(mentions)
+                    if avg_confidence >= 0.4:
+                        brand_names.add(brand_name.lower())
+            
+            # Check for target brand
+            target_variations = extractor.target_brand_variations
+            if any(var in text.lower() for var in target_variations):
+                brand_names.add("your_brand")
+            
+            return brand_names
+        except Exception as e:
+            logger.warning(f"Dynamic brand extraction failed: {str(e)}")
+            return traditional_brands
 
 class SentimentAnalyzer:
     """Simple sentiment analysis for brand mentions"""
@@ -235,10 +271,15 @@ class CitationExtractor:
 class ResponseAnalyzer:
     """Main response analyzer orchestrating all analysis components"""
     
-    def __init__(self):
+    def __init__(self, target_brand: str = "Brush on Block", industry: str = "beauty"):
         self.citation_extractor = CitationExtractor()
         self.brand_database = BrandDatabase()
         self.sentiment_analyzer = SentimentAnalyzer()
+        self.target_brand = target_brand
+        self.industry = industry
+        # Initialize dynamic extractor for non-sunscreen industries
+        if industry != "beauty":
+            self.dynamic_extractor = DynamicBrandExtractor(target_brand, industry)
     
     def analyze_response(self, response_data: Dict[str, Any]) -> ResponseAnalysis:
         """Analyze a complete AI response"""
@@ -251,8 +292,12 @@ class ResponseAnalyzer:
         # Extract citations
         citations = self.citation_extractor.extract_citations(response_text, query)
         
-        # Analyze competitors
-        all_brands = self.brand_database.extract_brands(response_text)
+        # Analyze competitors (use dynamic extraction for non-beauty industries)
+        if self.industry == "beauty":
+            all_brands = self.brand_database.extract_brands(response_text)
+        else:
+            all_brands = self.brand_database.extract_brands_dynamic(response_text, self.target_brand, self.industry)
+        
         competitors = [brand for brand in all_brands if brand != "your_brand"]
         
         # Check for your brand mention
@@ -350,8 +395,8 @@ class ResponseAnalyzer:
 class BatchAnalyzer:
     """Analyzer for processing batches of responses"""
     
-    def __init__(self):
-        self.analyzer = ResponseAnalyzer()
+    def __init__(self, target_brand: str = "Brush on Block", industry: str = "beauty"):
+        self.analyzer = ResponseAnalyzer(target_brand, industry)
     
     def analyze_batch(self, response_batch: List[Dict[str, Any]]) -> List[ResponseAnalysis]:
         """Analyze a batch of responses"""

@@ -1,0 +1,111 @@
+sector: "generic"
+product_type: "general"
+sub_category: "brand_analysis"
+
+# Brand Information (template - will be overridden by CLI)
+brand:
+  name: "Brand Name"
+  website: "https://example.com"
+  variations: 
+    - "Brand Name"
+    - "brand name"
+
+# Generic Competitors (will be analyzed dynamically)
+competitors:
+  primary:
+    - name: "Competitor 1"
+      website: "https://competitor1.com"
+      priority: "high"
+    - name: "Competitor 2"
+      website: "https://competitor2.com"
+      priority: "high"
+  secondary:
+    - name: "Competitor 3"
+      website: "https://competitor3.com"
+      priority: "medium"
+
+# Content Analysis Focus Areas
+content_types:
+  product_pages:
+    weight: 0.35
+    required_elements:
+      - "product_information"
+      - "key_features"
+      - "specifications"
+      - "customer_reviews"
+  about_content:
+    weight: 0.25
+    required_elements:
+      - "company_story"
+      - "mission_statement"
+      - "team_information"
+      - "values_proposition"
+  service_content:
+    weight: 0.20
+    required_elements:
+      - "service_descriptions"
+      - "process_explanations"
+      - "benefits_overview"
+      - "case_studies"
+  support_content:
+    weight: 0.20
+    required_elements:
+      - "help_documentation"
+      - "faq_sections"
+      - "troubleshooting_guides"
+      - "contact_information"
+
+# GEO Optimization Criteria
+geo_best_practices:
+  content_structure:
+    optimal_paragraph_length: [50, 150]  # words
+    optimal_sentence_length: [15, 25]    # words
+    heading_hierarchy_depth: [2, 4]      # H1 to H4
+    list_item_optimal: [3, 7]            # items per list
+  
+  citation_worthiness:
+    fact_density_score: 0.25             # facts per 100 words
+    source_citation_rate: 0.15           # citations per claim
+    expert_quote_frequency: 0.08         # expert quotes per section
+    data_visualization_ratio: 0.10       # charts/graphs per page
+  
+  authority_signals:
+    expert_credentials: true             # author credentials displayed
+    publication_date: true               # recent publication dates
+    update_frequency: "quarterly"        # content freshness
+    scientific_references: false        # peer-reviewed sources
+
+# Scoring Weights
+scoring_weights:
+  content_structure: 0.30
+  citation_worthiness: 0.20  
+  authority_signals: 0.20
+  competitor_gap_coverage: 0.20
+  ai_consumption_optimization: 0.10
+
+# Generic Keywords (will be determined dynamically)
+keywords:
+  primary:
+    - "brand analysis"
+    - "company information"
+    - "product details"
+    - "service offerings"
+  secondary:
+    - "business solutions"
+    - "customer support"
+    - "company overview"
+    - "product features"
+  long_tail:
+    - "company background information"
+    - "detailed product specifications"
+    - "comprehensive service overview"
+    - "business solution details"
+
+# Content Quality Benchmarks
+quality_benchmarks:
+  min_word_count: 200
+  max_word_count: 2500
+  optimal_reading_level: [8, 14]  # grade level
+  min_images_per_page: 1
+  optimal_internal_links: [2, 10]
+  min_external_authority_links: 0

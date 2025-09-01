@@ -21,6 +21,7 @@ from .query_matrix import QueryMatrix
 from .response_analyzer import ResponseAnalyzer, BatchAnalyzer
 from .scoring_engine import BaselineScoreCalculator
 from .export_manager import ExportManager
+from .api_cost_tracker import APICostTracker
 
 # Configure logging
 logging.basicConfig(
@@ -52,6 +53,7 @@ class DiscoveryBaselineAgent:
         self.batch_analyzer = BatchAnalyzer()
         self.score_calculator = BaselineScoreCalculator()
         self.export_manager = ExportManager(self.config.OUTPUT_DIR)
+        self.cost_tracker = APICostTracker()
         
         # Runtime metrics
         self.start_time = None
@@ -132,17 +134,21 @@ class DiscoveryBaselineAgent:
             query_duration = time.time() - query_start
             logger.info(f"Query execution completed in {query_duration:.2f} seconds")
             
-            # Step 4: Analyze responses
+            # Step 4: Track API costs
+            logger.info("Calculating API costs...")
+            all_responses = [response for batch in raw_responses for response in batch]
+            cost_summary = self.cost_tracker.track_batch_costs(all_responses)
+            
+            # Step 5: Analyze responses
             logger.info("Analyzing AI responses...")
             analysis_start = time.time()
             
-            all_responses = [response for batch in raw_responses for response in batch]
             analyses = self.batch_analyzer.analyze_batch(all_responses)
             
             analysis_duration = time.time() - analysis_start
             logger.info(f"Response analysis completed in {analysis_duration:.2f} seconds")
             
-            # Step 5: Calculate scores
+            # Step 6: Calculate scores
             logger.info("Calculating baseline scores...")
             score_start = time.time()
             
@@ -152,14 +158,23 @@ class DiscoveryBaselineAgent:
             score_duration = time.time() - score_start
             logger.info(f"Score calculation completed in {score_duration:.2f} seconds")
             
-            # Step 6: Export results
+            # Step 7: Generate cost summary
+            cost_summary = self.cost_tracker.generate_cost_summary()
+            self.cost_tracker.print_cost_summary(cost_summary)
+            
+            # Step 8: Export results
             logger.info("Exporting results...")
             export_start = time.time()
             
-            metadata = self._create_metadata(run_id, queries, query_duration, analysis_duration, score_duration)
+            metadata = self._create_metadata(run_id, queries, query_duration, analysis_duration, score_duration, cost_summary)
             files_created = self.export_manager.export_all(
                 baseline_scores, analyses, insights, metadata, run_id
             )
+            
+            # Export cost report
+            cost_report_file = f"{self.export_manager.output_dir}/api_costs_{run_id}.json"
+            self.cost_tracker.export_cost_report(cost_report_file, cost_summary)
+            files_created["cost_report"] = cost_report_file
             
             export_duration = time.time() - export_start
             total_duration = time.time() - self.start_time
@@ -167,9 +182,9 @@ class DiscoveryBaselineAgent:
             logger.info(f"Export completed in {export_duration:.2f} seconds")
             logger.info(f"Total execution time: {total_duration:.2f} seconds")
             
-            # Step 7: Generate summary
+            # Step 9: Generate summary
             summary = self._create_execution_summary(
-                baseline_scores, analyses, total_duration, files_created
+                baseline_scores, analyses, total_duration, files_created, cost_summary
             )
             
             logger.info("Discovery Baseline run completed successfully!")
@@ -215,10 +230,11 @@ class DiscoveryBaselineAgent:
         queries: List[str],
         query_duration: float,
         analysis_duration: float,
-        score_duration: float
+        score_duration: float,
+        cost_summary: Any = None
     ) -> Dict[str, Any]:
         """Create execution metadata"""
-        return {
+        metadata = {
             "run_id": run_id,
             "agent_version": "1.0.0",
             "execution_timestamp": datetime.utcnow().isoformat(),
@@ -237,18 +253,36 @@ class DiscoveryBaselineAgent:
                 "retry_attempts": self.config.RETRY_ATTEMPTS
             }
         }
+        
+        # Add cost information if available
+        if cost_summary:
+            metadata["api_costs"] = {
+                "total_cost": cost_summary.total_cost,
+                "total_calls": cost_summary.total_calls,
+                "total_input_tokens": cost_summary.total_input_tokens,
+                "total_output_tokens": cost_summary.total_output_tokens,
+                "cost_by_engine": cost_summary.cost_by_engine,
+                "cost_per_query": cost_summary.total_cost / len(queries) if len(queries) > 0 else 0,
+                "cost_efficiency": {
+                    "cost_per_call": cost_summary.total_cost / cost_summary.total_calls if cost_summary.total_calls > 0 else 0,
+                    "cost_per_1k_tokens": (cost_summary.total_cost / (cost_summary.total_input_tokens + cost_summary.total_output_tokens)) * 1000 if (cost_summary.total_input_tokens + cost_summary.total_output_tokens) > 0 else 0
+                }
+            }
+        
+        return metadata
     
     def _create_execution_summary(
         self,
         baseline_scores,
         analyses: List,
         total_duration: float,
-        files_created: Dict[str, str]
+        files_created: Dict[str, str],
+        cost_summary: Any = None
     ) -> Dict[str, Any]:
         """Create execution summary"""
         successful_responses = len([a for a in analyses if a.response_text])
         
-        return {
+        summary = {
             "execution_time": total_duration,
             "queries_executed": len(analyses),
             "successful_responses": successful_responses,
@@ -257,6 +291,16 @@ class DiscoveryBaselineAgent:
             "files_exported": len(files_created),
             "performance_rating": self._calculate_performance_rating(total_duration, len(analyses))
         }
+        
+        # Add cost information if available
+        if cost_summary:
+            summary["cost_analysis"] = {
+                "total_cost": cost_summary.total_cost,
+                "cost_per_query": cost_summary.total_cost / len(analyses) if len(analyses) > 0 else 0,
+                "most_expensive_engine": max(cost_summary.cost_by_engine.items(), key=lambda x: x[1])[0] if cost_summary.cost_by_engine else "unknown"
+            }
+        
+        return summary
     
     def _calculate_performance_rating(self, duration: float, total_queries: int) -> str:
         """Calculate performance rating based on execution time"""

@@ -15,6 +15,10 @@ import sys
 import logging
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
+import atexit
+
+from dynamic_config import get_config_manager, cleanup_dynamic_configs
 
 # Configure logging
 logging.basicConfig(
@@ -23,7 +27,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-async def run_agent_1():
+# Ensure cleanup on exit
+atexit.register(cleanup_dynamic_configs)
+
+async def run_agent_1(config_path: Optional[str] = None):
     """Run Agent 1 - Discovery Baseline Agent"""
     try:
         from discovery_baseline_agent.main import run_discovery_baseline
@@ -35,19 +42,19 @@ async def run_agent_1():
         logger.error(f"❌ Agent 1 failed: {str(e)}")
         return None
 
-async def run_agent_2():
+async def run_agent_2(config_path: Optional[str] = None):
     """Run Agent 2 - Content Analysis Agent"""
     try:
         from content_analysis_agent.main import run_content_analysis
         logger.info("📝 Running Agent 2 - Content Analysis Agent")
-        result = await run_content_analysis()
+        result = await run_content_analysis(config_path)
         logger.info("✅ Agent 2 completed successfully")
         return result
     except Exception as e:
         logger.error(f"❌ Agent 2 failed: {str(e)}")
         return None
 
-async def run_agent_3():
+async def run_agent_3(config_path: Optional[str] = None):
     """Run Agent 3 - Competitive Intelligence Agent"""
     try:
         from competitive_intelligence_agent.competitive_intelligence_agent import run_competitive_intelligence
@@ -80,18 +87,20 @@ async def run_agent_4(monitoring_type="full", test_mode=False):
                 logger.error(f"❌ Agent 4 failed even in test mode: {str(e2)}")
         return None
 
-async def run_full_system():
+async def run_full_system(config_path: Optional[str] = None):
     """Run the complete GEO optimization system (all agents in sequence)"""
     logger.info("🚀 Starting Complete GEO Optimization System")
+    if config_path:
+        logger.info(f"📋 Using dynamic configuration: {config_path}")
     logger.info("=" * 60)
     
     start_time = datetime.now()
     results = {}
     
     # Run agents in sequence
-    results['agent_1'] = await run_agent_1()
-    results['agent_2'] = await run_agent_2()
-    results['agent_3'] = await run_agent_3()
+    results['agent_1'] = await run_agent_1(config_path)
+    results['agent_2'] = await run_agent_2(config_path)
+    results['agent_3'] = await run_agent_3(config_path)
     results['agent_4'] = await run_agent_4()
     
     end_time = datetime.now()
@@ -171,19 +180,36 @@ def stop_monitoring():
 
 async def main():
     """Main entry point"""
+    config_manager = get_config_manager()
+    available_sectors = config_manager.list_available_sectors()
+    
     parser = argparse.ArgumentParser(
         description="GEO Optimization System - Complete Analysis Suite",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
+        epilog=f"""
 Examples:
-  python run_geo_system.py --mode full              # Run all agents sequentially
-  python run_geo_system.py --mode discovery         # Run only Agent 1
-  python run_geo_system.py --mode content           # Run only Agent 2
-  python run_geo_system.py --mode competitive       # Run only Agent 3
-  python run_geo_system.py --mode monitoring        # Run only Agent 4
+  # Run full analysis for default brand (Brush on Block)
+  python run_geo_system.py --mode full
+  
+  # Run analysis for Nike with generic sector
+  python run_geo_system.py --mode full --brand "Nike" --website "https://nike.com"
+  
+  # Run analysis with specific sector
+  python run_geo_system.py --mode full --brand "Nike" --website "https://nike.com" --sector "fitness_supplements"
+  
+  # Run single agent with custom brand
+  python run_geo_system.py --mode content --brand "Nike" --website "https://nike.com"
+  
+  # Include competitors
+  python run_geo_system.py --mode full --brand "Nike" --website "https://nike.com" \\
+    --competitors "https://adidas.com" "https://underarmour.com" "https://puma.com"
+  
+  # Other operations
   python run_geo_system.py --continuous --interval 6 # Start continuous monitoring
   python run_geo_system.py --status                 # Check system status
   python run_geo_system.py --stop                   # Stop continuous monitoring
+
+Available sectors: {', '.join(available_sectors)}
         """
     )
     
@@ -219,7 +245,46 @@ Examples:
         help='Stop continuous monitoring'
     )
     
+    # Brand configuration arguments
+    parser.add_argument(
+        '--brand',
+        type=str,
+        help='Brand name to analyze (e.g., "Nike", "Apple", "Tesla")'
+    )
+    
+    parser.add_argument(
+        '--website',
+        type=str,
+        help='Brand website URL (e.g., "https://nike.com", "apple.com")'
+    )
+    
+    parser.add_argument(
+        '--sector',
+        choices=available_sectors,
+        default='generic',
+        help=f'Industry sector template to use (default: generic). Available: {", ".join(available_sectors)}'
+    )
+    
+    parser.add_argument(
+        '--competitors',
+        nargs='*',
+        help='List of competitor websites (e.g., "adidas.com" "puma.com")'
+    )
+    
+    parser.add_argument(
+        '--list-sectors',
+        action='store_true',
+        help='List all available sector configurations and exit'
+    )
+    
     args = parser.parse_args()
+    
+    # Handle list sectors
+    if args.list_sectors:
+        logger.info("📋 Available Sector Configurations:")
+        for sector in available_sectors:
+            logger.info(f"  - {sector}")
+        return
     
     # Handle status check
     if args.status:
@@ -231,6 +296,38 @@ Examples:
         stop_monitoring()
         return
     
+    # Create dynamic configuration if brand/website specified
+    config_path = None
+    if args.brand and args.website:
+        logger.info(f"🔧 Creating dynamic configuration for {args.brand}")
+        
+        # Validate brand configuration
+        validation = config_manager.validate_brand_config(args.brand, args.website)
+        if not validation["valid"]:
+            logger.error("❌ Brand configuration validation failed:")
+            for issue in validation["issues"]:
+                logger.error(f"  - {issue}")
+            return
+        
+        # Create dynamic configuration
+        config_path = config_manager.create_brand_config(
+            args.brand,
+            validation["normalized_website"],
+            args.sector,
+            args.competitors
+        )
+        
+        logger.info(f"✅ Dynamic configuration created")
+        logger.info(f"📋 Brand: {args.brand}")
+        logger.info(f"🌐 Website: {validation['normalized_website']}")
+        logger.info(f"🏢 Sector: {args.sector}")
+        if args.competitors:
+            logger.info(f"🏆 Competitors: {len(args.competitors)} specified")
+    
+    elif args.brand or args.website:
+        logger.error("❌ Both --brand and --website must be specified together")
+        return
+    
     # Handle continuous monitoring
     if args.continuous:
         await start_continuous_monitoring(args.interval)
@@ -240,15 +337,15 @@ Examples:
     
     # Handle individual agent execution
     if args.mode == 'discovery':
-        await run_agent_1()
+        await run_agent_1(config_path)
     elif args.mode == 'content':
-        await run_agent_2()
+        await run_agent_2(config_path)
     elif args.mode == 'competitive':
-        await run_agent_3()
+        await run_agent_3(config_path)
     elif args.mode == 'monitoring':
         await run_agent_4()
     elif args.mode == 'full':
-        await run_full_system()
+        await run_full_system(config_path)
 
 if __name__ == "__main__":
     try:

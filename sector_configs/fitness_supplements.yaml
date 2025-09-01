@@ -1,0 +1,128 @@
+sector: "fitness"
+product_type: "supplements"
+sub_category: "protein_powder"
+
+# Brand Information (template - will be overridden by CLI)
+brand:
+  name: "Nike"
+  website: "https://nike.com"
+  variations: 
+    - "Nike"
+    - "NIKE"
+    - "nike"
+
+# Competitor Analysis
+competitors:
+  primary:
+    - name: "Adidas"
+      website: "https://adidas.com"
+      priority: "high"
+    - name: "Under Armour"
+      website: "https://underarmour.com"
+      priority: "high"
+    - name: "Puma"
+      website: "https://puma.com"
+      priority: "medium"
+  secondary:
+    - name: "New Balance"
+      website: "https://newbalance.com"
+      priority: "medium"
+    - name: "Reebok"
+      website: "https://reebok.com"
+      priority: "low"
+
+# Content Analysis Focus Areas
+content_types:
+  product_pages:
+    weight: 0.30
+    required_elements:
+      - "product_specifications"
+      - "performance_benefits"
+      - "sizing_information"
+      - "user_reviews"
+  training_guides:
+    weight: 0.25
+    required_elements:
+      - "workout_instructions"
+      - "fitness_tips"
+      - "performance_data"
+      - "expert_advice"
+  technology_content:
+    weight: 0.20
+    required_elements:
+      - "innovation_explanations"
+      - "material_technology"
+      - "performance_testing"
+      - "scientific_backing"
+  athlete_endorsements:
+    weight: 0.15
+    required_elements:
+      - "athlete_stories"
+      - "performance_testimonials"
+      - "training_insights"
+      - "achievement_data"
+  lifestyle_content:
+    weight: 0.10
+    required_elements:
+      - "style_guides"
+      - "casual_wear_tips"
+      - "brand_culture"
+      - "community_content"
+
+# GEO Optimization Criteria
+geo_best_practices:
+  content_structure:
+    optimal_paragraph_length: [50, 150]  # words
+    optimal_sentence_length: [15, 25]    # words
+    heading_hierarchy_depth: [2, 4]      # H1 to H4
+    list_item_optimal: [3, 7]            # items per list
+  
+  citation_worthiness:
+    fact_density_score: 0.3              # facts per 100 words
+    source_citation_rate: 0.2            # citations per claim
+    expert_quote_frequency: 0.1          # expert quotes per section
+    data_visualization_ratio: 0.15       # charts/graphs per page
+  
+  authority_signals:
+    expert_credentials: true             # author credentials displayed
+    publication_date: true               # recent publication dates
+    update_frequency: "monthly"          # content freshness
+    scientific_references: true         # peer-reviewed sources
+
+# Scoring Weights
+scoring_weights:
+  content_structure: 0.25
+  citation_worthiness: 0.25  
+  authority_signals: 0.20
+  competitor_gap_coverage: 0.20
+  ai_consumption_optimization: 0.10
+
+# Sector-Specific Keywords
+keywords:
+  primary:
+    - "athletic footwear"
+    - "performance apparel"
+    - "sports equipment"
+    - "fitness gear"
+    - "running shoes"
+  secondary:
+    - "athletic performance"
+    - "workout clothes"
+    - "sports technology"
+    - "fitness training"
+    - "athletic wear"
+  long_tail:
+    - "best running shoes for marathon"
+    - "high performance athletic wear"
+    - "professional sports equipment"
+    - "fitness technology innovations"
+    - "athletic performance optimization"
+
+# Content Quality Benchmarks
+quality_benchmarks:
+  min_word_count: 300
+  max_word_count: 2000
+  optimal_reading_level: [8, 12]  # grade level
+  min_images_per_page: 2
+  optimal_internal_links: [3, 8]
+  min_external_authority_links: 1
