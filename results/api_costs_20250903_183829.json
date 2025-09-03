@@ -1,0 +1,2023 @@
+{
+  "cost_summary": {
+    "total_cost": 2.69580425,
+    "total_calls": 200,
+    "total_input_tokens": 19700,
+    "total_output_tokens": 125260,
+    "cost_by_engine": {
+      "openai": 2.0287170000000003,
+      "anthropic": 0.448176,
+      "google": 0.21891125000000006
+    },
+    "cost_by_model": {
+      "openai/gpt-4": 1.9738200000000004,
+      "openai/gpt-3.5-turbo": 0.05489700000000001,
+      "anthropic/claude-3-5-sonnet-20241022": 0.448176,
+      "google/gemini-1.5-pro": 0.21891125000000006
+    },
+    "call_breakdown": [
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 658,
+        "input_cost": 0.00327,
+        "output_cost": 0.03948,
+        "total_cost": 0.04275,
+        "timestamp": "2025-09-03T18:38:48.651637"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 509,
+        "input_cost": 0.0001635,
+        "output_cost": 0.001018,
+        "total_cost": 0.0011815,
+        "timestamp": "2025-09-03T18:38:37.853018"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 609,
+        "input_cost": 0.000285,
+        "output_cost": 0.009134999999999999,
+        "total_cost": 0.00942,
+        "timestamp": "2025-09-03T18:38:42.713533"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 86,
+        "output_tokens": 970,
+        "input_cost": 0.0001075,
+        "output_cost": 0.00485,
+        "total_cost": 0.0049575,
+        "timestamp": "2025-09-03T18:38:46.197165"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 609,
+        "input_cost": 0.00324,
+        "output_cost": 0.036539999999999996,
+        "total_cost": 0.039779999999999996,
+        "timestamp": "2025-09-03T18:38:58.693432"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 491,
+        "input_cost": 0.000162,
+        "output_cost": 0.000982,
+        "total_cost": 0.001144,
+        "timestamp": "2025-09-03T18:38:43.417076"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 818,
+        "input_cost": 0.000282,
+        "output_cost": 0.012269999999999998,
+        "total_cost": 0.012551999999999997,
+        "timestamp": "2025-09-03T18:39:00.432658"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 935,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004675,
+        "total_cost": 0.00477875,
+        "timestamp": "2025-09-03T18:38:59.135014"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 599,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.03594,
+        "total_cost": 0.03915,
+        "timestamp": "2025-09-03T18:39:04.942315"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 450,
+        "input_cost": 0.0001605,
+        "output_cost": 0.0009000000000000001,
+        "total_cost": 0.0010605,
+        "timestamp": "2025-09-03T18:38:53.138159"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 472,
+        "input_cost": 0.000279,
+        "output_cost": 0.0070799999999999995,
+        "total_cost": 0.007358999999999999,
+        "timestamp": "2025-09-03T18:39:05.383634"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 917,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.0045850000000000005,
+        "total_cost": 0.004687500000000001,
+        "timestamp": "2025-09-03T18:39:14.336632"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 368,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.02208,
+        "total_cost": 0.02529,
+        "timestamp": "2025-09-03T18:39:10.914731"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 463,
+        "input_cost": 0.0001605,
+        "output_cost": 0.0009260000000000001,
+        "total_cost": 0.0010865,
+        "timestamp": "2025-09-03T18:39:04.323816"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 670,
+        "input_cost": 0.000279,
+        "output_cost": 0.01005,
+        "total_cost": 0.010329,
+        "timestamp": "2025-09-03T18:39:21.260901"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 781,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.003905,
+        "total_cost": 0.0040075,
+        "timestamp": "2025-09-03T18:39:20.178705"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 681,
+        "input_cost": 0.00324,
+        "output_cost": 0.04086,
+        "total_cost": 0.0441,
+        "timestamp": "2025-09-03T18:39:24.901438"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 509,
+        "input_cost": 0.000162,
+        "output_cost": 0.001018,
+        "total_cost": 0.00118,
+        "timestamp": "2025-09-03T18:39:19.037528"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 555,
+        "input_cost": 0.000285,
+        "output_cost": 0.008325,
+        "total_cost": 0.008610000000000001,
+        "timestamp": "2025-09-03T18:39:26.889944"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 934,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.0046700000000000005,
+        "total_cost": 0.004772500000000001,
+        "timestamp": "2025-09-03T18:39:34.471059"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 526,
+        "input_cost": 0.00324,
+        "output_cost": 0.03156,
+        "total_cost": 0.0348,
+        "timestamp": "2025-09-03T18:39:35.971403"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 490,
+        "input_cost": 0.000162,
+        "output_cost": 0.00098,
+        "total_cost": 0.001142,
+        "timestamp": "2025-09-03T18:39:25.055434"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 699,
+        "input_cost": 0.000282,
+        "output_cost": 0.010485,
+        "total_cost": 0.010766999999999999,
+        "timestamp": "2025-09-03T18:39:39.445065"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 886,
+        "input_cost": 0.00010375,
+        "output_cost": 0.00443,
+        "total_cost": 0.00453375,
+        "timestamp": "2025-09-03T18:39:42.987106"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 622,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.03732,
+        "total_cost": 0.04053,
+        "timestamp": "2025-09-03T18:39:46.033312"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 437,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000874,
+        "total_cost": 0.0010345,
+        "timestamp": "2025-09-03T18:39:38.097463"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 481,
+        "input_cost": 0.000282,
+        "output_cost": 0.007214999999999999,
+        "total_cost": 0.007496999999999999,
+        "timestamp": "2025-09-03T18:39:47.609455"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 814,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00407,
+        "total_cost": 0.0041725,
+        "timestamp": "2025-09-03T18:39:53.042474"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 507,
+        "input_cost": 0.00324,
+        "output_cost": 0.03042,
+        "total_cost": 0.033659999999999995,
+        "timestamp": "2025-09-03T18:39:52.163815"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 488,
+        "input_cost": 0.000162,
+        "output_cost": 0.000976,
+        "total_cost": 0.001138,
+        "timestamp": "2025-09-03T18:39:56.671900"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 580,
+        "input_cost": 0.000282,
+        "output_cost": 0.0087,
+        "total_cost": 0.008981999999999999,
+        "timestamp": "2025-09-03T18:39:59.744074"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 904,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004520000000000001,
+        "total_cost": 0.00462375,
+        "timestamp": "2025-09-03T18:40:02.389388"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 650,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.039,
+        "total_cost": 0.04221,
+        "timestamp": "2025-09-03T18:40:09.085082"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 481,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000962,
+        "total_cost": 0.0011225,
+        "timestamp": "2025-09-03T18:39:56.942195"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 621,
+        "input_cost": 0.000279,
+        "output_cost": 0.009315,
+        "total_cost": 0.009594,
+        "timestamp": "2025-09-03T18:40:10.672794"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 846,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00423,
+        "total_cost": 0.0043325,
+        "timestamp": "2025-09-03T18:40:11.853278"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 690,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.04139999999999999,
+        "total_cost": 0.04460999999999999,
+        "timestamp": "2025-09-03T18:40:17.844904"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 516,
+        "input_cost": 0.0001605,
+        "output_cost": 0.0010320000000000001,
+        "total_cost": 0.0011925000000000002,
+        "timestamp": "2025-09-03T18:40:07.852165"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 438,
+        "input_cost": 0.000279,
+        "output_cost": 0.0065699999999999995,
+        "total_cost": 0.006848999999999999,
+        "timestamp": "2025-09-03T18:40:19.248663"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 869,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.004345,
+        "total_cost": 0.0044475,
+        "timestamp": "2025-09-03T18:40:24.371986"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 453,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.02718,
+        "total_cost": 0.03039,
+        "timestamp": "2025-09-03T18:40:22.406031"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 412,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000824,
+        "total_cost": 0.0009845,
+        "timestamp": "2025-09-03T18:40:18.806951"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 737,
+        "input_cost": 0.000279,
+        "output_cost": 0.011054999999999999,
+        "total_cost": 0.011333999999999999,
+        "timestamp": "2025-09-03T18:40:33.640661"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 828,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00414,
+        "total_cost": 0.0042425,
+        "timestamp": "2025-09-03T18:40:33.617300"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 555,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.0333,
+        "total_cost": 0.03651,
+        "timestamp": "2025-09-03T18:40:43.864001"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 460,
+        "input_cost": 0.0001605,
+        "output_cost": 0.00092,
+        "total_cost": 0.0010805,
+        "timestamp": "2025-09-03T18:40:28.923199"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 513,
+        "input_cost": 0.000279,
+        "output_cost": 0.007695,
+        "total_cost": 0.007974,
+        "timestamp": "2025-09-03T18:40:35.910505"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 900,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.0045000000000000005,
+        "total_cost": 0.004602500000000001,
+        "timestamp": "2025-09-03T18:40:45.469156"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 808,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.04848,
+        "total_cost": 0.05169,
+        "timestamp": "2025-09-03T18:40:59.863103"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 426,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000852,
+        "total_cost": 0.0010125,
+        "timestamp": "2025-09-03T18:40:36.753538"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 495,
+        "input_cost": 0.000279,
+        "output_cost": 0.007424999999999999,
+        "total_cost": 0.007703999999999999,
+        "timestamp": "2025-09-03T18:40:47.978383"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 792,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00396,
+        "total_cost": 0.0040625,
+        "timestamp": "2025-09-03T18:40:51.382894"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 106,
+        "output_tokens": 551,
+        "input_cost": 0.0031799999999999997,
+        "output_cost": 0.03306,
+        "total_cost": 0.03624,
+        "timestamp": "2025-09-03T18:40:55.023942"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 106,
+        "output_tokens": 430,
+        "input_cost": 0.000159,
+        "output_cost": 0.00086,
+        "total_cost": 0.001019,
+        "timestamp": "2025-09-03T18:40:48.630248"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 789,
+        "input_cost": 0.000282,
+        "output_cost": 0.011835,
+        "total_cost": 0.012117,
+        "timestamp": "2025-09-03T18:41:03.892650"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 81,
+        "output_tokens": 828,
+        "input_cost": 0.00010125000000000001,
+        "output_cost": 0.00414,
+        "total_cost": 0.004241249999999999,
+        "timestamp": "2025-09-03T18:41:03.362449"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 576,
+        "input_cost": 0.00324,
+        "output_cost": 0.034559999999999994,
+        "total_cost": 0.03779999999999999,
+        "timestamp": "2025-09-03T18:41:05.884561"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 441,
+        "input_cost": 0.000162,
+        "output_cost": 0.000882,
+        "total_cost": 0.001044,
+        "timestamp": "2025-09-03T18:40:58.988033"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 454,
+        "input_cost": 0.000282,
+        "output_cost": 0.00681,
+        "total_cost": 0.007092,
+        "timestamp": "2025-09-03T18:41:11.526271"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 874,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00437,
+        "total_cost": 0.0044725,
+        "timestamp": "2025-09-03T18:41:15.271579"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 111,
+        "output_tokens": 556,
+        "input_cost": 0.00333,
+        "output_cost": 0.03336,
+        "total_cost": 0.03669,
+        "timestamp": "2025-09-03T18:41:23.067480"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 111,
+        "output_tokens": 496,
+        "input_cost": 0.0001665,
+        "output_cost": 0.000992,
+        "total_cost": 0.0011585,
+        "timestamp": "2025-09-03T18:41:09.444347"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 97,
+        "output_tokens": 431,
+        "input_cost": 0.000291,
+        "output_cost": 0.006464999999999999,
+        "total_cost": 0.006756,
+        "timestamp": "2025-09-03T18:41:18.004337"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 87,
+        "output_tokens": 828,
+        "input_cost": 0.00010875,
+        "output_cost": 0.00414,
+        "total_cost": 0.00424875,
+        "timestamp": "2025-09-03T18:41:24.138403"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 526,
+        "input_cost": 0.00327,
+        "output_cost": 0.03156,
+        "total_cost": 0.03483,
+        "timestamp": "2025-09-03T18:41:22.621570"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 459,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0009180000000000001,
+        "total_cost": 0.0010815,
+        "timestamp": "2025-09-03T18:41:22.688495"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 574,
+        "input_cost": 0.000288,
+        "output_cost": 0.00861,
+        "total_cost": 0.008898,
+        "timestamp": "2025-09-03T18:41:30.830580"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 927,
+        "input_cost": 0.000105,
+        "output_cost": 0.004635,
+        "total_cost": 0.00474,
+        "timestamp": "2025-09-03T18:41:39.772830"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 489,
+        "input_cost": 0.00327,
+        "output_cost": 0.029339999999999998,
+        "total_cost": 0.03261,
+        "timestamp": "2025-09-03T18:41:34.671950"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 500,
+        "input_cost": 0.0001635,
+        "output_cost": 0.001,
+        "total_cost": 0.0011635,
+        "timestamp": "2025-09-03T18:41:28.197432"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 622,
+        "input_cost": 0.000288,
+        "output_cost": 0.00933,
+        "total_cost": 0.009618,
+        "timestamp": "2025-09-03T18:41:39.864287"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 811,
+        "input_cost": 0.000105,
+        "output_cost": 0.0040550000000000004,
+        "total_cost": 0.0041600000000000005,
+        "timestamp": "2025-09-03T18:41:42.791625"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 581,
+        "input_cost": 0.00324,
+        "output_cost": 0.034859999999999995,
+        "total_cost": 0.038099999999999995,
+        "timestamp": "2025-09-03T18:41:49.943394"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 530,
+        "input_cost": 0.000162,
+        "output_cost": 0.0010600000000000002,
+        "total_cost": 0.0012220000000000002,
+        "timestamp": "2025-09-03T18:41:40.197526"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 483,
+        "input_cost": 0.000282,
+        "output_cost": 0.007245,
+        "total_cost": 0.007527,
+        "timestamp": "2025-09-03T18:41:50.503220"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 789,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.003945000000000001,
+        "total_cost": 0.004047500000000001,
+        "timestamp": "2025-09-03T18:41:53.696874"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 626,
+        "input_cost": 0.00327,
+        "output_cost": 0.037559999999999996,
+        "total_cost": 0.04083,
+        "timestamp": "2025-09-03T18:41:57.812014"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 532,
+        "input_cost": 0.0001635,
+        "output_cost": 0.001064,
+        "total_cost": 0.0012275,
+        "timestamp": "2025-09-03T18:41:48.644379"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 676,
+        "input_cost": 0.000285,
+        "output_cost": 0.01014,
+        "total_cost": 0.010425,
+        "timestamp": "2025-09-03T18:42:01.338473"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 735,
+        "input_cost": 0.000105,
+        "output_cost": 0.003675,
+        "total_cost": 0.00378,
+        "timestamp": "2025-09-03T18:42:02.964342"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 111,
+        "output_tokens": 559,
+        "input_cost": 0.00333,
+        "output_cost": 0.03354,
+        "total_cost": 0.03687,
+        "timestamp": "2025-09-03T18:42:08.350845"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 111,
+        "output_tokens": 432,
+        "input_cost": 0.0001665,
+        "output_cost": 0.000864,
+        "total_cost": 0.0010305,
+        "timestamp": "2025-09-03T18:41:58.333831"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 98,
+        "output_tokens": 514,
+        "input_cost": 0.000294,
+        "output_cost": 0.00771,
+        "total_cost": 0.008004,
+        "timestamp": "2025-09-03T18:42:09.663119"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 86,
+        "output_tokens": 910,
+        "input_cost": 0.0001075,
+        "output_cost": 0.00455,
+        "total_cost": 0.0046575,
+        "timestamp": "2025-09-03T18:42:14.473051"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 551,
+        "input_cost": 0.00324,
+        "output_cost": 0.03306,
+        "total_cost": 0.0363,
+        "timestamp": "2025-09-03T18:42:20.629032"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 594,
+        "input_cost": 0.000162,
+        "output_cost": 0.001188,
+        "total_cost": 0.00135,
+        "timestamp": "2025-09-03T18:42:08.842469"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 800,
+        "input_cost": 0.000285,
+        "output_cost": 0.012,
+        "total_cost": 0.012285,
+        "timestamp": "2025-09-03T18:42:26.478878"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 849,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004245,
+        "total_cost": 0.004348749999999999,
+        "timestamp": "2025-09-03T18:42:23.230932"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 570,
+        "input_cost": 0.00327,
+        "output_cost": 0.034199999999999994,
+        "total_cost": 0.037469999999999996,
+        "timestamp": "2025-09-03T18:42:26.673006"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 385,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0007700000000000001,
+        "total_cost": 0.0009335000000000001,
+        "timestamp": "2025-09-03T18:42:24.930792"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 690,
+        "input_cost": 0.000288,
+        "output_cost": 0.010349999999999998,
+        "total_cost": 0.010637999999999998,
+        "timestamp": "2025-09-03T18:42:34.531421"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 81,
+        "output_tokens": 861,
+        "input_cost": 0.00010125000000000001,
+        "output_cost": 0.004305,
+        "total_cost": 0.00440625,
+        "timestamp": "2025-09-03T18:42:49.177790"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 776,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.04656,
+        "total_cost": 0.049769999999999995,
+        "timestamp": "2025-09-03T18:42:49.432005"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 468,
+        "input_cost": 0.0001605,
+        "output_cost": 0.0009360000000000001,
+        "total_cost": 0.0010965,
+        "timestamp": "2025-09-03T18:42:31.474670"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 583,
+        "input_cost": 0.000282,
+        "output_cost": 0.008745,
+        "total_cost": 0.009026999999999999,
+        "timestamp": "2025-09-03T18:42:39.183780"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 810,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.004050000000000001,
+        "total_cost": 0.004152500000000001,
+        "timestamp": "2025-09-03T18:42:46.452266"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 554,
+        "input_cost": 0.00327,
+        "output_cost": 0.03324,
+        "total_cost": 0.03651,
+        "timestamp": "2025-09-03T18:42:53.891919"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 540,
+        "input_cost": 0.0001635,
+        "output_cost": 0.00108,
+        "total_cost": 0.0012435,
+        "timestamp": "2025-09-03T18:42:43.274934"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 697,
+        "input_cost": 0.000285,
+        "output_cost": 0.010454999999999999,
+        "total_cost": 0.01074,
+        "timestamp": "2025-09-03T18:42:57.623936"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 773,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.0038650000000000004,
+        "total_cost": 0.0039675000000000005,
+        "timestamp": "2025-09-03T18:43:00.945979"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 660,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.0396,
+        "total_cost": 0.04281,
+        "timestamp": "2025-09-03T18:43:09.027678"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 414,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000828,
+        "total_cost": 0.0009885,
+        "timestamp": "2025-09-03T18:42:54.081820"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 657,
+        "input_cost": 0.000279,
+        "output_cost": 0.009855000000000001,
+        "total_cost": 0.010134,
+        "timestamp": "2025-09-03T18:43:08.463512"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 824,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.0041199999999999995,
+        "total_cost": 0.0042225,
+        "timestamp": "2025-09-03T18:43:08.933774"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 383,
+        "input_cost": 0.00324,
+        "output_cost": 0.02298,
+        "total_cost": 0.02622,
+        "timestamp": "2025-09-03T18:43:10.126258"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 429,
+        "input_cost": 0.000162,
+        "output_cost": 0.000858,
+        "total_cost": 0.00102,
+        "timestamp": "2025-09-03T18:43:06.547871"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 613,
+        "input_cost": 0.000285,
+        "output_cost": 0.009195,
+        "total_cost": 0.00948,
+        "timestamp": "2025-09-03T18:43:20.114237"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 780,
+        "input_cost": 0.00010375,
+        "output_cost": 0.0039000000000000003,
+        "total_cost": 0.00400375,
+        "timestamp": "2025-09-03T18:43:21.898088"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 611,
+        "input_cost": 0.00327,
+        "output_cost": 0.03666,
+        "total_cost": 0.03993,
+        "timestamp": "2025-09-03T18:43:35.790373"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 438,
+        "input_cost": 0.0001635,
+        "output_cost": 0.000876,
+        "total_cost": 0.0010395,
+        "timestamp": "2025-09-03T18:43:13.358810"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 550,
+        "input_cost": 0.000285,
+        "output_cost": 0.00825,
+        "total_cost": 0.008535000000000001,
+        "timestamp": "2025-09-03T18:43:25.360897"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 861,
+        "input_cost": 0.000105,
+        "output_cost": 0.004305,
+        "total_cost": 0.00441,
+        "timestamp": "2025-09-03T18:43:29.492076"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 627,
+        "input_cost": 0.00324,
+        "output_cost": 0.03762,
+        "total_cost": 0.04086,
+        "timestamp": "2025-09-03T18:43:39.176313"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 372,
+        "input_cost": 0.000162,
+        "output_cost": 0.000744,
+        "total_cost": 0.000906,
+        "timestamp": "2025-09-03T18:43:25.280233"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 378,
+        "input_cost": 0.000282,
+        "output_cost": 0.00567,
+        "total_cost": 0.005952,
+        "timestamp": "2025-09-03T18:43:35.351527"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 885,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004425,
+        "total_cost": 0.00452875,
+        "timestamp": "2025-09-03T18:43:41.903801"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 110,
+        "output_tokens": 549,
+        "input_cost": 0.0033,
+        "output_cost": 0.032940000000000004,
+        "total_cost": 0.03624,
+        "timestamp": "2025-09-03T18:43:49.938975"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 110,
+        "output_tokens": 441,
+        "input_cost": 0.000165,
+        "output_cost": 0.000882,
+        "total_cost": 0.001047,
+        "timestamp": "2025-09-03T18:43:38.685957"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 97,
+        "output_tokens": 435,
+        "input_cost": 0.000291,
+        "output_cost": 0.0065249999999999996,
+        "total_cost": 0.006815999999999999,
+        "timestamp": "2025-09-03T18:43:46.843560"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 770,
+        "input_cost": 0.000105,
+        "output_cost": 0.00385,
+        "total_cost": 0.003955,
+        "timestamp": "2025-09-03T18:43:53.886520"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 606,
+        "input_cost": 0.00327,
+        "output_cost": 0.036359999999999996,
+        "total_cost": 0.03963,
+        "timestamp": "2025-09-03T18:43:57.944300"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 444,
+        "input_cost": 0.0001635,
+        "output_cost": 0.000888,
+        "total_cost": 0.0010515,
+        "timestamp": "2025-09-03T18:43:49.690038"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 412,
+        "input_cost": 0.000288,
+        "output_cost": 0.00618,
+        "total_cost": 0.006468,
+        "timestamp": "2025-09-03T18:43:57.334195"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 822,
+        "input_cost": 0.000105,
+        "output_cost": 0.00411,
+        "total_cost": 0.004215,
+        "timestamp": "2025-09-03T18:44:04.998745"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 557,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.033420000000000005,
+        "total_cost": 0.03663,
+        "timestamp": "2025-09-03T18:44:04.388879"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 488,
+        "input_cost": 0.0001605,
+        "output_cost": 0.000976,
+        "total_cost": 0.0011365,
+        "timestamp": "2025-09-03T18:43:57.614231"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 545,
+        "input_cost": 0.000279,
+        "output_cost": 0.008175,
+        "total_cost": 0.008454,
+        "timestamp": "2025-09-03T18:44:11.551274"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 964,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.00482,
+        "total_cost": 0.0049225,
+        "timestamp": "2025-09-03T18:44:15.615688"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 542,
+        "input_cost": 0.00327,
+        "output_cost": 0.03252,
+        "total_cost": 0.03579,
+        "timestamp": "2025-09-03T18:44:11.633153"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 424,
+        "input_cost": 0.0001635,
+        "output_cost": 0.000848,
+        "total_cost": 0.0010115,
+        "timestamp": "2025-09-03T18:44:08.652710"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 419,
+        "input_cost": 0.000285,
+        "output_cost": 0.006285,
+        "total_cost": 0.0065699999999999995,
+        "timestamp": "2025-09-03T18:44:17.771733"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 845,
+        "input_cost": 0.000105,
+        "output_cost": 0.004225,
+        "total_cost": 0.00433,
+        "timestamp": "2025-09-03T18:44:23.396395"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 515,
+        "input_cost": 0.00324,
+        "output_cost": 0.0309,
+        "total_cost": 0.034140000000000004,
+        "timestamp": "2025-09-03T18:44:30.226631"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 458,
+        "input_cost": 0.000162,
+        "output_cost": 0.000916,
+        "total_cost": 0.001078,
+        "timestamp": "2025-09-03T18:44:16.438976"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 430,
+        "input_cost": 0.000282,
+        "output_cost": 0.00645,
+        "total_cost": 0.006732,
+        "timestamp": "2025-09-03T18:44:27.988082"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 810,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004050000000000001,
+        "total_cost": 0.00415375,
+        "timestamp": "2025-09-03T18:44:31.341995"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 627,
+        "input_cost": 0.00327,
+        "output_cost": 0.03762,
+        "total_cost": 0.04089,
+        "timestamp": "2025-09-03T18:44:36.410310"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 418,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0008359999999999999,
+        "total_cost": 0.0009995,
+        "timestamp": "2025-09-03T18:44:27.157877"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 628,
+        "input_cost": 0.000288,
+        "output_cost": 0.00942,
+        "total_cost": 0.009708,
+        "timestamp": "2025-09-03T18:44:43.162248"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 904,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004520000000000001,
+        "total_cost": 0.00462375,
+        "timestamp": "2025-09-03T18:44:45.211440"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 795,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.0477,
+        "total_cost": 0.05091,
+        "timestamp": "2025-09-03T18:45:00.870666"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 385,
+        "input_cost": 0.0001605,
+        "output_cost": 0.0007700000000000001,
+        "total_cost": 0.0009305000000000001,
+        "timestamp": "2025-09-03T18:44:34.111620"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 496,
+        "input_cost": 0.000279,
+        "output_cost": 0.0074399999999999996,
+        "total_cost": 0.007718999999999999,
+        "timestamp": "2025-09-03T18:44:46.340128"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 753,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.003765,
+        "total_cost": 0.0038675000000000003,
+        "timestamp": "2025-09-03T18:44:48.894978"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 741,
+        "input_cost": 0.00327,
+        "output_cost": 0.04446,
+        "total_cost": 0.04773,
+        "timestamp": "2025-09-03T18:45:01.750518"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 282,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0005639999999999999,
+        "total_cost": 0.0007275,
+        "timestamp": "2025-09-03T18:44:48.076919"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 410,
+        "input_cost": 0.000285,
+        "output_cost": 0.006149999999999999,
+        "total_cost": 0.006434999999999999,
+        "timestamp": "2025-09-03T18:44:58.640887"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 855,
+        "input_cost": 0.000105,
+        "output_cost": 0.004275,
+        "total_cost": 0.00438,
+        "timestamp": "2025-09-03T18:45:04.099735"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 845,
+        "input_cost": 0.00327,
+        "output_cost": 0.050699999999999995,
+        "total_cost": 0.05397,
+        "timestamp": "2025-09-03T18:45:17.265464"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 402,
+        "input_cost": 0.0001635,
+        "output_cost": 0.000804,
+        "total_cost": 0.0009675,
+        "timestamp": "2025-09-03T18:45:04.011882"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 507,
+        "input_cost": 0.000288,
+        "output_cost": 0.007605,
+        "total_cost": 0.007892999999999999,
+        "timestamp": "2025-09-03T18:45:12.646254"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 850,
+        "input_cost": 0.000105,
+        "output_cost": 0.00425,
+        "total_cost": 0.004355,
+        "timestamp": "2025-09-03T18:45:16.339194"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 541,
+        "input_cost": 0.00327,
+        "output_cost": 0.03246,
+        "total_cost": 0.035730000000000005,
+        "timestamp": "2025-09-03T18:45:19.454450"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 468,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0009360000000000001,
+        "total_cost": 0.0010995,
+        "timestamp": "2025-09-03T18:45:09.171829"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 540,
+        "input_cost": 0.000285,
+        "output_cost": 0.0081,
+        "total_cost": 0.008385,
+        "timestamp": "2025-09-03T18:45:24.509765"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 892,
+        "input_cost": 0.000105,
+        "output_cost": 0.00446,
+        "total_cost": 0.0045650000000000005,
+        "timestamp": "2025-09-03T18:45:28.762337"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 645,
+        "input_cost": 0.00324,
+        "output_cost": 0.0387,
+        "total_cost": 0.04194,
+        "timestamp": "2025-09-03T18:45:41.077779"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 500,
+        "input_cost": 0.000162,
+        "output_cost": 0.001,
+        "total_cost": 0.001162,
+        "timestamp": "2025-09-03T18:45:20.949378"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 438,
+        "input_cost": 0.000282,
+        "output_cost": 0.0065699999999999995,
+        "total_cost": 0.006852,
+        "timestamp": "2025-09-03T18:45:31.813413"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 807,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004035,
+        "total_cost": 0.00413875,
+        "timestamp": "2025-09-03T18:45:35.748813"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 875,
+        "input_cost": 0.00327,
+        "output_cost": 0.0525,
+        "total_cost": 0.05577,
+        "timestamp": "2025-09-03T18:45:48.395640"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 421,
+        "input_cost": 0.0001635,
+        "output_cost": 0.000842,
+        "total_cost": 0.0010054999999999999,
+        "timestamp": "2025-09-03T18:45:31.535709"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 569,
+        "input_cost": 0.000285,
+        "output_cost": 0.008535,
+        "total_cost": 0.00882,
+        "timestamp": "2025-09-03T18:45:44.114450"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 841,
+        "input_cost": 0.000105,
+        "output_cost": 0.0042049999999999995,
+        "total_cost": 0.00431,
+        "timestamp": "2025-09-03T18:45:46.617187"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 481,
+        "input_cost": 0.00324,
+        "output_cost": 0.028859999999999997,
+        "total_cost": 0.0321,
+        "timestamp": "2025-09-03T18:45:51.762613"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 444,
+        "input_cost": 0.000162,
+        "output_cost": 0.000888,
+        "total_cost": 0.00105,
+        "timestamp": "2025-09-03T18:45:45.615615"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 717,
+        "input_cost": 0.000285,
+        "output_cost": 0.010754999999999999,
+        "total_cost": 0.01104,
+        "timestamp": "2025-09-03T18:46:00.169762"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 786,
+        "input_cost": 0.00010375,
+        "output_cost": 0.00393,
+        "total_cost": 0.00403375,
+        "timestamp": "2025-09-03T18:46:01.525875"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 107,
+        "output_tokens": 617,
+        "input_cost": 0.0032099999999999997,
+        "output_cost": 0.03702,
+        "total_cost": 0.040229999999999995,
+        "timestamp": "2025-09-03T18:46:07.157173"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 107,
+        "output_tokens": 505,
+        "input_cost": 0.0001605,
+        "output_cost": 0.00101,
+        "total_cost": 0.0011705,
+        "timestamp": "2025-09-03T18:45:53.396359"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 93,
+        "output_tokens": 829,
+        "input_cost": 0.000279,
+        "output_cost": 0.012434999999999998,
+        "total_cost": 0.012713999999999998,
+        "timestamp": "2025-09-03T18:46:09.763853"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 82,
+        "output_tokens": 753,
+        "input_cost": 0.00010250000000000001,
+        "output_cost": 0.003765,
+        "total_cost": 0.0038675000000000003,
+        "timestamp": "2025-09-03T18:46:22.078488"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 731,
+        "input_cost": 0.00324,
+        "output_cost": 0.043859999999999996,
+        "total_cost": 0.047099999999999996,
+        "timestamp": "2025-09-03T18:46:19.697580"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 704,
+        "input_cost": 0.000162,
+        "output_cost": 0.001408,
+        "total_cost": 0.00157,
+        "timestamp": "2025-09-03T18:46:08.817483"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 461,
+        "input_cost": 0.000282,
+        "output_cost": 0.006915,
+        "total_cost": 0.007197,
+        "timestamp": "2025-09-03T18:46:17.884850"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 903,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004515,
+        "total_cost": 0.00461875,
+        "timestamp": "2025-09-03T18:46:25.049317"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 700,
+        "input_cost": 0.00324,
+        "output_cost": 0.041999999999999996,
+        "total_cost": 0.045239999999999995,
+        "timestamp": "2025-09-03T18:46:34.158735"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 476,
+        "input_cost": 0.000162,
+        "output_cost": 0.0009519999999999999,
+        "total_cost": 0.001114,
+        "timestamp": "2025-09-03T18:46:22.242752"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 782,
+        "input_cost": 0.000282,
+        "output_cost": 0.01173,
+        "total_cost": 0.012012,
+        "timestamp": "2025-09-03T18:46:36.487939"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 973,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004865,
+        "total_cost": 0.00496875,
+        "timestamp": "2025-09-03T18:46:38.726504"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 738,
+        "input_cost": 0.00327,
+        "output_cost": 0.04428,
+        "total_cost": 0.04755,
+        "timestamp": "2025-09-03T18:46:42.604239"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 562,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0011240000000000002,
+        "total_cost": 0.0012875000000000002,
+        "timestamp": "2025-09-03T18:46:28.942300"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 662,
+        "input_cost": 0.000285,
+        "output_cost": 0.00993,
+        "total_cost": 0.010215,
+        "timestamp": "2025-09-03T18:46:44.503793"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 909,
+        "input_cost": 0.000105,
+        "output_cost": 0.004545,
+        "total_cost": 0.0046500000000000005,
+        "timestamp": "2025-09-03T18:46:50.242984"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 489,
+        "input_cost": 0.00324,
+        "output_cost": 0.029339999999999998,
+        "total_cost": 0.03258,
+        "timestamp": "2025-09-03T18:46:53.720965"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 471,
+        "input_cost": 0.000162,
+        "output_cost": 0.000942,
+        "total_cost": 0.001104,
+        "timestamp": "2025-09-03T18:46:44.616963"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 687,
+        "input_cost": 0.000282,
+        "output_cost": 0.010305,
+        "total_cost": 0.010587,
+        "timestamp": "2025-09-03T18:46:56.791885"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 912,
+        "input_cost": 0.00010375,
+        "output_cost": 0.004560000000000001,
+        "total_cost": 0.00466375,
+        "timestamp": "2025-09-03T18:47:01.299870"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 601,
+        "input_cost": 0.00327,
+        "output_cost": 0.036059999999999995,
+        "total_cost": 0.03933,
+        "timestamp": "2025-09-03T18:47:00.690338"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 464,
+        "input_cost": 0.0001635,
+        "output_cost": 0.0009280000000000001,
+        "total_cost": 0.0010915,
+        "timestamp": "2025-09-03T18:46:53.899669"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 95,
+        "output_tokens": 766,
+        "input_cost": 0.000285,
+        "output_cost": 0.01149,
+        "total_cost": 0.011775,
+        "timestamp": "2025-09-03T18:47:08.886671"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 941,
+        "input_cost": 0.000105,
+        "output_cost": 0.004705,
+        "total_cost": 0.00481,
+        "timestamp": "2025-09-03T18:47:10.492190"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 108,
+        "output_tokens": 526,
+        "input_cost": 0.00324,
+        "output_cost": 0.03156,
+        "total_cost": 0.0348,
+        "timestamp": "2025-09-03T18:47:14.135245"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 108,
+        "output_tokens": 527,
+        "input_cost": 0.000162,
+        "output_cost": 0.001054,
+        "total_cost": 0.001216,
+        "timestamp": "2025-09-03T18:47:04.472206"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 94,
+        "output_tokens": 562,
+        "input_cost": 0.000282,
+        "output_cost": 0.00843,
+        "total_cost": 0.008712,
+        "timestamp": "2025-09-03T18:47:14.163112"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 83,
+        "output_tokens": 936,
+        "input_cost": 0.00010375,
+        "output_cost": 0.00468,
+        "total_cost": 0.00478375,
+        "timestamp": "2025-09-03T18:47:21.853032"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-4",
+        "input_tokens": 109,
+        "output_tokens": 549,
+        "input_cost": 0.00327,
+        "output_cost": 0.032940000000000004,
+        "total_cost": 0.036210000000000006,
+        "timestamp": "2025-09-03T18:47:26.127457"
+      },
+      {
+        "engine": "openai",
+        "model": "gpt-3.5-turbo",
+        "input_tokens": 109,
+        "output_tokens": 515,
+        "input_cost": 0.0001635,
+        "output_cost": 0.00103,
+        "total_cost": 0.0011935000000000001,
+        "timestamp": "2025-09-03T18:47:31.718485"
+      },
+      {
+        "engine": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "input_tokens": 96,
+        "output_tokens": 439,
+        "input_cost": 0.000288,
+        "output_cost": 0.006585,
+        "total_cost": 0.006873,
+        "timestamp": "2025-09-03T18:47:24.352690"
+      },
+      {
+        "engine": "google",
+        "model": "gemini-1.5-pro",
+        "input_tokens": 84,
+        "output_tokens": 797,
+        "input_cost": 0.000105,
+        "output_cost": 0.003985000000000001,
+        "total_cost": 0.004090000000000001,
+        "timestamp": "2025-09-03T18:47:29.072432"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-09-03T18:47:31.881270",
+  "pricing_note": "Costs calculated based on January 2025 pricing. Verify current rates."
+}

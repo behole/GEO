@@ -1,0 +1,2 @@
+title,severity,message,timestamp,affected_metrics
+Competitor Surge,AlertSeverity.HIGH,🔴 Competitive Threat: EltaMD showing surge in performance,2025-08-31T20:02:22.422805,competitive_score; market_share

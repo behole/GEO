@@ -1,0 +1,706 @@
+{
+  "domain": "mcdonalds.com",
+  "pages_analyzed": 50,
+  "pages_failed": 0,
+  "overall_score": 35.76464179479337,
+  "content_structure_score": 71.61434612838079,
+  "citation_worthiness_score": 5.9498592594818565,
+  "authority_signals_score": 45.285714285714285,
+  "ai_consumption_score": 40.33223247239905,
+  "content_gaps": [
+    "Missing about content content",
+    "Missing product pages content",
+    "Missing service content content",
+    "Missing support content content",
+    "No content found for 'mcdonald's'",
+    "No content found for 'mcdonald's products'",
+    "No content found for 'mcdonald's services'"
+  ],
+  "priority_recommendations": [
+    "CRITICAL: Overall content quality is poor - comprehensive content audit recommended",
+    "Priority: Improve Citation Worthiness (current score: 5.9/100)",
+    "Priority: Improve AI Consumption (current score: 40.3/100)",
+    "Content Gap: Missing about content content",
+    "Content Gap: Missing product pages content",
+    "Content Gap: Missing service content content",
+    "Immediate attention: 36 pages scoring below 40/100"
+  ],
+  "site_level_issues": [
+    "Insufficient external authority links across content"
+  ],
+  "detailed_page_scores": [
+    {
+      "url": "https://www.mcdonalds.com/us/en-us/faq/where-can-i-find-information-about-product-nutrition-and-ingredients.html",
+      "page_type": "product_page",
+      "overall_score": 41.52912932330827,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 72.3532380952381,
+      "citation_worthiness": 26.315789473684212,
+      "authority_signals": 45.0,
+      "ai_consumption": 55.6
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/can-you-tell-me-about-the-welfare-standards-of-the-cows-mcdonald-s-uses-in-it-s-beef-products.html",
+      "page_type": "product_page",
+      "overall_score": 38.62131752305665,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 83.389898989899,
+      "citation_worthiness": 6.521739130434783,
+      "authority_signals": 45.0,
+      "ai_consumption": 33.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/what-are-the-ingredients-in-your-milkshakes-and-ice-cream-products.html",
+      "page_type": "product_page",
+      "overall_score": 37.93253958944281,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 79.53212121212121,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 50.72903225806452
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/where-can-i-find-information-about-the-ingredients-in-your-food.html",
+      "page_type": "faq_page",
+      "overall_score": 37.93253958944281,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 79.53212121212121,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 50.72903225806452
+    },
+    {
+      "url": "https://www.mcdonalds.com/om/en-om/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.496103896103897,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 51.38095238095238,
+      "citation_worthiness": 10.909090909090908,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ae/ar-ae/about-our-food/our-ingredients-old.html",
+      "page_type": "about_page",
+      "overall_score": 36.16388387096774,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 72.428,
+      "citation_worthiness": 9.67741935483871,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/kw/ar-kw/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 35.59492631578947,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 75.64975438596491,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/bh/ar-bh/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 35.07725714285714,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 73.92419047619047,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/kw/en-kw/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 31.625263157894736,
+      "recommendations": [
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 55.4,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ae/en-ae/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.55910931174089,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 53.179487179487175,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/om/ar-om/about-our-food/our-ingredients-old.html",
+      "page_type": "about_page",
+      "overall_score": 37.18388387096774,
+      "recommendations": [
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 75.828,
+      "citation_worthiness": 9.67741935483871,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/bh/en-bh/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.716374269005847,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 52.37037037037037,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/bh/en-bh/about-our-food1/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.239745916515425,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 52.11494252873563,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/qa/ar-qa/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 34.8832416988417,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 73.27747232947233,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ae/ar-ae/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 35.02662222222222,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 75.08874074074075,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/om/ar-om/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 34.89881860465116,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 73.32939534883721,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/qa/en-qa/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.498158910790487,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 51.642985842985844,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/en-ca/about-us/franchising/franchising-faqs.html",
+      "page_type": "faq_page",
+      "overall_score": 41.35823892339545,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 77.34968530020704,
+      "citation_worthiness": 21.6,
+      "authority_signals": 45.0,
+      "ai_consumption": 48.333333333333336
+    },
+    {
+      "url": "https://www.mcdonalds.com/sa/en-sa/jeddah/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.712030947775624,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 52.10070921985815,
+      "citation_worthiness": 10.909090909090908,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/sa/ar-sa/riyadh/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 35.378685714285716,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 74.92895238095238,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/sa/ar-sa/jeddah/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 34.89597894736842,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 73.3199298245614,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/fr-ca/about-us/franchising/franchising-faqs.html",
+      "page_type": "faq_page",
+      "overall_score": 35.488634867999714,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 75.44438573021182,
+      "citation_worthiness": 1.276595744680851,
+      "authority_signals": 45.0,
+      "ai_consumption": 36.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/sa/en-sa/riyadh/about-our-food/our-ingredients.html",
+      "page_type": "about_page",
+      "overall_score": 30.933834586466162,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 53.095238095238095,
+      "citation_worthiness": 10.526315789473685,
+      "authority_signals": 45.0,
+      "ai_consumption": 39.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/fr-ca/about-us/franchising-bk/franchising-faqs.html",
+      "page_type": "faq_page",
+      "overall_score": 35.456040462522544,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 75.33392307692307,
+      "citation_worthiness": 1.2793176972281448,
+      "authority_signals": 45.0,
+      "ai_consumption": 36.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/en-ca/about-us/franchising-bk/franchising-faqs.html",
+      "page_type": "faq_page",
+      "overall_score": 41.3718,
+      "recommendations": [
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 77.39488888888889,
+      "citation_worthiness": 21.6,
+      "authority_signals": 45.0,
+      "ai_consumption": 48.333333333333336
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/do-you-use-any-equivalent-to-msg-in-your-products.html",
+      "page_type": "product_page",
+      "overall_score": 34.645636363636356,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 73.81878787878787,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/do-you-use-recycled-products-in-your-packaging.html",
+      "page_type": "product_page",
+      "overall_score": 35.72374332334332,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 74.84837518037519,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 42.69230769230769
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/what-ingredients-do-you-use-in-your-veggie-burgers.html",
+      "page_type": "faq_page",
+      "overall_score": 35.53496214979988,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.96056565656565,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 55.467924528301886
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/do-you-use-organic-milk-in-all-your-products.html",
+      "page_type": "product_page",
+      "overall_score": 36.962969696969694,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 81.54323232323232,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/are-the-ingredients-used-in-your-fries-the-same-as-in-the-u-s-a.html",
+      "page_type": "faq_page",
+      "overall_score": 37.07030303030303,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 82.36767676767677,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 33.6
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/what-cleaning-products-do-you-use-and-are-any-of-then-sourced-from-animals.html",
+      "page_type": "product_page",
+      "overall_score": 44.648377104377104,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Link to more authoritative external sources",
+        "Implement structured data markup (JSON-LD, Schema.org)"
+      ],
+      "content_structure": 85.24767676767677,
+      "citation_worthiness": 11.11111111111111,
+      "authority_signals": 57.0,
+      "ai_consumption": 54.51851851851852
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/do-you-use-the-same-grills-to-cook-different-food-products--i-e--pork-and-beef.html",
+      "page_type": "product_page",
+      "overall_score": 35.92056969696969,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 78.73523232323232,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 33.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/is-emulsifier-471-that-you-use-in-some-of-your-products-suitable-for-vegetarians.html",
+      "page_type": "product_page",
+      "overall_score": 34.88983636363636,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 74.63278787878788,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/do-you-use-steroids-or-artificial-hormones-on-the-cows-used-for-your-beef-products.html",
+      "page_type": "product_page",
+      "overall_score": 37.519636363636366,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 83.19878787878788,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 35.6
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/can-you-tell-me-about-the-welfare-standards-of-the-chickens-mcdonald-s-uses-for-it-s-eggs.html",
+      "page_type": "faq_page",
+      "overall_score": 38.98154112554112,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 84.17656565656566,
+      "citation_worthiness": 7.142857142857143,
+      "authority_signals": 45.0,
+      "ai_consumption": 33.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/if-100--chicken-breast-is-used-in-products--what-happens-to-the-rest-of-the-chicken.html",
+      "page_type": "product_page",
+      "overall_score": 41.760554112554104,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 82.94989898989898,
+      "citation_worthiness": 15.584415584415584,
+      "authority_signals": 45.0,
+      "ai_consumption": 47.58701298701298
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/help/faq/what-cleaning-products-are-used-to-clean-the-inside-of-your-coffee-machines.html",
+      "page_type": "product_page",
+      "overall_score": 39.57135566188198,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 84.72323232323232,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 51.54385964912281
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/en-ca/about-our-food/food-safety.html",
+      "page_type": "about_page",
+      "overall_score": 33.28884979919679,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 64.81022222222222,
+      "citation_worthiness": 7.228915662650603,
+      "authority_signals": 45.0,
+      "ai_consumption": 34.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/us/en-us/faq/where-should-california-residents-go-to-learn-more-about-the-applicant-and-employee-rights-fulfillment-proces.html",
+      "page_type": "faq_page",
+      "overall_score": 34.727171428571424,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 67.42390476190477,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 55
+    },
+    {
+      "url": "https://www.mcdonalds.com/ca/fr-ca/about-our-food/food-safety.html",
+      "page_type": "about_page",
+      "overall_score": 31.60815730337079,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 61.78,
+      "citation_worthiness": 3.370786516853932,
+      "authority_signals": 45.0,
+      "ai_consumption": 34.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/qa/ar-qa/product/mineral-water.html",
+      "page_type": "product_page",
+      "overall_score": 34.21280395794682,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 73.04267985982273,
+      "citation_worthiness": 0.0,
+      "authority_signals": 45.0,
+      "ai_consumption": 33.0
+    },
+    {
+      "url": "https://www.mcdonalds.com/gb/en-gb/product/buxton-mineral-water-still.html",
+      "page_type": "product_page",
+      "overall_score": 40.474328236174024,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources",
+        "Implement structured data markup (JSON-LD, Schema.org)"
+      ],
+      "content_structure": 75.15352731326644,
+      "citation_worthiness": 22.531645569620252,
+      "authority_signals": 45.0,
+      "ai_consumption": 44.21940928270042
+    }
+  ],
+  "analysis_timestamp": "2025-09-03T14:48:42.122268"
+}

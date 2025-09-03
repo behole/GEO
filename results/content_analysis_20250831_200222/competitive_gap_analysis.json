@@ -1,0 +1,120 @@
+{
+  "brand_vs_competitors": {
+    "brand_name": "Brush on Block",
+    "brand_score": 34.734865499399916,
+    "competitors_analyzed": 2,
+    "competitor_scores": {
+      "EltaMD": 30.372986740577574,
+      "Supergoop": 38.60072978143509
+    }
+  },
+  "identified_gaps": [
+    {
+      "type": "keyword_gap",
+      "description": "Underutilized keyword: 'non-comedogenic' (brand: 4, competitors avg: 15.0)",
+      "priority": "medium",
+      "estimated_effort": "low",
+      "business_impact": "medium",
+      "competitor_examples": [
+        "EltaMD: 28 mentions",
+        "Supergoop: 2 mentions"
+      ]
+    }
+  ],
+  "competitive_advantages": [
+    "Unique content type: blog post"
+  ],
+  "priority_recommendations": [
+    "Study Supergoop's content strategy - highest scoring competitor",
+    "QUICK WIN: Underutilized keyword: 'non-comedogenic' (brand: 4, competitors avg: 15.0)"
+  ],
+  "content_opportunity_matrix": {
+    "high_impact_low_effort": [],
+    "high_impact_high_effort": [],
+    "low_impact_low_effort": [],
+    "competitive_benchmarks": {
+      "EltaMD": {
+        "overall_score": 30.372986740577574,
+        "content_types": 1,
+        "unique_features": [
+          "Interactive quizzes and assessments",
+          "Detailed ingredient analysis",
+          "Comprehensive application guidance",
+          "Skin type specific recommendations"
+        ],
+        "authority_score": 29.990557815859326
+      },
+      "Supergoop": {
+        "overall_score": 38.60072978143509,
+        "content_types": 1,
+        "unique_features": [
+          "Comprehensive application guidance"
+        ],
+        "authority_score": 34.463586308359076
+      }
+    },
+    "content_type_gaps": {},
+    "keyword_opportunities": {},
+    "medium_impact_low_effort": [
+      {
+        "description": "Underutilized keyword: 'non-comedogenic' (brand: 4, competitors avg: 15.0)",
+        "gap_type": "keyword_gap",
+        "priority": "medium"
+      }
+    ]
+  },
+  "competitor_insights": {
+    "EltaMD": {
+      "content_types_found": {
+        "product_page": 41
+      },
+      "unique_features": [
+        "Interactive quizzes and assessments",
+        "Detailed ingredient analysis",
+        "Comprehensive application guidance",
+        "Skin type specific recommendations"
+      ],
+      "authority_metrics": {
+        "avg_authority_score": 29.990557815859326,
+        "pages_with_external_links": 0,
+        "avg_expertise_indicators": 0.8913043478260869,
+        "pages_with_author_info": 0,
+        "avg_word_count": 602.8571428571429
+      },
+      "keyword_coverage_top10": {
+        "zinc oxide": 112,
+        "sensitive skin": 37,
+        "non-comedogenic": 28,
+        "titanium dioxide": 22,
+        "broad spectrum": 20,
+        "mineral sunscreen": 16,
+        "water resistant": 15
+      }
+    },
+    "Supergoop": {
+      "content_types_found": {
+        "product_page": 5
+      },
+      "unique_features": [
+        "Comprehensive application guidance"
+      ],
+      "authority_metrics": {
+        "avg_authority_score": 34.463586308359076,
+        "pages_with_external_links": 1,
+        "avg_expertise_indicators": 1.1818181818181819,
+        "pages_with_author_info": 0,
+        "avg_word_count": 515.9090909090909
+      },
+      "keyword_coverage_top10": {
+        "titanium dioxide": 64,
+        "zinc oxide": 34,
+        "broad spectrum": 10,
+        "water resistant": 4,
+        "mineral sunscreen": 2,
+        "sensitive skin": 2,
+        "non-comedogenic": 2
+      }
+    }
+  },
+  "analysis_timestamp": "2025-08-31T20:02:22.361940"
+}

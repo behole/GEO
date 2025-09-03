@@ -1,0 +1,68 @@
+{
+  "brand_vs_competitors": {
+    "brand_name": "Nike",
+    "brand_score": 28.546812872921507,
+    "competitors_analyzed": 1,
+    "competitor_scores": {
+      "Under Armour": 35.95863093552459
+    }
+  },
+  "identified_gaps": [
+    {
+      "type": "quality_gap",
+      "description": "Content depth gap: Brand (418 words) vs competitors (3688 words)",
+      "priority": "medium",
+      "estimated_effort": "medium",
+      "business_impact": "medium",
+      "competitor_examples": [
+        "Competitors have 8.8x longer content"
+      ]
+    }
+  ],
+  "competitive_advantages": [],
+  "priority_recommendations": [
+    "Study Under Armour's content strategy - highest scoring competitor"
+  ],
+  "content_opportunity_matrix": {
+    "high_impact_low_effort": [],
+    "high_impact_high_effort": [],
+    "low_impact_low_effort": [],
+    "competitive_benchmarks": {
+      "Under Armour": {
+        "overall_score": 35.95863093552459,
+        "content_types": 2,
+        "unique_features": [],
+        "authority_score": 29.43615309191102
+      }
+    },
+    "content_type_gaps": {},
+    "keyword_opportunities": {},
+    "medium_impact_medium_effort": [
+      {
+        "description": "Content depth gap: Brand (418 words) vs competitors (3688 words)",
+        "gap_type": "quality_gap",
+        "priority": "medium"
+      }
+    ]
+  },
+  "competitor_insights": {
+    "Under Armour": {
+      "content_types_found": {
+        "product_page": 17,
+        "guide_page": 27
+      },
+      "unique_features": [],
+      "authority_metrics": {
+        "avg_authority_score": 29.43615309191102,
+        "pages_with_external_links": 0,
+        "avg_expertise_indicators": 0.044444444444444446,
+        "pages_with_author_info": 9,
+        "avg_word_count": 3688.0652173913045
+      },
+      "keyword_coverage_top10": {
+        "running shoes": 3
+      }
+    }
+  },
+  "analysis_timestamp": "2025-08-31T21:11:39.272542"
+}

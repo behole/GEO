@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "export_timestamp": "2025-09-03T18:47:31.869888+00:00",
+    "agent_version": "1.0.0",
+    "baseline_date": "2025-09-03T18:47:31.853188",
+    "run_id": "20250903_183829",
+    "execution_timestamp": "2025-09-03T18:47:31.853437",
+    "total_queries": 50,
+    "engines_used": 4,
+    "engine_list": [
+      "openai",
+      "openai",
+      "anthropic",
+      "google"
+    ],
+    "timing": {
+      "query_execution": 542.5695550441742,
+      "response_analysis": 0.1259138584136963,
+      "score_calculation": 0.0008730888366699219,
+      "total_duration": 542.717227935791
+    },
+    "configuration": {
+      "max_concurrent_requests": 5,
+      "request_timeout": 30,
+      "retry_attempts": 3
+    },
+    "api_costs": {
+      "total_cost": 2.69580425,
+      "total_calls": 200,
+      "total_input_tokens": 19700,
+      "total_output_tokens": 125260,
+      "cost_by_engine": {
+        "openai": 2.0287170000000003,
+        "anthropic": 0.448176,
+        "google": 0.21891125000000006
+      },
+      "cost_per_query": 0.053916085,
+      "cost_efficiency": {
+        "cost_per_call": 0.01347902125,
+        "cost_per_1k_tokens": 0.01859688362306843
+      }
+    }
+  },
+  "scores": {
+    "overall_score": 29.031259838646204,
+    "discovery_score": 10.0,
+    "context_score": 54.375,
+    "competitive_score": 24.00003935458481,
+    "data_quality_score": 97.13000000000001
+  },
+  "score_breakdowns": {
+    "discovery": {
+      "component_scores": {
+        "citation_rate": 7.5,
+        "position_quality": 0,
+        "context_quality": 31.25
+      },
+      "raw_metrics": {
+        "total_queries": 200,
+        "your_brand_citations": 15,
+        "citation_rate": 0.075,
+        "avg_position": 16.5,
+        "positive_contexts": 5,
+        "total_contexts": 16
+      },
+      "weight_distribution": {
+        "citation_rate": 0.5,
+        "position_quality": 0.3,
+        "context_quality": 0.2
+      },
+      "total_score": 10.0,
+      "confidence": 1.0
+    },
+    "context": {
+      "component_scores": {
+        "sentiment_ratio": 65.625,
+        "specificity_score": 0.0,
+        "detail_richness": 100.0
+      },
+      "raw_metrics": {
+        "total_mentions": 16,
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "neutral_mentions": 11,
+        "product_specific_mentions": 0,
+        "detailed_mentions": 16
+      },
+      "weight_distribution": {
+        "sentiment_ratio": 0.6,
+        "specificity_score": 0.25,
+        "detail_richness": 0.15
+      },
+      "total_score": 54.375,
+      "confidence": 0.8
+    },
+    "competitive": {
+      "component_scores": {
+        "first_position_rate": 46.666666666666664,
+        "market_share": 1.8890200708382525,
+        "unique_visibility": 0.5
+      },
+      "raw_metrics": {
+        "total_query_opportunities": 194,
+        "your_brand_in_results": 15,
+        "first_position_count": 7,
+        "total_your_mentions": 16,
+        "total_competitor_mentions": 831,
+        "unique_queries": 1
+      },
+      "weight_distribution": {
+        "first_position_rate": 0.5,
+        "market_share": 0.3,
+        "unique_visibility": 0.2
+      },
+      "total_score": 24.00003935458481,
+      "confidence": 1.0
+    }
+  },
+  "insights": {
+    "overall_assessment": "Poor - Limited visibility, major improvements needed",
+    "priority_areas": [
+      "Discovery - Increase brand visibility in AI responses",
+      "Competitive Position - Strengthen position vs competitors"
+    ],
+    "strengths": [],
+    "weaknesses": [
+      "Low brand discovery rate",
+      "Weak competitive positioning"
+    ],
+    "recommendations": [
+      "Increase content marketing focused on target queries",
+      "Develop thought leadership content in mineral sunscreen space",
+      "Optimize website content for AI training data inclusion",
+      "Create detailed product specification content",
+      "Develop comprehensive benefit-focused messaging",
+      "Build authority through expert testimonials and reviews",
+      "Analyze top competitor content strategies",
+      "Develop unique positioning vs major brands",
+      "Create comparative content highlighting advantages"
+    ],
+    "data_confidence": {
+      "average_confidence": 0.9333333333333333,
+      "confidence_level": "High",
+      "data_quality_score": 97.13000000000001,
+      "recommendation": "Sufficient data for reliable insights"
+    }
+  }
+}

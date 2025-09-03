@@ -1,0 +1,128 @@
+{
+  "competitor_rankings": [
+    {
+      "competitor": "Supergoop",
+      "overall_score": 67.55,
+      "content_depth": 85,
+      "authority_signals": 100,
+      "ai_optimization": 20,
+      "top_strengths": [
+        "Strong dermatologist endorsement strategy",
+        "Evidence-based content with clinical backing",
+        "High authority signal implementation"
+      ],
+      "key_weaknesses": []
+    },
+    {
+      "competitor": "EltaMD",
+      "overall_score": 67.55,
+      "content_depth": 85,
+      "authority_signals": 100,
+      "ai_optimization": 20,
+      "top_strengths": [
+        "Strong dermatologist endorsement strategy",
+        "Comprehensive ingredient education",
+        "High authority signal implementation"
+      ],
+      "key_weaknesses": []
+    },
+    {
+      "competitor": "CeraVe",
+      "overall_score": 67.55,
+      "content_depth": 85,
+      "authority_signals": 100,
+      "ai_optimization": 20,
+      "top_strengths": [
+        "Comprehensive ingredient education",
+        "Evidence-based content with clinical backing",
+        "High authority signal implementation"
+      ],
+      "key_weaknesses": []
+    }
+  ],
+  "authority_analysis": [
+    {
+      "competitor": "Supergoop",
+      "credibility_score": 63,
+      "expert_endorsements": 1,
+      "clinical_studies": 1,
+      "authority_tactics": [
+        "Dermatologist partnership strategy",
+        "Evidence-based marketing approach"
+      ]
+    },
+    {
+      "competitor": "EltaMD",
+      "credibility_score": 63,
+      "expert_endorsements": 1,
+      "clinical_studies": 1,
+      "authority_tactics": [
+        "Dermatologist partnership strategy",
+        "Educational authority positioning"
+      ]
+    },
+    {
+      "competitor": "CeraVe",
+      "credibility_score": 63,
+      "expert_endorsements": 1,
+      "clinical_studies": 1,
+      "authority_tactics": [
+        "Educational authority positioning",
+        "Evidence-based marketing approach"
+      ]
+    }
+  ],
+  "citation_patterns": [
+    {
+      "competitor": "Supergoop",
+      "citation_frequency": 41.275,
+      "citation_quality": 75.0,
+      "ai_preferences": {
+        "openai": 37.1475,
+        "anthropic": 45.4025,
+        "google": 33.02
+      },
+      "citation_triggers": [
+        "Clinical evidence mentions",
+        "Professional recommendations",
+        "Ingredient education queries",
+        "Brand comparison requests",
+        "Product recommendation queries"
+      ]
+    },
+    {
+      "competitor": "EltaMD",
+      "citation_frequency": 26.1625,
+      "citation_quality": 75.0,
+      "ai_preferences": {
+        "openai": 23.54625,
+        "anthropic": 28.778750000000002,
+        "google": 20.930000000000003
+      },
+      "citation_triggers": [
+        "Clinical evidence mentions",
+        "Professional recommendations",
+        "Ingredient education queries",
+        "Brand comparison requests",
+        "Product recommendation queries"
+      ]
+    },
+    {
+      "competitor": "CeraVe",
+      "citation_frequency": 20.6375,
+      "citation_quality": 75.0,
+      "ai_preferences": {
+        "openai": 18.57375,
+        "anthropic": 22.70125,
+        "google": 16.51
+      },
+      "citation_triggers": [
+        "Clinical evidence mentions",
+        "Professional recommendations",
+        "Ingredient education queries",
+        "Brand comparison requests",
+        "Product recommendation queries"
+      ]
+    }
+  ]
+}

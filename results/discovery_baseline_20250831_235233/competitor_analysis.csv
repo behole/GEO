@@ -1,0 +1,20 @@
+competitor,total_mentions,queries_mentioned,engines_count,engines_list,average_position,positive_mentions,negative_mentions,neutral_mentions,sentiment_ratio
+eltamd,139,139,3,"google, anthropic, openai",10.31,71,7,110,0.51
+supergoop,83,83,3,"google, anthropic, openai",17.42,6,1,113,0.07
+blue lizard,75,75,3,"google, anthropic, openai",15.34,16,2,78,0.21
+cerave,71,71,3,"google, anthropic, openai",11.71,21,6,58,0.3
+neutrogena,54,54,3,"google, anthropic, openai",15.9,15,8,78,0.28
+badger,50,50,3,"google, anthropic, openai",17.08,1,51,13,0.02
+coola,32,32,3,"google, anthropic, openai",20.19,6,0,42,0.19
+thinkbaby,32,32,3,"google, anthropic, openai",16.45,14,0,24,0.44
+thinksport,20,20,3,"google, anthropic, openai",14.83,6,2,16,0.3
+sun bum,10,10,2,"google, openai",22.45,1,0,10,0.1
+aveeno,9,9,2,"google, openai",13.9,1,0,9,0.11
+all good,6,6,3,"google, anthropic, openai",14.86,2,0,5,0.33
+drunk elephant,5,5,2,"anthropic, openai",16.71,2,1,4,0.4
+stream2sea,3,3,3,"google, anthropic, openai",21.25,1,0,3,0.33
+bare republic,3,3,2,"anthropic, openai",9.67,1,0,2,0.33
+coppertone,1,1,1,openai,12.0,1,0,0,1.0
+mineral fusion,1,1,1,openai,15.5,1,0,1,1.0
+hawaiian tropic,1,1,1,google,34.0,0,0,1,0.0
+banana boat,1,1,1,openai,5.0,0,1,0,0.0

@@ -1,0 +1,21 @@
+{
+  "brand_vs_competitors": {
+    "brand_name": "McDonald's",
+    "brand_score": 35.76464179479337,
+    "competitors_analyzed": 0,
+    "competitor_scores": {}
+  },
+  "identified_gaps": [],
+  "competitive_advantages": [],
+  "priority_recommendations": [],
+  "content_opportunity_matrix": {
+    "high_impact_low_effort": [],
+    "high_impact_high_effort": [],
+    "low_impact_low_effort": [],
+    "competitive_benchmarks": {},
+    "content_type_gaps": {},
+    "keyword_opportunities": {}
+  },
+  "competitor_insights": {},
+  "analysis_timestamp": "2025-09-03T14:51:00.869677"
+}

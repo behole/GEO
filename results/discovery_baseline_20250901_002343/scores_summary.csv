@@ -1,0 +1,12 @@
+metric,score,confidence,category
+Overall Score,27.397150218482317,,Summary
+Discovery - Citation Rate,9.5,1.0,Discovery
+Discovery - Position Quality,0,1.0,Discovery
+Discovery - Context Quality,21.73913043478261,1.0,Discovery
+Context - Sentiment Ratio,60.86956521739131,1.0,Context
+Context - Specificity Score,0.0,1.0,Context
+Context - Detail Richness,91.30434782608695,1.0,Context
+Competitive - First Position Rate,47.368421052631575,1.0,Competitive
+Competitive - Market Share,2.8117359413202934,1.0,Competitive
+Competitive - Unique Visibility,1.0,1.0,Competitive
+Data Quality Score,97.41,,Quality

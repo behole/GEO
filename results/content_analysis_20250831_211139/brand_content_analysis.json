@@ -1,0 +1,692 @@
+{
+  "domain": "nike.com",
+  "pages_analyzed": 50,
+  "pages_failed": 0,
+  "overall_score": 28.546812872921507,
+  "content_structure_score": 69.40693213024278,
+  "citation_worthiness_score": 4.619752383692775,
+  "authority_signals_score": 28.242180441473263,
+  "ai_consumption_score": 43.91705656142964,
+  "content_gaps": [
+    "Missing athlete endorsements content",
+    "Missing lifestyle content content",
+    "Missing product pages content",
+    "Missing technology content content",
+    "Missing training guides content",
+    "No content found for 'athletic footwear'",
+    "No content found for 'performance apparel'",
+    "No content found for 'sports equipment'"
+  ],
+  "priority_recommendations": [
+    "CRITICAL: Overall content quality is poor - comprehensive content audit recommended",
+    "Priority: Improve Citation Worthiness (current score: 4.6/100)",
+    "Priority: Improve Authority Signals (current score: 28.2/100)",
+    "Content Gap: Missing athlete endorsements content",
+    "Content Gap: Missing lifestyle content content",
+    "Content Gap: Missing product pages content",
+    "Immediate attention: 41 pages scoring below 40/100"
+  ],
+  "site_level_issues": [
+    "Low structured data implementation across site",
+    "Insufficient external authority links across content"
+  ],
+  "detailed_page_scores": [
+    {
+      "url": "https://www.nike.com/ph/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.054879818844707,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.06139427537883,
+      "citation_worthiness": 1.171875,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.965625
+    },
+    {
+      "url": "https://www.nike.com/sg/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.092426299803222,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.16150007100775,
+      "citation_worthiness": 1.1834319526627217,
+      "authority_signals": 27.0,
+      "ai_consumption": 46.06193293885602
+    },
+    {
+      "url": "https://www.nike.com/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 29.545986499203963,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 68.06708592855645,
+      "citation_worthiness": 1.023890784982935,
+      "authority_signals": 39.0,
+      "ai_consumption": 44.73242320819113
+    },
+    {
+      "url": "https://www.nike.com/za/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 33.00689850808049,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.91160159375863,
+      "citation_worthiness": 21.134215500945178,
+      "authority_signals": 27.756143667296787,
+      "ai_consumption": 46.942155009451795
+    },
+    {
+      "url": "https://www.nike.com/at/en/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.077529644886887,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.40637089865702,
+      "citation_worthiness": 1.1131725417439704,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.47643784786642
+    },
+    {
+      "url": "https://www.nike.com/gb/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.091711401796108,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.45413185253757,
+      "citation_worthiness": 1.1152416356877324,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.493680297397766
+    },
+    {
+      "url": "https://www.nike.com/ro/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 33.00687065921702,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.91149019830476,
+      "citation_worthiness": 21.134215500945178,
+      "authority_signals": 27.756143667296787,
+      "ai_consumption": 46.942155009451795
+    },
+    {
+      "url": "https://www.nike.com/gb/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 32.99685912926769,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.88328557367453,
+      "citation_worthiness": 21.132075471698112,
+      "authority_signals": 27.754716981132077,
+      "ai_consumption": 46.92075471698113
+    },
+    {
+      "url": "https://www.nike.com/ro/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.09761870666394,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.46876160505428,
+      "citation_worthiness": 1.1173184357541899,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.51098696461825
+    },
+    {
+      "url": "https://www.nike.com/nz/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 30.110456012528182,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 78.95270591367347,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.665557404326123,
+      "ai_consumption": 48.391680532445925
+    },
+    {
+      "url": "https://www.nike.com/sg/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.14006189600173,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.16338483890887,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.784313725490197,
+      "ai_consumption": 45.423529411764704
+    },
+    {
+      "url": "https://www.nike.com/in/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 33.42066710931252,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.33659556275613,
+      "citation_worthiness": 20.0,
+      "authority_signals": 27.809716599190285,
+      "ai_consumption": 47.74574898785425
+    },
+    {
+      "url": "https://www.nike.com/be/en/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.09945946944829,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.49409019690263,
+      "citation_worthiness": 1.1131725417439704,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.47643784786642
+    },
+    {
+      "url": "https://www.nike.com/sk/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.417347569312778,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.39235324021408,
+      "citation_worthiness": 1.111111111111111,
+      "authority_signals": 27.74074074074074,
+      "ai_consumption": 44.93333333333333
+    },
+    {
+      "url": "https://www.nike.com/hr/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.09761870666394,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.46876160505428,
+      "citation_worthiness": 1.1173184357541899,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.51098696461825
+    },
+    {
+      "url": "https://www.nike.com/ch/en/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.097694181210155,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.46906350323913,
+      "citation_worthiness": 1.1173184357541899,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.51098696461825
+    },
+    {
+      "url": "https://www.nike.com/au/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 27.8912737189697,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 69.9056957342479,
+      "citation_worthiness": 1.2875536480686696,
+      "authority_signals": 27.0,
+      "ai_consumption": 46.929613733905576
+    },
+    {
+      "url": "https://www.nike.com/jp/product-advice/buying-guides/ランニング",
+      "page_type": "product_page",
+      "overall_score": 20.807288629737606,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 50.029154518950435,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.0,
+      "ai_consumption": 29.0
+    },
+    {
+      "url": "https://www.nike.com/jp/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 21.00728862973761,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 50.029154518950435,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.0,
+      "ai_consumption": 31.0
+    },
+    {
+      "url": "https://www.nike.com/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 34.703370521568324,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 68.89944395802372,
+      "citation_worthiness": 20.0,
+      "authority_signals": 39.69324090121317,
+      "ai_consumption": 45.39861351819758
+    },
+    {
+      "url": "https://www.nike.com/ph/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.10325548879613,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.0565171008156,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.776699029126213,
+      "ai_consumption": 45.337864077669906
+    },
+    {
+      "url": "https://www.nike.com/ie/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.396526060077075,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.32765405580645,
+      "citation_worthiness": 1.1070110701107012,
+      "authority_signals": 27.7380073800738,
+      "ai_consumption": 44.90258302583026
+    },
+    {
+      "url": "https://www.nike.com/sg/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 33.271785406671036,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.79623982307692,
+      "citation_worthiness": 20.0,
+      "authority_signals": 27.801603206412825,
+      "ai_consumption": 47.62404809619238
+    },
+    {
+      "url": "https://www.nike.com/si/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 32.9831944578115,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.84042378228179,
+      "citation_worthiness": 21.129943502824858,
+      "authority_signals": 27.753295668549907,
+      "ai_consumption": 46.89943502824859
+    },
+    {
+      "url": "https://www.nike.com/za/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.41737617084823,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.39246764635588,
+      "citation_worthiness": 1.111111111111111,
+      "authority_signals": 27.74074074074074,
+      "ai_consumption": 44.93333333333333
+    },
+    {
+      "url": "https://www.nike.com/nl/en/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.099316481573666,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.49351824540412,
+      "citation_worthiness": 1.1131725417439704,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.47643784786642
+    },
+    {
+      "url": "https://www.nike.com/my/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.140120538429525,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.16361940862005,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.784313725490197,
+      "ai_consumption": 45.423529411764704
+    },
+    {
+      "url": "https://www.nike.com/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 29.60382490661655,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 68.96985744959544,
+      "citation_worthiness": 0.0,
+      "authority_signals": 39.68027210884354,
+      "ai_consumption": 44.2530612244898
+    },
+    {
+      "url": "https://www.nike.com/my/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.092503460892424,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.16180871536457,
+      "citation_worthiness": 1.1834319526627217,
+      "authority_signals": 27.0,
+      "ai_consumption": 46.06193293885602
+    },
+    {
+      "url": "https://www.nike.com/ie/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.077602298185347,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.40666151185086,
+      "citation_worthiness": 1.1131725417439704,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.47643784786642
+    },
+    {
+      "url": "https://www.nike.com/nz/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 30.110456012528182,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 78.95270591367347,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.665557404326123,
+      "ai_consumption": 48.391680532445925
+    },
+    {
+      "url": "https://www.nike.com/in/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.245726288644455,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.7236222860519,
+      "citation_worthiness": 1.1952191235059761,
+      "authority_signals": 27.0,
+      "ai_consumption": 46.160159362549805
+    },
+    {
+      "url": "https://www.nike.com/ca/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.439277393874182,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.4800725384597,
+      "citation_worthiness": 1.111111111111111,
+      "authority_signals": 27.74074074074074,
+      "ai_consumption": 44.93333333333333
+    },
+    {
+      "url": "https://www.nike.com/ca/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.119548531225345,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.5564809032999,
+      "citation_worthiness": 1.1173184357541899,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.51098696461825
+    },
+    {
+      "url": "https://www.nike.com/lu/en/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 28.077675741193573,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 71.40695528388376,
+      "citation_worthiness": 1.1131725417439704,
+      "authority_signals": 27.0,
+      "ai_consumption": 45.47643784786642
+    },
+    {
+      "url": "https://www.nike.com/jp/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 20.807288629737606,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 50.029154518950435,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.0,
+      "ai_consumption": 29.0
+    },
+    {
+      "url": "https://www.nike.com/jp/product-advice/buying-guides/ヨガ",
+      "page_type": "product_page",
+      "overall_score": 20.807288629737606,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Shorten sentences for better readability (aim for 15-25 words)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations"
+      ],
+      "content_structure": 50.029154518950435,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.0,
+      "ai_consumption": 29.0
+    },
+    {
+      "url": "https://www.nike.com/bg/product-advice/buying-guides/yoga",
+      "page_type": "product_page",
+      "overall_score": 33.00687065921702,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Improve readability - content may be too complex",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information"
+      ],
+      "content_structure": 69.91149019830476,
+      "citation_worthiness": 21.134215500945178,
+      "authority_signals": 27.756143667296787,
+      "ai_consumption": 46.942155009451795
+    },
+    {
+      "url": "https://www.nike.com/kr/product-advice/buying-guides",
+      "page_type": "product_page",
+      "overall_score": 25.1567713075545,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 67.427085230218,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.0,
+      "ai_consumption": 29.0
+    },
+    {
+      "url": "https://www.nike.com/gb/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.411197544363517,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.37706374492171,
+      "citation_worthiness": 1.1090573012939002,
+      "authority_signals": 27.739371534195932,
+      "ai_consumption": 44.91792975970425
+    },
+    {
+      "url": "https://www.nike.com/in/product-advice/buying-guides/training-gym",
+      "page_type": "product_page",
+      "overall_score": 28.28841466954942,
+      "recommendations": [
+        "Optimize paragraph length (aim for 50-150 words per paragraph)",
+        "Add more specific facts, statistics, and numerical data",
+        "Include more external authority links and source citations",
+        "Add author credentials and expertise information",
+        "Link to more authoritative external sources"
+      ],
+      "content_structure": 72.71563887621748,
+      "citation_worthiness": 0.0,
+      "authority_signals": 27.792079207920793,
+      "ai_consumption": 45.51089108910891
+    }
+  ],
+  "analysis_timestamp": "2025-08-31T20:50:58.843973"
+}

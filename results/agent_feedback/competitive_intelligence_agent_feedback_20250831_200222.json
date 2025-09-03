@@ -1,0 +1,26 @@
+{
+  "agent_name": "Competitive Intelligence Agent",
+  "timestamp": "2025-08-31T20:02:22.432346",
+  "feedback_type": "trend_update",
+  "priority": "high",
+  "data": {
+    "current_competitive_score": 21.5,
+    "trend_direction": "stable",
+    "change_percentage": 0.0,
+    "progress_to_target": 8.203125000000005,
+    "high_threat_competitors": 1,
+    "immediate_threats": [
+      "EltaMD"
+    ],
+    "competitive_opportunities": 0,
+    "market_position_trend": "stable",
+    "market_gap_opportunities": 13
+  },
+  "recommendations": [
+    "Develop response strategy for 1 high-threat competitors",
+    "Accelerate authority building initiatives to counter competitive pressure",
+    "Monitor competitor content strategies for defensive opportunities",
+    "Prioritize capture of identified market gap opportunities"
+  ],
+  "expected_impact": "20-30% improvement in competitive positioning through strategic response"
+}

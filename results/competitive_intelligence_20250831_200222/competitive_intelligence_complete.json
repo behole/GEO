@@ -1,0 +1,1009 @@
+{
+  "agent_info": {
+    "agent_name": "Competitive Intelligence Agent",
+    "agent_version": "1.0.0",
+    "brand_name": "Brush on Block",
+    "analysis_timestamp": "2025-08-31T20:02:22.389611",
+    "analysis_type": "competitive_intelligence"
+  },
+  "configuration": {
+    "sector": "unknown",
+    "product_type": "mineral_sunscreen",
+    "competitors_analyzed": 4,
+    "query_matrix_size": 45,
+    "analysis_depth_days": 30
+  },
+  "executive_summary": {
+    "competitive_landscape": {
+      "competitors_analyzed": 3,
+      "market_leaders_identified": 0,
+      "significant_threats": 3,
+      "high_priority_opportunities": 1
+    },
+    "strategic_position": {
+      "competitive_landscape_summary": "Analyzed 3 competitors with average strategy score of 67.5%",
+      "brand_position_assessment": "Significant improvement opportunities identified across multiple content areas",
+      "priority_action_items": 1,
+      "critical_gaps_identified": 0,
+      "investment_recommendation": "Medium to high investment in content and authority building for competitive parity",
+      "timeline_urgency": "Immediate action recommended for critical gaps, 90-day timeline for competitive parity",
+      "expected_outcomes": "25-40% improvement in competitive positioning within 6 months with proper execution",
+      "key_focus_areas": [
+        "Content depth improvement",
+        "Authority signal development",
+        "Market gap capture",
+        "AI optimization enhancement"
+      ]
+    },
+    "investment_priorities": 1,
+    "immediate_actions_required": 0
+  },
+  "competitive_intelligence_analysis": {
+    "competitor_content_strategies": {
+      "analysis_timestamp": "2025-08-31T20:02:22.388422",
+      "competitors_analyzed": [
+        "Supergoop",
+        "EltaMD",
+        "CeraVe"
+      ],
+      "strategy_scores": [
+        {
+          "competitor": "Supergoop",
+          "content_depth_score": 85,
+          "authority_signal_score": 100,
+          "ai_optimization_score": 20,
+          "citation_worthiness_score": 49,
+          "content_freshness_score": 75.0,
+          "overall_strategy_score": 67.55,
+          "strategy_strengths": [
+            "Strong dermatologist endorsement strategy",
+            "Evidence-based content with clinical backing",
+            "High authority signal implementation"
+          ],
+          "strategy_weaknesses": [],
+          "content_patterns": {
+            "content_type_distribution": {
+              "product_page": 10,
+              "ingredient_guide": 5,
+              "faq_page": 3
+            },
+            "unique_feature_count": 3,
+            "authority_presence": true,
+            "keyword_focus_areas": [
+              "mineral sunscreen",
+              "zinc oxide",
+              "dermatologist"
+            ]
+          },
+          "authority_indicators": {
+            "expert_endorsements": 1,
+            "clinical_studies": 1,
+            "certifications": 0,
+            "awards": 0,
+            "author_credentials": 8
+          }
+        },
+        {
+          "competitor": "EltaMD",
+          "content_depth_score": 85,
+          "authority_signal_score": 100,
+          "ai_optimization_score": 20,
+          "citation_worthiness_score": 49,
+          "content_freshness_score": 75.0,
+          "overall_strategy_score": 67.55,
+          "strategy_strengths": [
+            "Strong dermatologist endorsement strategy",
+            "Comprehensive ingredient education",
+            "High authority signal implementation"
+          ],
+          "strategy_weaknesses": [],
+          "content_patterns": {
+            "content_type_distribution": {
+              "product_page": 10,
+              "ingredient_guide": 5,
+              "faq_page": 3
+            },
+            "unique_feature_count": 3,
+            "authority_presence": true,
+            "keyword_focus_areas": [
+              "mineral sunscreen",
+              "zinc oxide",
+              "dermatologist"
+            ]
+          },
+          "authority_indicators": {
+            "expert_endorsements": 1,
+            "clinical_studies": 1,
+            "certifications": 0,
+            "awards": 0,
+            "author_credentials": 8
+          }
+        },
+        {
+          "competitor": "CeraVe",
+          "content_depth_score": 85,
+          "authority_signal_score": 100,
+          "ai_optimization_score": 20,
+          "citation_worthiness_score": 49,
+          "content_freshness_score": 75.0,
+          "overall_strategy_score": 67.55,
+          "strategy_strengths": [
+            "Comprehensive ingredient education",
+            "Evidence-based content with clinical backing",
+            "High authority signal implementation"
+          ],
+          "strategy_weaknesses": [],
+          "content_patterns": {
+            "content_type_distribution": {
+              "product_page": 10,
+              "ingredient_guide": 5,
+              "faq_page": 3
+            },
+            "unique_feature_count": 3,
+            "authority_presence": true,
+            "keyword_focus_areas": [
+              "mineral sunscreen",
+              "zinc oxide",
+              "dermatologist"
+            ]
+          },
+          "authority_indicators": {
+            "expert_endorsements": 1,
+            "clinical_studies": 1,
+            "certifications": 0,
+            "awards": 0,
+            "author_credentials": 8
+          }
+        }
+      ],
+      "citation_patterns": [
+        {
+          "competitor": "Supergoop",
+          "content_type": "mixed",
+          "citation_frequency": 41.275,
+          "citation_context": [
+            "Expert recommendation queries",
+            "Scientific evidence discussions",
+            "Product comparison discussions",
+            "Best-of-category recommendations"
+          ],
+          "citation_quality_score": 75.0,
+          "ai_engine_preferences": {
+            "openai": 37.1475,
+            "anthropic": 45.4025,
+            "google": 33.02
+          },
+          "common_citation_triggers": [
+            "Clinical evidence mentions",
+            "Professional recommendations",
+            "Ingredient education queries",
+            "Brand comparison requests",
+            "Product recommendation queries"
+          ]
+        },
+        {
+          "competitor": "EltaMD",
+          "content_type": "mixed",
+          "citation_frequency": 26.1625,
+          "citation_context": [
+            "Expert recommendation queries",
+            "Ingredient comparison queries",
+            "Product comparison discussions",
+            "Best-of-category recommendations"
+          ],
+          "citation_quality_score": 75.0,
+          "ai_engine_preferences": {
+            "openai": 23.54625,
+            "anthropic": 28.778750000000002,
+            "google": 20.930000000000003
+          },
+          "common_citation_triggers": [
+            "Clinical evidence mentions",
+            "Professional recommendations",
+            "Ingredient education queries",
+            "Brand comparison requests",
+            "Product recommendation queries"
+          ]
+        },
+        {
+          "competitor": "CeraVe",
+          "content_type": "mixed",
+          "citation_frequency": 20.6375,
+          "citation_context": [
+            "Ingredient comparison queries",
+            "Scientific evidence discussions",
+            "Product comparison discussions",
+            "Best-of-category recommendations"
+          ],
+          "citation_quality_score": 75.0,
+          "ai_engine_preferences": {
+            "openai": 18.57375,
+            "anthropic": 22.70125,
+            "google": 16.51
+          },
+          "common_citation_triggers": [
+            "Clinical evidence mentions",
+            "Professional recommendations",
+            "Ingredient education queries",
+            "Brand comparison requests",
+            "Product recommendation queries"
+          ]
+        }
+      ],
+      "authority_analyses": [
+        {
+          "competitor": "Supergoop",
+          "expert_endorsements": 1,
+          "clinical_study_references": 1,
+          "certification_count": 0,
+          "award_mentions": 0,
+          "authority_building_tactics": [
+            "Dermatologist partnership strategy",
+            "Evidence-based marketing approach"
+          ],
+          "credibility_score": 63,
+          "trust_indicators": {
+            "expert_backing": 1,
+            "scientific_evidence": 1,
+            "third_party_validation": 0,
+            "transparency_signals": 1
+          }
+        },
+        {
+          "competitor": "EltaMD",
+          "expert_endorsements": 1,
+          "clinical_study_references": 1,
+          "certification_count": 0,
+          "award_mentions": 0,
+          "authority_building_tactics": [
+            "Dermatologist partnership strategy",
+            "Educational authority positioning"
+          ],
+          "credibility_score": 63,
+          "trust_indicators": {
+            "expert_backing": 1,
+            "scientific_evidence": 1,
+            "third_party_validation": 0,
+            "transparency_signals": 1
+          }
+        },
+        {
+          "competitor": "CeraVe",
+          "expert_endorsements": 1,
+          "clinical_study_references": 1,
+          "certification_count": 0,
+          "award_mentions": 0,
+          "authority_building_tactics": [
+            "Educational authority positioning",
+            "Evidence-based marketing approach"
+          ],
+          "credibility_score": 63,
+          "trust_indicators": {
+            "expert_backing": 1,
+            "scientific_evidence": 1,
+            "third_party_validation": 0,
+            "transparency_signals": 1
+          }
+        }
+      ],
+      "content_gap_opportunities": [],
+      "strategic_insights": [
+        "Supergoop leads with overall strategy score of 67.5",
+        "Content depth leaders: Supergoop, EltaMD, CeraVe provide comprehensive coverage",
+        "High citation frequency: Supergoop get referenced more often by AI engines",
+        "Common success patterns: Strong dermatologist endorsement strategy, Evidence-based content with clinical backing, High authority signal implementation"
+      ],
+      "competitive_positioning": {
+        "content_depth_leader": "Supergoop",
+        "authority_leader": "Supergoop",
+        "ai_optimization_leader": "Supergoop",
+        "overall_leader": "Supergoop",
+        "competitive_matrix": [
+          {
+            "competitor": "Supergoop",
+            "authority_signals": 100,
+            "content_depth": 85,
+            "overall_score": 67.55,
+            "market_position": "Authority Challenger"
+          },
+          {
+            "competitor": "EltaMD",
+            "authority_signals": 100,
+            "content_depth": 85,
+            "overall_score": 67.55,
+            "market_position": "Authority Challenger"
+          },
+          {
+            "competitor": "CeraVe",
+            "authority_signals": 100,
+            "content_depth": 85,
+            "overall_score": 67.55,
+            "market_position": "Authority Challenger"
+          }
+        ],
+        "citation_leader": "Supergoop",
+        "avg_citation_frequency": 29.358333333333334,
+        "market_average_score": 67.55,
+        "underperformers": [],
+        "leaders": []
+      }
+    },
+    "market_position_intelligence": {
+      "analysis_timestamp": "2025-08-31T20:02:22.389483",
+      "query_matrix_size": 45,
+      "baseline_queries": 5,
+      "expanded_queries": 40,
+      "competitor_dominance_analysis": [
+        {
+          "competitor": "Supergoop",
+          "dominated_queries": [],
+          "strong_presence_queries": [
+            "Supergoop dermatologist reviews",
+            "Supergoop clinical studies",
+            "Supergoop dermatologist recommended",
+            "Supergoop clinical research"
+          ],
+          "weak_presence_queries": [
+            "mineral sunscreen",
+            "zinc oxide sunscreen",
+            "dermatologist recommended sunscreen",
+            "reef safe sunscreen",
+            "powder sunscreen application"
+          ],
+          "query_territory_score": 13.333333333333334,
+          "seasonal_performance_trends": {
+            "summer": 16.0,
+            "fall": 12.0,
+            "winter": 9.333333333333334,
+            "spring": 14.666666666666668
+          }
+        },
+        {
+          "competitor": "EltaMD",
+          "dominated_queries": [],
+          "strong_presence_queries": [],
+          "weak_presence_queries": [
+            "mineral sunscreen",
+            "zinc oxide sunscreen",
+            "dermatologist recommended sunscreen",
+            "reef safe sunscreen",
+            "powder sunscreen application"
+          ],
+          "query_territory_score": 0.0,
+          "seasonal_performance_trends": {
+            "summer": 0.0,
+            "fall": 0.0,
+            "winter": 0.0,
+            "spring": 0.0
+          }
+        },
+        {
+          "competitor": "CeraVe",
+          "dominated_queries": [],
+          "strong_presence_queries": [],
+          "weak_presence_queries": [
+            "mineral sunscreen",
+            "zinc oxide sunscreen",
+            "dermatologist recommended sunscreen",
+            "reef safe sunscreen",
+            "powder sunscreen application"
+          ],
+          "query_territory_score": 0.0,
+          "seasonal_performance_trends": {
+            "summer": 0.0,
+            "fall": 0.0,
+            "winter": 0.0,
+            "spring": 0.0
+          }
+        }
+      ],
+      "market_gap_opportunities": [
+        {
+          "gap_type": "seasonal_gap",
+          "query_cluster": [
+            "best mineral sunscreen for oily acne prone sensitive skin",
+            "hypoallergenic sunscreen powder for children sensitive skin",
+            "best sunscreen for beach vacation 2025",
+            "sunscreen for outdoor sports summer"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 1.0,
+            "EltaMD": 1.0,
+            "CeraVe": 1.0
+          },
+          "opportunity_score": 65.0,
+          "effort_level": "medium",
+          "expected_citation_potential": 9.75,
+          "recommended_content_format": "seasonal_content_series",
+          "target_keywords": [
+            "seasonal",
+            "summer",
+            "winter",
+            "vacation",
+            "outdoor"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "dermatologist recommended sunscreen",
+            "Supergoop dermatologist recommended",
+            "EltaMD dermatologist recommended",
+            "dermatologist recommended powder sunscreen for daily use"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.25,
+            "EltaMD": 0.25,
+            "CeraVe": 0.25
+          },
+          "opportunity_score": 55.5,
+          "effort_level": "low",
+          "expected_citation_potential": 8.325,
+          "recommended_content_format": "ranked_list",
+          "target_keywords": [
+            "dermatologist",
+            "recommended",
+            "sunscreen",
+            "supergoop",
+            "eltamd"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "Supergoop vs Brush on Block",
+            "Supergoop vs Brush on Block sunscreen",
+            "is Supergoop better than Brush on Block",
+            "Supergoop or Brush on Block which is better",
+            "EltaMD vs Brush on Block",
+            "EltaMD vs Brush on Block sunscreen",
+            "CeraVe vs Brush on Block",
+            "CeraVe vs Brush on Block sunscreen"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 50.0,
+          "effort_level": "medium",
+          "expected_citation_potential": 7.5,
+          "recommended_content_format": "comparison_table",
+          "target_keywords": [
+            "brush",
+            "block",
+            "supergoop",
+            "sunscreen",
+            "better"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "Supergoop clinical studies",
+            "Supergoop clinical research",
+            "EltaMD clinical studies",
+            "CeraVe clinical studies"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 40.0,
+          "effort_level": "low",
+          "expected_citation_potential": 6.0,
+          "recommended_content_format": "comprehensive_article",
+          "target_keywords": [
+            "clinical",
+            "studies",
+            "supergoop",
+            "research",
+            "eltamd"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "is EltaMD better than Brush on Block",
+            "EltaMD or Brush on Block which is better",
+            "is CeraVe better than Brush on Block",
+            "CeraVe or Brush on Block which is better"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 32.0,
+          "effort_level": "low",
+          "expected_citation_potential": 4.8,
+          "recommended_content_format": "comprehensive_article",
+          "target_keywords": [
+            "better",
+            "brush",
+            "block",
+            "eltamd",
+            "than"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "Supergoop dermatologist reviews",
+            "EltaMD dermatologist reviews",
+            "CeraVe dermatologist reviews"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 30.0,
+          "effort_level": "low",
+          "expected_citation_potential": 4.5,
+          "recommended_content_format": "comprehensive_article",
+          "target_keywords": [
+            "dermatologist",
+            "reviews",
+            "supergoop",
+            "eltamd",
+            "cerave"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "Supergoop sunscreen ingredients",
+            "EltaMD sunscreen ingredients",
+            "CeraVe sunscreen ingredients"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 24.0,
+          "effort_level": "low",
+          "expected_citation_potential": 3.5999999999999996,
+          "recommended_content_format": "ingredient_breakdown",
+          "target_keywords": [
+            "sunscreen",
+            "ingredients",
+            "supergoop",
+            "eltamd",
+            "cerave"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "Supergoop sunscreen pros and cons",
+            "EltaMD sunscreen pros and cons",
+            "CeraVe sunscreen pros and cons"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 24.0,
+          "effort_level": "low",
+          "expected_citation_potential": 3.5999999999999996,
+          "recommended_content_format": "comprehensive_article",
+          "target_keywords": [
+            "sunscreen",
+            "pros",
+            "cons",
+            "supergoop",
+            "eltamd"
+          ]
+        },
+        {
+          "gap_type": "underserved_query",
+          "query_cluster": [
+            "EltaMD ingredient list",
+            "CeraVe ingredient list"
+          ],
+          "competitor_weakness_analysis": {
+            "Supergoop": 0.0,
+            "EltaMD": 0.0,
+            "CeraVe": 0.0
+          },
+          "opportunity_score": 16.0,
+          "effort_level": "low",
+          "expected_citation_potential": 2.4,
+          "recommended_content_format": "ingredient_breakdown",
+          "target_keywords": [
+            "ingredient",
+            "list",
+            "eltamd",
+            "cerave"
+          ]
+        }
+      ],
+      "ranking_changes": [
+        {
+          "competitor": "Supergoop",
+          "query": "Supergoop vs Brush on Block",
+          "previous_rank": 3,
+          "current_rank": 1,
+          "rank_change": -2,
+          "citation_frequency_change": 0.15,
+          "factors_contributing_to_change": [
+            "Brand-specific content optimization",
+            "Increased authority signals"
+          ],
+          "trend_direction": "improving"
+        },
+        {
+          "competitor": "Supergoop",
+          "query": "Supergoop vs Brush on Block sunscreen",
+          "previous_rank": 3,
+          "current_rank": 1,
+          "rank_change": -2,
+          "citation_frequency_change": 0.15,
+          "factors_contributing_to_change": [
+            "Brand-specific content optimization",
+            "Increased authority signals"
+          ],
+          "trend_direction": "improving"
+        },
+        {
+          "competitor": "Supergoop",
+          "query": "is Supergoop better than Brush on Block",
+          "previous_rank": 3,
+          "current_rank": 1,
+          "rank_change": -2,
+          "citation_frequency_change": 0.15,
+          "factors_contributing_to_change": [
+            "Brand-specific content optimization",
+            "Increased authority signals"
+          ],
+          "trend_direction": "improving"
+        }
+      ],
+      "seasonal_trends": {
+        "seasonal_query_performance": {
+          "summer": {
+            "query_count": 3,
+            "avg_competitiveness": 0.6,
+            "opportunity_score": 45
+          },
+          "winter": {
+            "query_count": 2,
+            "avg_competitiveness": 0.6,
+            "opportunity_score": 30
+          }
+        },
+        "peak_seasons": [
+          "summer",
+          "spring"
+        ],
+        "opportunity_seasons": [
+          "winter",
+          "fall"
+        ],
+        "year_over_year_trends": {}
+      },
+      "query_expansion_impact": {
+        "total_queries": 45,
+        "baseline_queries": 5,
+        "expanded_queries": 40,
+        "competitor_specific_queries": 30,
+        "expansion_ratio": 8.0,
+        "coverage_improvement": {
+          "long_tail_coverage": 15,
+          "competitor_analysis_coverage": 30,
+          "seasonal_coverage": 1
+        },
+        "strategic_value": "High - Comprehensive competitive landscape coverage"
+      }
+    },
+    "strategic_insights_report": {
+      "analysis_timestamp": "2025-08-31T20:02:22.389592",
+      "content_gap_analysis": [],
+      "tactical_recommendations": [
+        {
+          "priority": "high",
+          "category": "authority_building",
+          "recommendation": "Implement systematic authority building program",
+          "rationale": "Supergoop leads with 100.0% authority score",
+          "competitor_benchmark": "Match Supergoop's authority tactics: Strong dermatologist endorsement strategy, Evidence-based content with clinical backing, High authority signal implementation",
+          "expected_impact": "25-35% improvement in credibility signals, higher citation frequency",
+          "effort_level": "medium",
+          "timeline": "long_term",
+          "success_metrics": [
+            "Achieve 70%+ authority signal score",
+            "Secure 3+ expert endorsements",
+            "Publish 2+ clinical studies"
+          ],
+          "implementation_steps": [
+            "Identify key industry experts for partnerships",
+            "Develop clinical study program",
+            "Create expert interview content series",
+            "Implement author credentials across all content"
+          ]
+        }
+      ],
+      "threat_analysis": [
+        {
+          "threat_type": "content_leadership",
+          "threatening_competitor": "Supergoop",
+          "threat_description": "Supergoop demonstrates superior content depth (85.0%) with strengths in: Strong dermatologist endorsement strategy, Evidence-based content with clinical backing, High authority signal implementation",
+          "current_impact_level": "high",
+          "projected_impact": "Continued citation dominance in content-heavy queries",
+          "recommended_response": "Accelerated content development program focusing on depth and comprehensiveness",
+          "response_urgency": "high"
+        },
+        {
+          "threat_type": "content_leadership",
+          "threatening_competitor": "EltaMD",
+          "threat_description": "EltaMD demonstrates superior content depth (85.0%) with strengths in: Strong dermatologist endorsement strategy, Comprehensive ingredient education, High authority signal implementation",
+          "current_impact_level": "high",
+          "projected_impact": "Continued citation dominance in content-heavy queries",
+          "recommended_response": "Accelerated content development program focusing on depth and comprehensiveness",
+          "response_urgency": "high"
+        },
+        {
+          "threat_type": "content_leadership",
+          "threatening_competitor": "CeraVe",
+          "threat_description": "CeraVe demonstrates superior content depth (85.0%) with strengths in: Comprehensive ingredient education, Evidence-based content with clinical backing, High authority signal implementation",
+          "current_impact_level": "high",
+          "projected_impact": "Continued citation dominance in content-heavy queries",
+          "recommended_response": "Accelerated content development program focusing on depth and comprehensiveness",
+          "response_urgency": "high"
+        },
+        {
+          "threat_type": "authority_building",
+          "threatening_competitor": "Supergoop",
+          "threat_description": "Supergoop building strong authority position (100.0%) through systematic credibility development",
+          "current_impact_level": "medium",
+          "projected_impact": "Increased credibility-based citations and expert recommendation queries",
+          "recommended_response": "Implement comprehensive authority building program with expert partnerships",
+          "response_urgency": "medium"
+        },
+        {
+          "threat_type": "authority_building",
+          "threatening_competitor": "EltaMD",
+          "threat_description": "EltaMD building strong authority position (100.0%) through systematic credibility development",
+          "current_impact_level": "medium",
+          "projected_impact": "Increased credibility-based citations and expert recommendation queries",
+          "recommended_response": "Implement comprehensive authority building program with expert partnerships",
+          "response_urgency": "medium"
+        },
+        {
+          "threat_type": "authority_building",
+          "threatening_competitor": "CeraVe",
+          "threat_description": "CeraVe building strong authority position (100.0%) through systematic credibility development",
+          "current_impact_level": "medium",
+          "projected_impact": "Increased credibility-based citations and expert recommendation queries",
+          "recommended_response": "Implement comprehensive authority building program with expert partnerships",
+          "response_urgency": "medium"
+        },
+        {
+          "threat_type": "market_expansion",
+          "threatening_competitor": "CeraVe",
+          "threat_description": "CeraVe showing high citation velocity and market expansion potential",
+          "current_impact_level": "medium",
+          "projected_impact": "Potential market share erosion in key query territories",
+          "recommended_response": "Defensive content creation in competitor's strong areas + offensive expansion into gaps",
+          "response_urgency": "medium"
+        },
+        {
+          "threat_type": "market_expansion",
+          "threatening_competitor": "EltaMD",
+          "threat_description": "EltaMD showing high citation velocity and market expansion potential",
+          "current_impact_level": "medium",
+          "projected_impact": "Potential market share erosion in key query territories",
+          "recommended_response": "Defensive content creation in competitor's strong areas + offensive expansion into gaps",
+          "response_urgency": "medium"
+        },
+        {
+          "threat_type": "market_expansion",
+          "threatening_competitor": "Supergoop",
+          "threat_description": "Supergoop showing high citation velocity and market expansion potential",
+          "current_impact_level": "medium",
+          "projected_impact": "Potential market share erosion in key query territories",
+          "recommended_response": "Defensive content creation in competitor's strong areas + offensive expansion into gaps",
+          "response_urgency": "medium"
+        }
+      ],
+      "opportunity_map": [
+        {
+          "opportunity_type": "seasonal_gap",
+          "opportunity_description": "Market gap in 4 related queries with 65.0% opportunity score",
+          "market_size_estimate": 97.5,
+          "competitive_difficulty": "medium",
+          "resource_requirements": "seasonal_content_series creation, keyword optimization",
+          "expected_roi": "Medium-High - 9.8% citation increase potential",
+          "strategic_value": "First-mover advantage in underserved query territory"
+        },
+        {
+          "opportunity_type": "underserved_query",
+          "opportunity_description": "Market gap in 4 related queries with 55.5% opportunity score",
+          "market_size_estimate": 83.25,
+          "competitive_difficulty": "low",
+          "resource_requirements": "ranked_list creation, keyword optimization",
+          "expected_roi": "Medium-High - 8.3% citation increase potential",
+          "strategic_value": "First-mover advantage in underserved query territory"
+        },
+        {
+          "opportunity_type": "underserved_query",
+          "opportunity_description": "Market gap in 8 related queries with 50.0% opportunity score",
+          "market_size_estimate": 75.0,
+          "competitive_difficulty": "medium",
+          "resource_requirements": "comparison_table creation, keyword optimization",
+          "expected_roi": "Medium-High - 7.5% citation increase potential",
+          "strategic_value": "First-mover advantage in underserved query territory"
+        },
+        {
+          "opportunity_type": "underserved_query",
+          "opportunity_description": "Market gap in 4 related queries with 40.0% opportunity score",
+          "market_size_estimate": 60.0,
+          "competitive_difficulty": "low",
+          "resource_requirements": "comprehensive_article creation, keyword optimization",
+          "expected_roi": "Medium-High - 6.0% citation increase potential",
+          "strategic_value": "First-mover advantage in underserved query territory"
+        },
+        {
+          "opportunity_type": "underserved_query",
+          "opportunity_description": "Market gap in 4 related queries with 32.0% opportunity score",
+          "market_size_estimate": 48.0,
+          "competitive_difficulty": "low",
+          "resource_requirements": "comprehensive_article creation, keyword optimization",
+          "expected_roi": "Medium-High - 4.8% citation increase potential",
+          "strategic_value": "First-mover advantage in underserved query territory"
+        },
+        {
+          "opportunity_type": "seasonal_opportunity",
+          "opportunity_description": "Seasonal content gaps during off-peak periods",
+          "market_size_estimate": 30.0,
+          "competitive_difficulty": "low",
+          "resource_requirements": "Seasonal content calendar, time-sensitive production",
+          "expected_roi": "High - reduced competition during off-peak seasons",
+          "strategic_value": "Year-round market presence, seasonal market capture"
+        }
+      ],
+      "executive_summary": {
+        "competitive_landscape_summary": "Analyzed 3 competitors with average strategy score of 67.5%",
+        "brand_position_assessment": "Significant improvement opportunities identified across multiple content areas",
+        "priority_action_items": 1,
+        "critical_gaps_identified": 0,
+        "investment_recommendation": "Medium to high investment in content and authority building for competitive parity",
+        "timeline_urgency": "Immediate action recommended for critical gaps, 90-day timeline for competitive parity",
+        "expected_outcomes": "25-40% improvement in competitive positioning within 6 months with proper execution",
+        "key_focus_areas": [
+          "Content depth improvement",
+          "Authority signal development",
+          "Market gap capture",
+          "AI optimization enhancement"
+        ]
+      },
+      "competitive_positioning_strategy": {
+        "current_market_position": "Challenger - significant upside potential",
+        "target_position": "Content and Authority Leader",
+        "differentiation_strategy": {
+          "primary_differentiator": "Comprehensive educational content with strong authority backing",
+          "secondary_differentiators": [
+            "AI-optimized content structure",
+            "Clinical evidence integration",
+            "Expert partnership program"
+          ]
+        },
+        "competitive_response_strategy": {
+          "defensive_actions": [
+            "Protect existing content strength areas",
+            "Monitor competitor content launches",
+            "Maintain citation frequency in core queries"
+          ],
+          "offensive_actions": [
+            "Capture identified market gaps",
+            "Accelerate authority building",
+            "Expand into competitor weak areas"
+          ]
+        },
+        "market_expansion_approach": {
+          "query_territory_expansion": "Expand from 5 to 45 queries",
+          "content_format_diversification": "Add comparison tables, how-to guides, clinical summaries",
+          "seasonal_optimization": "Year-round content calendar with seasonal focus areas"
+        },
+        "success_benchmarks": {
+          "6_month_targets": [
+            "Achieve parity with Supergoop (67.5%)",
+            "Capture 3+ market gap opportunities",
+            "Establish authority in 2+ content areas"
+          ],
+          "12_month_targets": [
+            "Achieve top 3 competitive position",
+            "Lead in 2+ content categories",
+            "Maintain 15%+ citation frequency"
+          ]
+        }
+      },
+      "investment_priorities": [
+        {
+          "investment_area": "Authority Building Program",
+          "priority_level": "strategic",
+          "resource_allocation": "20% of available resources",
+          "expected_timeline": "3-12 months",
+          "key_initiatives": [
+            "Implement systematic authority building program"
+          ],
+          "success_metrics": "Establish expert partnerships, publish clinical evidence",
+          "roi_expectation": "High - long-term competitive moat"
+        }
+      ]
+    }
+  },
+  "cross_agent_integration": {
+    "agent1_integration": {
+      "baseline_queries_used": 5,
+      "query_expansion_factor": 9.0,
+      "competitor_data_enhanced": "No"
+    },
+    "agent2_integration": {
+      "content_gap_analysis_enhanced": "No",
+      "brand_content_comparison": 0,
+      "competitive_benchmarking": "Limited"
+    }
+  },
+  "key_findings": {
+    "content_strategy_leaders": [
+      "Supergoop",
+      "EltaMD",
+      "CeraVe"
+    ],
+    "authority_signal_leaders": [],
+    "market_gap_opportunities": 9,
+    "seasonal_trends_identified": true,
+    "citation_pattern_insights": 3
+  },
+  "actionable_recommendations": {
+    "critical_priority": [],
+    "high_priority": [
+      "TacticalRecommendation(priority='high', category='authority_building', recommendation='Implement systematic authority building program', rationale='Supergoop leads with 100.0% authority score', competitor_benchmark=\"Match Supergoop's authority tactics: Strong dermatologist endorsement strategy, Evidence-based content with clinical backing, High authority signal implementation\", expected_impact='25-35% improvement in credibility signals, higher citation frequency', effort_level='medium', timeline='long_term', success_metrics=['Achieve 70%+ authority signal score', 'Secure 3+ expert endorsements', 'Publish 2+ clinical studies'], implementation_steps=['Identify key industry experts for partnerships', 'Develop clinical study program', 'Create expert interview content series', 'Implement author credentials across all content'])"
+    ],
+    "strategic_opportunities": [
+      "StrategicOpportunityMap(opportunity_type='seasonal_gap', opportunity_description='Market gap in 4 related queries with 65.0% opportunity score', market_size_estimate=97.5, competitive_difficulty='medium', resource_requirements='seasonal_content_series creation, keyword optimization', expected_roi='Medium-High - 9.8% citation increase potential', strategic_value='First-mover advantage in underserved query territory')",
+      "StrategicOpportunityMap(opportunity_type='underserved_query', opportunity_description='Market gap in 4 related queries with 55.5% opportunity score', market_size_estimate=83.25, competitive_difficulty='low', resource_requirements='ranked_list creation, keyword optimization', expected_roi='Medium-High - 8.3% citation increase potential', strategic_value='First-mover advantage in underserved query territory')",
+      "StrategicOpportunityMap(opportunity_type='underserved_query', opportunity_description='Market gap in 8 related queries with 50.0% opportunity score', market_size_estimate=75.0, competitive_difficulty='medium', resource_requirements='comparison_table creation, keyword optimization', expected_roi='Medium-High - 7.5% citation increase potential', strategic_value='First-mover advantage in underserved query territory')",
+      "StrategicOpportunityMap(opportunity_type='underserved_query', opportunity_description='Market gap in 4 related queries with 40.0% opportunity score', market_size_estimate=60.0, competitive_difficulty='low', resource_requirements='comprehensive_article creation, keyword optimization', expected_roi='Medium-High - 6.0% citation increase potential', strategic_value='First-mover advantage in underserved query territory')",
+      "StrategicOpportunityMap(opportunity_type='underserved_query', opportunity_description='Market gap in 4 related queries with 32.0% opportunity score', market_size_estimate=48.0, competitive_difficulty='low', resource_requirements='comprehensive_article creation, keyword optimization', expected_roi='Medium-High - 4.8% citation increase potential', strategic_value='First-mover advantage in underserved query territory')"
+    ],
+    "competitive_threats": [
+      "CompetitorThreatAnalysis(threat_type='content_leadership', threatening_competitor='Supergoop', threat_description='Supergoop demonstrates superior content depth (85.0%) with strengths in: Strong dermatologist endorsement strategy, Evidence-based content with clinical backing, High authority signal implementation', current_impact_level='high', projected_impact='Continued citation dominance in content-heavy queries', recommended_response='Accelerated content development program focusing on depth and comprehensiveness', response_urgency='high')",
+      "CompetitorThreatAnalysis(threat_type='content_leadership', threatening_competitor='EltaMD', threat_description='EltaMD demonstrates superior content depth (85.0%) with strengths in: Strong dermatologist endorsement strategy, Comprehensive ingredient education, High authority signal implementation', current_impact_level='high', projected_impact='Continued citation dominance in content-heavy queries', recommended_response='Accelerated content development program focusing on depth and comprehensiveness', response_urgency='high')",
+      "CompetitorThreatAnalysis(threat_type='content_leadership', threatening_competitor='CeraVe', threat_description='CeraVe demonstrates superior content depth (85.0%) with strengths in: Comprehensive ingredient education, Evidence-based content with clinical backing, High authority signal implementation', current_impact_level='high', projected_impact='Continued citation dominance in content-heavy queries', recommended_response='Accelerated content development program focusing on depth and comprehensiveness', response_urgency='high')",
+      "CompetitorThreatAnalysis(threat_type='authority_building', threatening_competitor='Supergoop', threat_description='Supergoop building strong authority position (100.0%) through systematic credibility development', current_impact_level='medium', projected_impact='Increased credibility-based citations and expert recommendation queries', recommended_response='Implement comprehensive authority building program with expert partnerships', response_urgency='medium')",
+      "CompetitorThreatAnalysis(threat_type='authority_building', threatening_competitor='EltaMD', threat_description='EltaMD building strong authority position (100.0%) through systematic credibility development', current_impact_level='medium', projected_impact='Increased credibility-based citations and expert recommendation queries', recommended_response='Implement comprehensive authority building program with expert partnerships', response_urgency='medium')",
+      "CompetitorThreatAnalysis(threat_type='authority_building', threatening_competitor='CeraVe', threat_description='CeraVe building strong authority position (100.0%) through systematic credibility development', current_impact_level='medium', projected_impact='Increased credibility-based citations and expert recommendation queries', recommended_response='Implement comprehensive authority building program with expert partnerships', response_urgency='medium')",
+      "CompetitorThreatAnalysis(threat_type='market_expansion', threatening_competitor='CeraVe', threat_description='CeraVe showing high citation velocity and market expansion potential', current_impact_level='medium', projected_impact='Potential market share erosion in key query territories', recommended_response=\"Defensive content creation in competitor's strong areas + offensive expansion into gaps\", response_urgency='medium')",
+      "CompetitorThreatAnalysis(threat_type='market_expansion', threatening_competitor='EltaMD', threat_description='EltaMD showing high citation velocity and market expansion potential', current_impact_level='medium', projected_impact='Potential market share erosion in key query territories', recommended_response=\"Defensive content creation in competitor's strong areas + offensive expansion into gaps\", response_urgency='medium')",
+      "CompetitorThreatAnalysis(threat_type='market_expansion', threatening_competitor='Supergoop', threat_description='Supergoop showing high citation velocity and market expansion potential', current_impact_level='medium', projected_impact='Potential market share erosion in key query territories', recommended_response=\"Defensive content creation in competitor's strong areas + offensive expansion into gaps\", response_urgency='medium')"
+    ],
+    "investment_roadmap": [
+      {
+        "investment_area": "Authority Building Program",
+        "priority_level": "strategic",
+        "resource_allocation": "20% of available resources",
+        "expected_timeline": "3-12 months",
+        "key_initiatives": [
+          "Implement systematic authority building program"
+        ],
+        "success_metrics": "Establish expert partnerships, publish clinical evidence",
+        "roi_expectation": "High - long-term competitive moat"
+      }
+    ]
+  },
+  "performance_metrics": {
+    "analysis_duration": "< 45 minutes",
+    "data_freshness": "Real-time",
+    "competitors_tracked": 3,
+    "insights_generated": 1,
+    "integration_success": {
+      "agent1": false,
+      "agent2": false
+    }
+  }
+}

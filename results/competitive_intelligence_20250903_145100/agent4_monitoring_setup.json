@@ -1,0 +1,60 @@
+{
+  "monitoring_setup": {
+    "competitors_to_track": [
+      "Supergoop",
+      "EltaMD",
+      "CeraVe"
+    ],
+    "query_matrix": 44,
+    "tracking_frequency": "weekly",
+    "alert_thresholds": {
+      "ranking_change": 2,
+      "citation_frequency_change": 0.1,
+      "new_content_detection": true
+    }
+  },
+  "baseline_metrics": {
+    "timestamp": "2025-09-03T14:51:00.899357",
+    "competitor_scores": {
+      "Supergoop": 67.55,
+      "EltaMD": 67.55,
+      "CeraVe": 67.55
+    },
+    "market_gaps_identified": 9,
+    "opportunity_scores": [
+      65.0,
+      55.5,
+      50.0,
+      40.0,
+      32.0,
+      30.0,
+      24.0,
+      24.0,
+      16.0
+    ]
+  },
+  "monitoring_priorities": [
+    {
+      "priority": "high",
+      "focus": "Content strategy changes from market leaders",
+      "competitors": [
+        "Supergoop",
+        "EltaMD",
+        "CeraVe"
+      ],
+      "monitoring_frequency": "weekly"
+    },
+    {
+      "priority": "medium",
+      "focus": "Authority signal development",
+      "competitors": [],
+      "monitoring_frequency": "bi-weekly"
+    },
+    {
+      "priority": "high",
+      "focus": "Market gap opportunity status",
+      "gap_count": 9,
+      "monitoring_frequency": "weekly"
+    }
+  ]
+}

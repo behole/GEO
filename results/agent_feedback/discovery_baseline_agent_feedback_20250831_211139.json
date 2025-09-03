@@ -1,0 +1,25 @@
+{
+  "agent_name": "Discovery Baseline Agent",
+  "timestamp": "2025-08-31T21:11:39.362742",
+  "feedback_type": "performance_insight",
+  "priority": "medium",
+  "data": {
+    "current_discovery_score": 16.4,
+    "trend_direction": "stable",
+    "change_percentage": 0.0,
+    "progress_to_target": 7.430997876857745,
+    "high_performing_queries": [
+      "mineral sunscreen",
+      "powder sunscreen application"
+    ],
+    "low_performing_queries": [
+      "dermatologist recommended sunscreen",
+      "reef safe sunscreen"
+    ],
+    "query_optimization_opportunities": 2
+  },
+  "recommendations": [
+    "Prioritize optimization for 2 underperforming queries"
+  ],
+  "expected_impact": "10-20% improvement in discovery scores through targeted query optimization"
+}

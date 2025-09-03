@@ -1,0 +1,75 @@
+{
+  "executive_summary": "CRITICAL PRIORITY: Brand content quality (34.7/100) requires immediate comprehensive overhaul.\n        \n        Key Findings:\n        - 1 competitive content gaps identified\n        - 8 content types need development\n        - 1 competitive advantages to leverage\n        \n        Immediate focus should be on high-impact, low-effort improvements while building\n        long-term content strategy to address fundamental gaps and competitive positioning.",
+  "action_plan": {
+    "immediate_actions_0_30_days": [
+      "CRITICAL: Conduct comprehensive content audit - overall quality is poor",
+      "Underutilized keyword: 'non-comedogenic' (brand: 4, competitors avg: 15.0)"
+    ],
+    "short_term_goals_1_3_months": [
+      "CRITICAL: Overall content quality is poor - comprehensive content audit recommended",
+      "Priority: Improve Citation Worthiness (current score: 12.8/100)",
+      "Priority: Improve Authority Signals (current score: 35.5/100)"
+    ],
+    "long_term_strategy_3_12_months": [
+      "Missing product pages content",
+      "Missing ingredient guides content"
+    ],
+    "quick_wins": [
+      "Underutilized keyword: 'non-comedogenic' (brand: 4, competitors avg: 15.0)"
+    ],
+    "content_creation_priorities": [],
+    "technical_improvements": [
+      "Add author information and credentials to content",
+      "Increase external authority links to scientific sources",
+      "Insufficient external authority links across content"
+    ],
+    "competitive_positioning": [
+      "Leverage competitive advantages: Unique content type: blog post",
+      "Benchmark against Supergoop (score: 38.6)"
+    ]
+  },
+  "roi_estimates": {
+    "high_roi_opportunities": [],
+    "investment_required": {
+      "low": 1,
+      "medium": 0,
+      "high": 0
+    },
+    "expected_impact": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    }
+  },
+  "success_metrics": {
+    "current_baseline": {
+      "overall_score": 34.734865499399916,
+      "content_structure": 77.05982826654422,
+      "citation_worthiness": 12.794838586908414,
+      "authority_signals": 35.484871136320784,
+      "ai_consumption": 51.74224558772605
+    },
+    "30_day_targets": {
+      "overall_score_improvement": 49.734865499399916,
+      "priority_gaps_addressed": 3,
+      "new_content_pieces": 5
+    },
+    "90_day_targets": {
+      "overall_score": 64.73486549939992,
+      "competitive_gap_closure": "50%",
+      "authority_score_improvement": 20
+    },
+    "annual_goals": {
+      "overall_score": 75,
+      "market_position": "Top 3 in content quality",
+      "content_gaps_eliminated": "80%"
+    },
+    "kpi_tracking": [
+      "Monthly content quality score",
+      "Competitive gap closure rate",
+      "New high-quality content publication",
+      "Authority link acquisition",
+      "Structured data implementation progress"
+    ]
+  }
+}

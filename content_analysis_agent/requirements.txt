@@ -1,27 +1,27 @@
-# Content Analysis Agent Dependencies
+# Content Analysis Agent - Compatible Dependencies
 
-# Core dependencies
-aiohttp>=3.8.0
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
-requests>=2.28.0
-tenacity>=8.2.0
+# HTTP clients
+aiohttp==3.10.11
+requests==2.32.3
+tenacity==8.2.3
 
-# Content processing
-trafilatura>=1.6.0
-markdownify>=0.11.0
-textstat>=0.7.0
-nltk>=3.8.0
-python-dateutil>=2.8.0
+# Web scraping and content processing
+beautifulsoup4==4.12.3
+lxml==5.1.0
+trafilatura==1.6.4
+markdownify==0.11.6
 
-# Configuration and data handling
-pyyaml>=6.0.0
-python-dotenv>=1.0.0
+# Text analysis
+textstat==0.7.3
+nltk==3.8.1
+python-dateutil==2.9.0
 
-# Data analysis and statistics
-pandas>=2.0.0
-numpy>=1.24.0
+# Configuration and data
+pyyaml==6.0.1
+python-dotenv==1.0.1
+pandas==2.1.4
+numpy==1.26.4
 
-# Optional: For enhanced web scraping if needed
-selenium>=4.15.0
-webdriver-manager>=4.0.0
+# Web automation (optional)
+selenium==4.15.2
+webdriver-manager==4.0.1

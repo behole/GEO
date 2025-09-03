@@ -1,0 +1,540 @@
+{
+  "agent_info": {
+    "agent_name": "Monitoring & Alerting Agent",
+    "agent_version": "1.0.0",
+    "brand_name": "Brush on Block",
+    "analysis_timestamp": "2025-08-31T20:02:22.433146",
+    "monitoring_type": "full"
+  },
+  "monitoring_configuration": {
+    "monitoring_enabled": true,
+    "real_time_monitoring": true,
+    "alert_sensitivity": "medium",
+    "monitoring_interval_hours": 6,
+    "agents_integrated": 3
+  },
+  "performance_analysis": {
+    "current_snapshot": {
+      "timestamp": "2025-08-31T20:02:22.421301",
+      "brand_performance": {
+        "discovery": {
+          "timestamp": "2025-08-31T20:02:22.420821",
+          "metric_type": "discovery",
+          "metric_name": "Discovery Score",
+          "current_value": 16.4,
+          "previous_value": null,
+          "change_amount": 0.0,
+          "change_percentage": 0.0,
+          "trend_direction": "stable",
+          "baseline_value": 12.9,
+          "target_value": 60,
+          "progress_to_target": 7.430997876857745
+        },
+        "context": {
+          "timestamp": "2025-08-31T20:02:22.420821",
+          "metric_type": "context",
+          "metric_name": "Context Score",
+          "current_value": 63.1,
+          "previous_value": null,
+          "change_amount": 0.0,
+          "change_percentage": 0.0,
+          "trend_direction": "stable",
+          "baseline_value": 57.5,
+          "target_value": 75,
+          "progress_to_target": 32.00000000000001
+        },
+        "competitive": {
+          "timestamp": "2025-08-31T20:02:22.420821",
+          "metric_type": "competitive",
+          "metric_name": "Competitive Score",
+          "current_value": 21.5,
+          "previous_value": null,
+          "change_amount": 0.0,
+          "change_percentage": 0.0,
+          "trend_direction": "stable",
+          "baseline_value": 19.4,
+          "target_value": 45,
+          "progress_to_target": 8.203125000000005
+        },
+        "overall": {
+          "timestamp": "2025-08-31T20:02:22.420821",
+          "metric_type": "overall",
+          "metric_name": "Overall GEO Score",
+          "current_value": 33.666666666666664,
+          "previous_value": null,
+          "change_amount": 0.0,
+          "change_percentage": 0.0,
+          "trend_direction": "stable",
+          "baseline_value": 29.933333333333337,
+          "target_value": 60.0,
+          "progress_to_target": 12.416851441241667
+        }
+      },
+      "query_performance": [
+        {
+          "query": "mineral sunscreen",
+          "timestamp": "2025-08-31T20:02:22.420994",
+          "current_ranking": 9,
+          "citation_frequency": 0.12823764938803353,
+          "response_quality": 79.17905574220232,
+          "competitor_rankings": {
+            "EltaMD": 11,
+            "Supergoop": 7,
+            "CeraVe": 3
+          },
+          "market_share": 10.131085059509426,
+          "change_from_baseline": 13.043081986639077
+        },
+        {
+          "query": "dermatologist recommended sunscreen",
+          "timestamp": "2025-08-31T20:02:22.420994",
+          "current_ranking": 1,
+          "citation_frequency": 0.5621461609222687,
+          "response_quality": 84.99398266414222,
+          "competitor_rankings": {
+            "EltaMD": 6,
+            "Supergoop": 11,
+            "CeraVe": 10
+          },
+          "market_share": 23.560376054046397,
+          "change_from_baseline": -6.742914051470116
+        },
+        {
+          "query": "reef safe sunscreen",
+          "timestamp": "2025-08-31T20:02:22.420994",
+          "current_ranking": 3,
+          "citation_frequency": 0.4978493335920643,
+          "response_quality": 67.65847335135146,
+          "competitor_rankings": {
+            "EltaMD": 4,
+            "Supergoop": 14,
+            "CeraVe": 9
+          },
+          "market_share": 23.232617603469436,
+          "change_from_baseline": 13.192930672471565
+        },
+        {
+          "query": "zinc oxide sunscreen",
+          "timestamp": "2025-08-31T20:02:22.420994",
+          "current_ranking": 8,
+          "citation_frequency": 0.5607825793251568,
+          "response_quality": 86.11618146838732,
+          "competitor_rankings": {
+            "EltaMD": 9,
+            "Supergoop": 1,
+            "CeraVe": 12
+          },
+          "market_share": 19.2675239356945,
+          "change_from_baseline": 10.792403682377898
+        },
+        {
+          "query": "powder sunscreen application",
+          "timestamp": "2025-08-31T20:02:22.420994",
+          "current_ranking": 5,
+          "citation_frequency": 0.4575631557572084,
+          "response_quality": 71.34463351534649,
+          "competitor_rankings": {
+            "EltaMD": 3,
+            "Supergoop": 6,
+            "CeraVe": 14
+          },
+          "market_share": 23.69967937799734,
+          "change_from_baseline": 0.2566168403586513
+        }
+      ],
+      "competitor_performance": [
+        {
+          "competitor": "EltaMD",
+          "timestamp": "2025-08-31T20:02:22.421138",
+          "overall_score": 74.38968999271128,
+          "market_share": 28.945231679069547,
+          "citation_frequency": 0.326013130264182,
+          "ranking_changes": {
+            "mineral sunscreen": -3,
+            "dermatologist recommended": 2,
+            "reef safe": -3
+          },
+          "content_strategy_score": 71.17230329874226,
+          "authority_signal_score": 90.21415836605806,
+          "threat_level": "high"
+        },
+        {
+          "competitor": "Supergoop",
+          "timestamp": "2025-08-31T20:02:22.421138",
+          "overall_score": 84.57186658598553,
+          "market_share": 27.632445287151235,
+          "citation_frequency": 0.878601736657834,
+          "ranking_changes": {
+            "mineral sunscreen": 2,
+            "dermatologist recommended": 3,
+            "reef safe": 1
+          },
+          "content_strategy_score": 72.72165358462746,
+          "authority_signal_score": 84.56856653688928,
+          "threat_level": "medium"
+        },
+        {
+          "competitor": "CeraVe",
+          "timestamp": "2025-08-31T20:02:22.421138",
+          "overall_score": 73.72336929134049,
+          "market_share": 11.19799485010634,
+          "citation_frequency": 0.44304127068149496,
+          "ranking_changes": {
+            "mineral sunscreen": -1,
+            "dermatologist recommended": 3,
+            "reef safe": 1
+          },
+          "content_strategy_score": 81.86729549421443,
+          "authority_signal_score": 71.29136266924166,
+          "threat_level": "medium"
+        }
+      ],
+      "milestone_achievements": [],
+      "performance_alerts": [
+        "QUERY ALERT: 3 queries showing significant changes",
+        "COMPETITIVE ALERT: High threat level from EltaMD"
+      ],
+      "business_impact_metrics": {
+        "estimated_monthly_traffic": 441.31577579694635,
+        "estimated_conversion_value": 661.9736636954195,
+        "brand_mention_value": 250,
+        "competitive_advantage_score": 21.5
+      }
+    },
+    "performance_trends": {
+      "discovery": {
+        "direction": "stable",
+        "change_percentage": 0.0,
+        "progress_to_target": 7.430997876857745
+      },
+      "context": {
+        "direction": "stable",
+        "change_percentage": 0.0,
+        "progress_to_target": 32.00000000000001
+      },
+      "competitive": {
+        "direction": "stable",
+        "change_percentage": 0.0,
+        "progress_to_target": 8.203125000000005
+      },
+      "overall": {
+        "direction": "stable",
+        "change_percentage": 0.0,
+        "progress_to_target": 12.416851441241667
+      }
+    },
+    "milestone_achievements": [],
+    "performance_alerts": [
+      "QUERY ALERT: 3 queries showing significant changes",
+      "COMPETITIVE ALERT: High threat level from EltaMD"
+    ]
+  },
+  "alert_analysis": {
+    "alerts_generated": 1,
+    "critical_alerts": 0,
+    "high_alerts": 1,
+    "alert_summary": {
+      "total_active_alerts": 1,
+      "critical_alerts": 0,
+      "high_alerts": 1,
+      "medium_alerts": 0,
+      "low_alerts": 0,
+      "alerts_last_24h": 1,
+      "most_recent_alert": "2025-08-31T20:02:22.422805",
+      "alert_types_active": [
+        "competitive_threat"
+      ]
+    },
+    "alert_details": [
+      {
+        "id": "competitor_surge_20250831_200222",
+        "timestamp": "2025-08-31T20:02:22.422805",
+        "alert_type": "AlertType.COMPETITIVE_THREAT",
+        "severity": "AlertSeverity.HIGH",
+        "title": "Competitor Surge",
+        "message": "\ud83d\udd34 Competitive Threat: EltaMD showing surge in performance",
+        "details": {
+          "competitor": "EltaMD",
+          "threat_level": "high",
+          "score": 74.38968999271128
+        },
+        "affected_metrics": [
+          "competitive_score",
+          "market_share"
+        ],
+        "recommended_actions": [
+          "Analyze competitor's recent strategy changes",
+          "Review and update competitive positioning",
+          "Accelerate high-priority optimization initiatives",
+          "Monitor competitor response to our actions"
+        ],
+        "stakeholders": [
+          "strategy_team"
+        ],
+        "auto_resolve": false,
+        "resolution_deadline": "2025-09-01T20:02:22.422797",
+        "related_alerts": []
+      }
+    ]
+  },
+  "business_impact_analysis": {
+    "timestamp": "2025-08-31T20:02:22.423007",
+    "reporting_period_days": 30,
+    "conversion_funnel": [
+      {
+        "stage_name": "ai_citation",
+        "timestamp": "2025-08-31T20:02:22.421301",
+        "visitors": 2206,
+        "conversion_rate": 100.0,
+        "stage_value": 110300,
+        "attribution_source": "ai_citation"
+      },
+      {
+        "stage_name": "website_visit",
+        "timestamp": "2025-08-31T20:02:22.421301",
+        "visitors": 176,
+        "conversion_rate": 8.0,
+        "stage_value": 440.0,
+        "attribution_source": "ai_citation"
+      },
+      {
+        "stage_name": "product_view",
+        "timestamp": "2025-08-31T20:02:22.421301",
+        "visitors": 52,
+        "conversion_rate": 30.0,
+        "stage_value": 260.0,
+        "attribution_source": "ai_citation"
+      },
+      {
+        "stage_name": "add_to_cart",
+        "timestamp": "2025-08-31T20:02:22.421301",
+        "visitors": 7,
+        "conversion_rate": 15.0,
+        "stage_value": 87.5,
+        "attribution_source": "ai_citation"
+      },
+      {
+        "stage_name": "purchase",
+        "timestamp": "2025-08-31T20:02:22.421301",
+        "visitors": 1,
+        "conversion_rate": 25.0,
+        "stage_value": 25.99,
+        "attribution_source": "ai_citation"
+      }
+    ],
+    "roi_analysis": {
+      "timestamp": "2025-08-31T20:02:22.421301",
+      "period_days": 30,
+      "investment_amount": 5000.0,
+      "generated_revenue": 2015.2631031877854,
+      "roi_percentage": -59.694737936244294,
+      "roi_attribution": {
+        "direct_conversions": 32.848001963033795,
+        "brand_awareness": 12.405328098576545,
+        "traffic_value": 54.74666993838967
+      },
+      "confidence_level": "high"
+    },
+    "brand_mention_value": {
+      "timestamp": "2025-08-31T20:02:22.421301",
+      "total_mentions": 5,
+      "qualified_mentions": 2,
+      "estimated_value_per_mention": 50,
+      "total_brand_value": 100,
+      "mention_sentiment": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      "mention_sources": {
+        "ai_engines": 2,
+        "social_media": 0,
+        "press_coverage": 0,
+        "industry_blogs": 0
+      }
+    },
+    "traffic_attribution": {
+      "timestamp": "2025-08-31T20:02:22.421301",
+      "total_traffic": 441,
+      "ai_driven_traffic": 264,
+      "ai_attribution_percentage": 59.863945578231295,
+      "traffic_sources": {
+        "ai_citations": 264,
+        "organic_search": 132,
+        "direct": 44
+      },
+      "quality_metrics": {
+        "bounce_rate": 35.5,
+        "avg_session_duration": 2.8,
+        "pages_per_session": 3.2,
+        "conversion_rate": 3.1
+      },
+      "conversion_tracking": {
+        "ai_citation_conversion_rate": 4.2,
+        "organic_search_conversion_rate": 2.8,
+        "direct_conversion_rate": 5.1
+      }
+    },
+    "competitive_advantage_metrics": {
+      "competitive_gap": -43.89497529001243,
+      "leader_gap": -50.90519991931887,
+      "estimated_market_share": 8.826315515938926,
+      "competitive_velocity": 0.0,
+      "brand_strength_index": 33.666666666666664,
+      "competitive_threat_level": 58.333333333333336
+    },
+    "business_kpis": {
+      "monthly_revenue": 25.99,
+      "monthly_customers": 1,
+      "customer_acquisition_cost": 5000.0,
+      "lifetime_value": 78.0,
+      "ltv_cac_ratio": 0.0156,
+      "roi_percentage": -59.694737936244294,
+      "brand_awareness_value": 100,
+      "ai_traffic_percentage": 59.863945578231295,
+      "average_order_value": 25.99,
+      "conversion_rate": 0.22675736961451248
+    },
+    "actionable_insights": [
+      "Negative ROI of -59.7% - urgent strategy review required",
+      "Low brand mention quality at 40.0% - focus on authority building",
+      "Strong AI traffic attribution at 59.9% - GEO strategy working",
+      "Behind competitors - aggressive optimization strategy needed",
+      "Growing market share of 8.8% - continue current strategy"
+    ]
+  },
+  "dashboard_status": {
+    "main_dashboard": "main_geo_dashboard.html",
+    "executive_dashboard": "executive_dashboard.html"
+  },
+  "agent_integration": {
+    "feedback_items_generated": 3,
+    "agent_feedback_details": [
+      {
+        "agent_name": "Discovery Baseline Agent",
+        "timestamp": "2025-08-31T20:02:22.431676",
+        "feedback_type": "performance_insight",
+        "priority": "medium",
+        "data": {
+          "current_discovery_score": 16.4,
+          "trend_direction": "stable",
+          "change_percentage": 0.0,
+          "progress_to_target": 7.430997876857745,
+          "high_performing_queries": [],
+          "low_performing_queries": [
+            "mineral sunscreen"
+          ],
+          "query_optimization_opportunities": 1
+        },
+        "recommendations": [
+          "Prioritize optimization for 1 underperforming queries"
+        ],
+        "expected_impact": "10-20% improvement in discovery scores through targeted query optimization"
+      },
+      {
+        "agent_name": "Content Analysis Agent",
+        "timestamp": "2025-08-31T20:02:22.432042",
+        "feedback_type": "optimization_suggestion",
+        "priority": "medium",
+        "data": {
+          "current_context_score": 63.1,
+          "trend_direction": "stable",
+          "change_percentage": 0.0,
+          "progress_to_target": 32.00000000000001,
+          "content_gaps_remaining": 0,
+          "optimization_opportunities": 0,
+          "gap_closure_priority": "medium",
+          "content_optimization_opportunities": [
+            {
+              "query": "reef safe sunscreen",
+              "current_quality": 67.65847335135146,
+              "improvement_potential": 32.34152664864854
+            },
+            {
+              "query": "powder sunscreen application",
+              "current_quality": 71.34463351534649,
+              "improvement_potential": 28.655366484653513
+            }
+          ]
+        },
+        "recommendations": [
+          "Accelerate content gap closure initiatives",
+          "Focus on AI consumption optimization techniques",
+          "Implement structured data markup for better context understanding",
+          "Optimize content for 2 queries with quality scores below 75"
+        ],
+        "expected_impact": "15-25% improvement in context scores through targeted content optimization"
+      },
+      {
+        "agent_name": "Competitive Intelligence Agent",
+        "timestamp": "2025-08-31T20:02:22.432346",
+        "feedback_type": "trend_update",
+        "priority": "high",
+        "data": {
+          "current_competitive_score": 21.5,
+          "trend_direction": "stable",
+          "change_percentage": 0.0,
+          "progress_to_target": 8.203125000000005,
+          "high_threat_competitors": 1,
+          "immediate_threats": [
+            "EltaMD"
+          ],
+          "competitive_opportunities": 0,
+          "market_position_trend": "stable",
+          "market_gap_opportunities": 13
+        },
+        "recommendations": [
+          "Develop response strategy for 1 high-threat competitors",
+          "Accelerate authority building initiatives to counter competitive pressure",
+          "Monitor competitor content strategies for defensive opportunities",
+          "Prioritize capture of identified market gap opportunities"
+        ],
+        "expected_impact": "20-30% improvement in competitive positioning through strategic response"
+      }
+    ],
+    "integration_health": {
+      "total_agents": 3,
+      "healthy_integrations": 0,
+      "degraded_integrations": 2,
+      "failed_integrations": 1,
+      "feedback_items_generated": 3,
+      "last_feedback_timestamp": "2025-08-31T20:02:22.432346",
+      "integration_details": {
+        "agent1": {
+          "agent_name": "Discovery Baseline Agent",
+          "last_data_update": "No data available",
+          "data_availability": false,
+          "integration_health": "failed",
+          "next_scheduled_run": null,
+          "feedback_sent": false
+        },
+        "agent2": {
+          "agent_name": "Content Analysis Agent",
+          "last_data_update": "Unknown",
+          "data_availability": true,
+          "integration_health": "degraded",
+          "next_scheduled_run": null,
+          "feedback_sent": false
+        },
+        "agent3": {
+          "agent_name": "Competitive Intelligence Agent",
+          "last_data_update": "Unknown",
+          "data_availability": true,
+          "integration_health": "degraded",
+          "next_scheduled_run": null,
+          "feedback_sent": false
+        }
+      }
+    }
+  },
+  "monitoring_effectiveness": {
+    "data_quality_score": 100,
+    "alert_accuracy_estimate": "high",
+    "business_impact_confidence": "high",
+    "system_health": "excellent"
+  },
+  "actionable_recommendations": [
+    "ROI below target - review optimization strategy effectiveness",
+    "Fix failed agent integrations to improve data quality"
+  ]
+}
