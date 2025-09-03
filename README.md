@@ -2,7 +2,7 @@
 
 **Professional AI search optimization audit and reporting platform** - Complete system for analyzing, optimizing, and reporting on brand visibility in AI-powered search results.
 
-## 🌟 Latest Features (v2.0)
+## 🌟 Latest Features (v0.3)
 
 - **🎯 Dynamic Brand Targeting** - Analyze ANY brand (Nike, Apple, Tesla, etc.) without preconfiguration
 - **🤖 Full AI Engine Support** - OpenAI, Anthropic Claude, and Google Gemini integration
